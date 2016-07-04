@@ -1,0 +1,259 @@
+/**
+    Offers list
+**/
+
+.offers_list {
+    margin-top: 10px;
+}
+
+.offers_list > li {
+    overflow: hidden;
+    clear: both;
+    margin: 20px 6px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #cfcfcf;
+    font-size: 11px;
+    list-style-type: none;
+    line-height: 11px;
+}
+
+.offers_list > li:last-child {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.offers_list .entry {
+    overflow: hidden;
+    clear: both;
+}
+
+.offers_list > li .image-wrapper {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin: 0;
+}
+
+.offers_list > li .image-wrapper img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.offers_list > li .info {
+    float: left;
+    width: 500px;
+    height: 102px;
+}
+
+#layout_company .offers_list > li .info {
+    width: 376px;
+}
+
+.offers_list .entry .header {
+    height: 40px;
+    background: #efefef;
+    position: relative;
+    color: #585858;
+    padding: 0 10px;
+}
+
+.offers_list .entry .header:after {
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 10px solid #efefef;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px; 
+    left: 100%;
+    z-index: 2; 
+}
+
+.offers_list .entry .header h3 {
+    padding: 3px 0;
+}
+
+.offers_list .entry .header h3 a {
+    color: inherit;
+    line-height: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.offers_list .entry .header .expiration_date {
+    font-size: 10px;
+}
+.offers_list .entry .header .expiration_date span {
+    color: #0067C0;
+}
+
+.offers_list .entry .content {
+    border-bottom: 1px solid #ebebeb;
+    height: 61px;
+    overflow: hidden;
+}
+
+.offers_list .entry .description {
+    padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+    color: #8f8f8f;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 12px;
+}
+
+.offers_list .entry .share {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #868686;
+    height: 27px;
+    line-height: 27px;
+}
+
+.offers_list .entry .share a {
+    margin: 3px;
+}
+
+.offers_list .details {
+    text-align: center;
+    float: left;
+    width: 150px;
+}
+
+.offers_list .details .info_group {
+    background: #fafafa url("../img/list_info_group_bg.png") repeat-x;
+    padding: 10px 2px;
+    height: 42px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.offers_list .details .info_group span {
+    color: #0067C0;
+    font-weight: bold;
+}
+
+.offers_list .details .info_group .download_limit span {
+    display: block;
+}
+
+.offers_list .details .discount {
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+    background: #7b7b7b url("../img/list_normal_bg.png") repeat-x;
+}
+
+.offers_list li.promoted .image-wrapper {
+    border-color: #0553a6;
+}
+
+.offers_list li.promoted .header {
+    background: #003b75;
+    color: white;
+}
+
+.offers_list li.promoted .entry .header .expiration_date span {
+    color: white;
+}
+
+.offers_list li.promoted .entry .header:after {
+    border-left-color: #003b75;
+}
+
+.offers_list li.promoted .details .discount {
+    background: #0054a6 url("../img/list_promoted_bg.png") repeat-x;
+}
+
+.offers_list.actions_list > li {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#company-promotions .offers_list li .info {
+    width: 420px;
+}
+
+/* Profile offer coupons */
+
+#offer_coupons {
+    width: 100%;
+}
+
+#offer_coupons th {
+    background: #cfcfcf; 
+    padding: 5px;
+}
+
+#offer_coupons td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #8f8f8f;
+}
+
+/* list box */
+
+.offers_list.list_box {
+    overflow: hidden;
+}
+
+.offers_list.list_box li {
+    float: left;
+    width: 152px;
+    text-align: center;
+    overflow: hidden;
+    clear: none;
+    padding: 0;
+    margin: 0 10px;
+    border: none;
+}
+
+.offers_list.list_box li .image-wrapper {
+    width: 133px;
+    height: 100px;
+    border: 1px solid #cccccc;
+    margin: auto;
+    float: none;
+}
+
+.offers_list.list_box li .image-wrapper img {
+    max-width: 133px;
+    max-height: 100px;
+}
+
+.offers_list.list_box li .title {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* widget modules */
+#widget_modules_box .offers_list li {
+    margin: 0 15px;
+}
+
+/* Offer price discount form field */
+
+.offer_price_discount_field .label {
+    float: left;
+    width: 280px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.offer_price_discount_field .label .required { color: red; }
+
+.offer_price_discount_field .label .offer_price_discount_select {
+    width: auto;
+    font-weight: bold;
+    color: #5C5C5C;
+    text-align: right;
+    display: inline-block;
+}

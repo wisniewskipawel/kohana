@@ -1,0 +1,67 @@
+.announcements_list li.promoted .header { background: #B8A4CE; color: #FFF; }
+
+.announcements_list > li.promoted .image-wrapper { border-color: #B8A4CE; }
+
+.announcements_list li.promoted .entry .header:after { border-left-color: #B8A4CE; }
+
+.top_bar #user_nav { border-left: 1px solid #FFF; }
+
+.offers_list li.promoted .header { background: #B8A4CE; color: #016CBE; }
+
+.offers_list li.promoted .entry .header:after { border-left-color: #B8A4CE; }
+
+.offers_list li.promoted .image-wrapper { border-color: #B8A4CE; }
+
+
+.entry_list > li.promoted .entry { border-color: #B8A4CE; }
+
+header { border-top: 5px solid #B8A4CE; }
+
+.top_bar #modules_nav {
+    height: 42px;
+    background: url("../img/top_bar_bg.png") 0px -30px repeat-x;
+    color: white;
+    overflow: hidden;
+}
+
+.top_bar nav ul li.active a { color: #FFF; }
+.top_bar a { color: #FFF; }
+
+.announcements_list li.promoted .details .info_group_header { background: #B8A4CE url("../announcements/img/list_promoted_bg.png") repeat-x; }
+
+div#main div.box.primary > h2, .box.primary > .box-header { color: #0067C0; }
+
+.offers_list li.promoted .details .discount { background: #B8A4CE url("../offers/img/list_promoted_bg.png") repeat-x; }
+
+.offers_list li.promoted .header { color: #FFF; }
+
+.offers_list .details .discount { color: #FFF; }
+
+div#main div.box.primary > h2, .box.primary > .box-header { color: #fff; }
+
+div#footer-wrapper nav ul li a { color: #FFF; }
+
+.add_btn { 
+
+background: #0072bc;
+background-image: radial-gradient(center bottom, ellipse cover, #0072bc, #0072bc 70%);
+background-image: -o-radial-gradient(center bottom, ellipse cover, #0072bc, #0072bc 70%);
+background-image: -ms-radial-gradient(center bottom, ellipse cover, #0072bc, #0072bc 70%);
+background-image: -moz-radial-gradient(center bottom, ellipse cover, #0072bc, #0072bc 70%);
+background-image: -webkit-radial-gradient(center bottom, ellipse cover, #194DE8, #0072bc 70%);
+color: white;
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom: 7px solid #0072bc;
+
+ }
+
+.add_btn:before { box-shadow: 2px -2px 0 #0072bc; }
+
+.add_btn strong { color: #B8A4CE; }
+
+#widget_announcements_homebox #daily_offer_box { border-color: #BC8ABE; }

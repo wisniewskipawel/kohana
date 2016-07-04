@@ -1,0 +1,25 @@
+#notifier_nav_box ul li {
+    line-height: 18px;
+}
+
+#notifier_nav_box ul li a.active {
+    font-weight: bold;
+}
+
+form.bform.notifier_form {
+    margin: 0px;
+}
+
+form.notifier_form fieldset.form-actions {
+    padding-left: 280px;
+}
+
+form.notifier_form fieldset .control-group > label.inline {
+    display: inline;
+    width: auto;
+}
+
+.box .box-header .notifier_btn { 
+    float:right; color:white; font-size: 13px;
+    padding: 0 10px; line-height: 28px; margin: 2px 0; 
+}

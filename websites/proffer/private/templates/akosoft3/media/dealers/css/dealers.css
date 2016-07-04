@@ -1,0 +1,159 @@
+/* Dealers list */
+
+.dealers_list {
+    line-height: 1.4em;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dealers_list li {
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+.dealers_list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.dealers_list h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #252525;
+    margin-top: 0;
+}
+.dealers_list h3 a { color: inherit; }
+
+.dealers_list .closet_add_link {
+    display: block;
+    color: #707070;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+.dealers_list .closet_add_link span {
+    color: #5674B9;
+}
+
+.dealers_list .details {
+    clear: both;
+    padding-left: 4px;
+    font-size: 13px;
+}
+
+.dealers_list .address {
+    margin-top: 6px;
+}
+
+.dealers_list .entry_actions {
+    overflow: hidden;
+    clear: both;
+}
+
+/* Add dealers form */
+
+#Form_Frontend_Dealers_Add { width: auto; }
+
+#Form_Frontend_Dealers_Add fieldset,
+#Form_Frontend_Dealers_Add .row { margin: 0 -25px; }
+
+#Form_Frontend_Dealers_Add #bform-user-name-row input { width: 180px; }
+#Form_Frontend_Dealers_Add #bform-user-name-row .html-after { color: #888; }
+
+#Form_Frontend_Dealers_Add .form-buttons { text-align: center; }
+#Form_Frontend_Dealers_Add .form-buttons ul { text-align: left; display: inline-block; float: none; }
+
+#Form_Frontend_Dealers_Add .control-group { padding-left: 25px; padding-right: 25px; width: 100%; }
+#Form_Frontend_Dealers_Add .control-group > label { float: none; clear: both; width: auto; text-align: left; }
+#Form_Frontend_Dealers_Add .control-group > .controls { clear: both; float: none; margin-left: 0; width: 100%; }
+
+#Form_Frontend_Dealers_Add input[type=text], 
+#Form_Frontend_Dealers_Add input[type=password], 
+#Form_Frontend_Dealers_Add select,
+#Form_Frontend_Dealers_Add textarea{ width: 100%; }
+
+#Form_Frontend_Dealers_Add .control-group.full { width: 100%; }
+
+@media (min-width: 768px) { 
+    #Form_Frontend_Dealers_Add .control-group { width: 50%; }
+    
+    #Form_Frontend_Dealers_Add .rules { overflow: hidden; }
+    #Form_Frontend_Dealers_Add .rules  .control-group { width: 100%; }
+}
+
+@media (min-width: 992px) { 
+    #Form_Frontend_Dealers_Add .control-group { width: 33.33%; }
+
+    #Form_Frontend_Dealers_Add #bform-user-name-row,
+    #Form_Frontend_Dealers_Add #bform-dealer-description-row { width: 66.66%; }
+}
+
+@media (min-width: 1200px) { 
+    #Form_Frontend_Dealers_Add .control-group { width: 25%; }
+
+    #Form_Frontend_Dealers_Add #bform-user-name-row,
+    #Form_Frontend_Dealers_Add #bform-dealer-description-row { width: 75%; }
+}
+
+/* Subscriptions */
+.subscription_side {
+    overflow: hidden;
+}
+
+.subscription_side .info {
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.subscription_side .info .limits_side {
+    margin: 10px 0;
+}
+
+.subscription_side .info .limits_side ul {
+    margin: 4px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.subscription_side .subscription_form_side {
+    float: right;
+    width: 300px;
+    padding: 10px 20px;
+    border-left: 1px solid #D5D5D5;
+}
+
+.subscription_side .subscription_form_side h4 {
+    font-size: 13px;
+}
+
+#Form_Profile_Dealers_Subscriptions {
+    margin: 5px;
+}
+
+#Form_Profile_Dealers_Subscriptions label {
+    clear: both;
+    text-align: left;
+}
+
+#Form_Profile_Dealers_Subscriptions .radio_option {
+    clear: both;
+    float: none;
+    border: none;
+    margin: 0;
+    padding: 3px;
+}
+
+#Form_Profile_Dealers_Subscriptions #bform-payment-payment-method-row {
+    margin-bottom: 4px;
+}
+
+#Form_Profile_Dealers_Subscriptions .form-buttons ul {
+    margin-left: 0;
+}

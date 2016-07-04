@@ -1,0 +1,1 @@
+Error <?php echo $http_exception->getCode(); ?>

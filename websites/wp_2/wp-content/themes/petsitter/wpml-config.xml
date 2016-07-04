@@ -1,0 +1,50 @@
+<wpml-config>
+    <admin-texts>
+        <key name="petsitter_data">
+            <key name="petsitter__header-phone-title" />
+            <key name="petsitter__header-email-title" />
+            <key name="petsitter__slider-heading" />
+            <key name="petsitter__slider-text" />
+            <key name="petsitter__slider-btn1-txt" />
+            <key name="petsitter__slider-btn1-url" />
+            <key name="petsitter__slider-btn2-txt" />
+            <key name="petsitter__slider-btn2-url" />
+            <key name="petsitter__slider-conjunction" />
+            <key name="petsitter__slider-search-heading" />
+            <key name="petsitter__slider-jobs-field-keywords" />
+            <key name="petsitter__slider-jobs-field-location" />
+            <key name="petsitter__slider-jobs-field-category" />
+            <key name="petsitter__slider-jobs-field-submit" />
+            <key name="petsitter__slider-search-slug" />
+            <key name="petsitter__slider-search-heading-resumes" />
+            <key name="petsitter__slider-resumes-field-keywords" />
+            <key name="petsitter__slider-resumes-field-location" />
+            <key name="petsitter__slider-resumes-field-category" />
+            <key name="petsitter__slider-resumes-field-submit" />
+            <key name="petsitter__slider-search-slug-resumes" />
+            <key name="opt-blog-title" />
+            <key name="petsitter__blog-more-txt" />
+            <key name="opt-portfolio-related-title" />
+            <key name="opt-portfolio-filter-btn-txt" />
+            <key name="opt-contact-title" />
+            <key name="opt-contact-address" />
+            <key name="opt-contact-hours" />
+            <key name="opt-footer-text" />
+            <key name="petsitter__footer-social-text" />
+        </key>
+    </admin-texts>
+	<custom-types>
+		<custom-type translate="1">slides</custom-type>
+        <custom-type translate="1">portfolio</custom-type>
+	</custom-types>
+    <custom-fields>
+        <custom-field action="copy">petsitter_format_gallery_id</custom-field>
+        <custom-field action="copy">petsitter_format_quote_author</custom-field>
+        <custom-field action="copy">petsitter_format_quote_pos</custom-field>
+        <custom-field action="copy">petsitter_format_link_url</custom-field>
+        <custom-field action="copy">petsitter_short_info</custom-field>
+    </custom-fields>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+	</taxonomies>
+</wpml-config>

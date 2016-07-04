@@ -1,0 +1,328 @@
+
+div#main div.box#offers_index_box > div.content {
+    padding-top: 0px;
+}
+
+/* Add offer form */
+
+#add-offer .control-group {
+    float: left;
+    clear: none;
+}
+
+#add-offer .control-group label {
+    width: 198px;
+}
+
+#add-offer .control-group .controls { width: 180px; }
+
+#add-offer .offer_title .controls { width: auto; }
+#add-offer .offer_title input[type="text"] { width: 438px; }
+
+#add-offer #bform-offer-content-row .controls {
+    width: 450px;
+}
+
+#add-offer .not_logged .input-chbox .controls {
+    width: 460px;
+}
+
+#add-offer .offer_price_discount_field .label {
+    width: 198px;
+}
+
+/* Show offer  */
+
+#show_offer_box .offer a {
+    color: #0072bc;
+}
+
+#show_offer_box .sidebar {
+    float: left;
+    width: 250px;
+}
+
+#show_offer_box .actions {
+    overflow: hidden;
+    line-height: 30px;
+}
+
+#show_offer_box .sidebar .sidebar_box {
+    padding: 10px;
+    margin: 0px 5px 5px 5px;
+    text-align: center;
+}
+
+#show_offer_box .price_box {
+    height: 76px;
+    overflow: hidden;
+    background: #ebebeb url("../img/top_coupon_bar_bg.png") repeat-y right;
+    margin: 9px 8px;
+}
+
+#show_offer_box .price_box > * {
+    float: left;
+    height: 100%;
+    margin: 0px;
+}
+
+#show_offer_box .offer .download_coupon_btn {
+    height: 76px;
+    width: 210px;
+    display: block;
+    background: url("../img/buttons/coupon_download.png") no-repeat;color: #FFF;
+    font-size: 22px;
+    line-height: 76px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+#show_offer_box .price_box .new_price {
+    padding: 10px 20px;
+    height: 56px;
+    text-align: center;
+}
+
+#show_offer_box .price_box .new_price .price {
+    color: #f26522;
+    font-size: 20px;
+    display: block;
+    float: none;
+    line-height: 24px;
+}
+
+#show_offer_box .price_box .new_price .annotation {
+    font-style: italic;
+}
+
+#show_offer_box .price_box .old_price {
+    padding: 22px 8px 20px 26px;
+    height: 34px;
+    text-align: center;
+    background: white url("../img/old_price_bg.png") no-repeat left;
+}
+
+#show_offer_box .price_box .old_price .price {
+    color: inherit;
+    font-size: 13px;
+    line-height: 16px;
+    display: block;
+    float: none;
+}
+
+#show_offer_box .price_box .discount {
+    text-align: center;
+    line-height: 76px;
+    font-size: 14px;
+    padding-left: 84px;
+    background:  url("../img/discount_bg.png") no-repeat;
+}
+
+#show_offer_box .price_box .discount span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0072bc;
+}
+
+#show_offer_box .availability_box {
+    border-bottom: 1px solid #545454;
+}
+
+#show_offer_box .availability_box .expiration_date > label {
+    font-size: 13px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+}
+
+#show_offer_box .availability_box .expiration_date .ticker {
+    overflow: hidden;
+    margin: 5px;
+    padding: 10px 4px;
+}
+
+#show_offer_box .availability_box .expiration_date .ticker > div {
+    float: left;
+    width: 50px;
+}
+
+#show_offer_box .availability_box .expiration_date .ticker span {
+    font-size: 16px;
+    font-weight: bold;
+    clear: both;
+    line-height: 20px;
+}
+
+#show_offer_box .availability_box .expiration_date .ticker label {
+    display: block;
+    clear: both;
+    font-style: italic;
+}
+
+#show_offer_box .availability_box .limits {
+    font-size: 13px;
+}
+
+#show_offer_box .availability_box .limits strong {
+    color: #0072bc;
+}
+
+#show_offer_box .availability_box .limits, #show_offer_box .availability_box .availability {
+    font-size: 13px;
+    margin: 5px;
+}
+
+#show_offer_box .availability_box .availability strong {
+    font-weight: bold;
+    color: #0072bc;
+}
+
+#show_offer_box .sidebar .company_box {
+    text-align: left;
+}
+
+#show_offer_box .company_box > label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px; 
+    color: #505050;
+}
+
+#show_offer_box .company_box .address {
+    margin-left: 10px;
+    line-height: 14px;
+}
+
+#show_offer_box .company_box .address h2 {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: black;
+}
+
+#show_offer_box .company_box .modules_links {
+    margin: 20px 0;
+}
+
+#show_offer_box .company_box .modules_links a {
+    font-weight: bold;
+    color: #0054A6;
+}
+
+#show_offer_box div.offer > div.content {
+    float: right;
+    width: 480px;
+}
+
+#show_offer_box .offer-actions {
+    margin: auto;
+    overflow: hidden;
+}
+
+#show_offer_box .offer-actions a {
+    color: #898989;
+}
+
+#show_offer_box .container {
+    margin: auto;
+    float: none;
+    height: 320px;
+    border: none;
+}
+
+/* Dialog contact */
+#dialog_offer_contact .dialog-title { font-size: 14px; font-weight: bold; margin-bottom: 8px; }
+#dialog_offer_contact form { margin: 15px; }
+
+.entry_show_box .entry_actions li.contact a {
+    background: url('../img/icons/comment.png') no-repeat scroll 0px 10px transparent;
+}
+
+/* Promote Offer page */
+
+#promote_offer_box .promotion_type {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+#promote_offer_box .promotion_type section {
+    float: right;
+    width: 380px;
+}
+
+#promote_offer_box .promotion_type.no_promotion section {
+    float: none;
+    margin: auto;
+}
+
+#promote_offer_box .promotion_type section .info
+{
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#promote_offer_box .promotion_type section .info h3 {
+    color: #0072bc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#promote_offer_box .promotion_type section form {
+    margin-top: 10px;
+    overflow: hidden;
+    border-top: 1px solid #E1E1E1;
+    padding: 10px;
+    position: relative;
+}
+
+#promote_offer_box .promotion_type section form .payment-method-row > label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    width: auto;
+    margin: 0;
+    text-align: left;
+    float: none;
+}
+
+#promote_offer_box .promotion_type section form .payment-method-row .controls {
+    margin-left: 6px;
+    float: none;
+}
+
+#promote_offer_box .promotion_type section form .payment-method-row .radio_option {
+    display: block;
+    margin: 4px 0;
+}
+
+#promote_offer_box .promotion_type section form input[type="submit"] {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#promote_offer_box .promotion_type section form .payment-text {
+    width: 270px;
+    float: left;
+    color: #727272;
+    margin-top: 10px;
+}
+
+#promote_offer_box .no-promotion {
+    margin: 20px;
+    text-align: center;
+}
+
+/* offer pre_add*/
+
+#offer_box_pre_add  .button.center{ margin-top: 10px;}
+#offer_box_pre_add .pre_add_left{ width: 420px; float: left; line-height: 23px; padding: 10px; border-right: 1px solid #e1e1e1;}
+#offer_box_pre_add .pre_add_left .button.center { width: 198px; }
+#offer_box_pre_add .pre_add_right { width: 325px; float: right; }
+
+#offer_box_pre_add .pre_add_right .login-label { font-size: 14px; padding-top: 70px; text-align: center; font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: bold;}
+#offer_box_pre_add .pre_add_right .register-label { font-size: 14px; padding-top: 30px; text-align: center; font-family: Tahoma,Arial,Helvetica,sans-serif;}
+#offer_box_pre_add .pre_add_right .fb-label { font-size: 14px; padding-top: 30px; padding-bottom: 12px; text-align: center; font-family: Tahoma,Arial,Helvetica,sans-serif;}
+#offer_box_pre_add .pre_add_right .button-fb { margin-left: 50px;}
+
+.offers_list .entry .description { padding: 5px; }
+.offers_list .entry .share { line-height: 35px; }

@@ -1,0 +1,32 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+/**
+* @author	AkoSoft Team <biuro@akosoft.pl>
+* @link		http://www.akosoft.pl
+* @copyright	Copyright (c) 2013, AkoSoft
+*/
+class Form_Frontend_Payment_Method extends Bform_Form {
+	
+	public function  create(array $params = array())
+	{
+		$payment_module = $params['payment_module'];
+		
+		if($payment_module->is_enabled())
+		{
+			$payment_methods = payment::get_form($payment_module);
+			$this->add_group_radio('payment_method', $payment_methods, array(
+				'label' => 'payments.forms.payment_method.label', 
+				'row_class' => 'payment_method_group',
+			));
+			
+			$this->add_html('<div id="payment-info"></div>', array(
+				'label' => 'payments.forms.payment_info', 
+				'row_id' => 'payment-info-row',
+				'no_decorate' => FALSE,
+			));
+		}
+		
+		$this->add_input_submit(___('form.next'));
+		
+		$this->template('site');
+	}   
+}

@@ -1,0 +1,122 @@
+.jobs_list{margin-top:10px;padding:0;list-style:none}.jobs_list>li{overflow:hidden;clear:both;margin:0px
+0;border-bottom:2px solid #d6d6d6}.jobs_list
+.promoted{border-top:2px solid #d6d6d6}.jobs_list .job-entry{background:white;width:100%;padding:8px
+16px;border-left:6px solid white}.jobs_list
+h3{margin:0}.jobs_list h3
+a{padding:3px
+0;font-size:16px;font-weight:bold;color:#0067C0}.jobs_list .job-details{}.jobs_list .job-details
+dl{margin:10px
+10px 10px 0;display:inline-block;color:#252525}.jobs_list .job-details dl
+dt{font-size:12px;display:inline-block;font-weight:normal}.jobs_list .job-details dl
+dd{font-size:14px;display:inline-block;font-weight:bold}.jobs_list .job-details
+.category{border-right:1px solid #d6d6d6}.jobs_list .job-details .category
+a{display:inline-block;color:#0072bb;padding:4px
+12px;font-weight:normal;font-family:'Roboto Condensed',sans-serif;text-transform:uppercase;font-size:12px}.jobs_list .job-details
+.price_box{font-weight:normal;font-size:12px}.jobs_list .job-details .price_box
+.price{font-weight:bold;font-size:24px;line-height:20px;border-right:1px solid #d6d6d6}.jobs_list .job-details .price_box
+.currency{font-weight:normal;font-size:8px;margin-right:10px}.jobs_list .job-details
+.count_replies{background:url(../img/person_icon.png) no-repeat left center;padding-left:16px}.jobs_list .job-details .count_replies
+dd{color:#0072bb}.jobs_list .job-details
+.date_added{color:#555}.jobs_list .job-details .date_added
+dt{font-size:11px}.jobs_list .job-details .date_added
+dd{font-size:11px;font-weight:normal}.jobs_list .job-details .job-actions
+a{background:#f2f2f2;color:#555;border:1px
+solid #dbdbdb;padding:0
+6px;display:inline-block;line-height:21px}.jobs_list .job-details .job-actions a:hover,
+.jobs_list .job-details .job-actions a:focus{background:#DFDFDF}.jobs_list .job-details
+.more_btn{font-size:13px;font-weight:bold;display:inline-block;font-family:'Open Sans',sans-serif}.jobs_list .job-details .more_btn::after{}.jobs_list .job-entry-bottom{width:100%;display:table-row}.jobs_list .job-entry-bottom>*{display:table-cell;vertical-align:top;padding:4px
+10px}.jobs_list .job-entry-bottom
+dl{margin:4px
+0}.jobs_list .job-entry-bottom dl
+dt{font-size:11px;display:inline-block;color:#898989}.jobs_list .job-entry-bottom dl
+dd{display:inline-block}.jobs_list .job-entry-bottom
+.date_added{text-align:right}.jobs_list li.promoted  .job-entry{border-left:6px solid #c1392b;background:white url(../img/jobs_promoted.png) no-repeat left center}#job-show-box
+h1{color:#0072bc;margin:0
+4px;font-size:120%}#job-show-box
+.price_box{color:white;background:#0072bc;margin-bottom:20px;position:relative;overflow:hidden}#job-show-box .price_box .price-inner{display:inline-block;padding:10px}#job-show-box .price_box .price-inner>label{font-weight:normal}#job-show-box .price_box .price-inner>.price{font-size:18px;font-weight:bold}#job-show-box .price_box .replies_count-side{display:block;line-height:25px;padding:10px
+20px;height:45px;background:white;float:right;color:#0072bc;text-transform:uppercase;font-size:16px}#job-show-box
+.entry_content_box{font-size:13px;padding:0
+3px 10px 3px;margin-bottom:20px;border-bottom:1px solid #E5E5E5}#job-show-box .entry_content_box
+h3{font-size:14px;font-weight:bold;color:#252525;text-transform:uppercase}#job-show-box #job-details-box
+dl{padding:4px;margin-bottom:0px;color:#595959}#job-show-box #job-details-box dl
+dt{display:inline-block;width:100px;margin-right:10px;font-weight:normal;vertical-align:top}#job-show-box #job-details-box dl
+dd{display:inline-block;font-weight:bold}#job-show-box #job-details-box .files-list{padding:0;list-style:none}#job-show-box #job-details-box .files-list
+a{font-weight:normal}#job-show-box .contact-details{background:white;border-radius:2px;padding:8px
+16px}#job-show-box .contact-details
+.author{font-size:16px;color:#0072bc}#job-show-box .contact-details
+.address{margin-bottom:10px}#job-show-box
+.contact_btn{width:100px;margin:10px
+auto;display:block}#job-show-box .contact-meta>*{margin-bottom:6px}#job-show-box .contact-meta>*>span{display:inline-block;width:100px;text-align:right}#job-show-box .contact-meta
+.ajax_curtain{width:160px;display:inline-block;text-transform:uppercase;background:#F6F6F6;border-radius:4px;text-align:center;border:1px
+solid #E7E7E7;padding:3px
+6px;font-size:11px}#job-show-box
+.user_other_entries{border-top:1px solid #F5F5F5;padding:10px
+10px 0 10px}#job-show-box .user_other_entries
+ul{list-style:none;padding:0;margin:0}#job-show-box .user_other_entries ul
+li{display:inline-block;margin-right:20px;padding:8px}#job-show-box
+.bottom{line-height:30px;overflow:hidden;border-bottom:3px solid #E5E5E5}#job-show-box .job-actions{padding:0;float:left}#job-show-box .job-actions
+li{display:inline-block;margin-right:15px}#job-show-box .job-actions li
+a{padding-left:30px;color:#545454;display:block;line-height:23px;text-transform:uppercase;font-size:10px;background-position:left center;background-repeat:no-repeat}#job-show-box .job-actions li.closet
+a{background-image:url(../img/icons/closet.png)}#job-show-box .job-actions li.print
+a{background-image:url(../img/icons/print.png)}#job-show-box .job-actions li.recommend
+a{background-image:url(../img/icons/recommend.png)}#job-show-box .job-actions li.report
+a{background-image:url(../img/icons/report.png)}#job-show-box .share-side{float:right}#job-show-box .share-side
+.l{display:inline-block}#job-show-box .share-side .nav-social{display:inline-block}#job-show-box .job_attributes
+label{font-weight:bold}#job-show-box .job-content
+ul{list-style-type:disc}#job-show-box .job-content ul,
+#job-show-box .job-content
+ol{list-style-position:inside}.job
+.banner{width:735px;margin-top:25px;text-align:center}@media (max-width: 480px){#job-show-box .price_box .replies_count-side{float:none}}.job_replies_list{margin:20px
+0;padding:0;list-style:none}.job_replies_list
+li{margin-bottom:20px}.job_replies_list li .job-reply-entry{overflow:hidden}.job_replies_list .reply-left{text-align:center;width:102px;float:left}.job_replies_list .reply-user-avatar{border:1px
+solid #DADADA;position:relative}.job_replies_list .reply-user-avatar:after{content:"";height:0;width:0;position:absolute;right:-24px;top:0;bottom:0;margin:auto;border:12px
+solid transparent;border-left-color:#DADADA}.job_replies_list .reply-user-avatar
+img{max-width:100px}.job_replies_list .reply-user-name{font-size:13px;margin:5px
+0;text-transform:uppercase;font-weight:bold;color:#0072bc}.job_replies_list li .reply-body{margin-left:120px;background:white}.job_replies_list .reply-content{margin-bottom:5px;word-wrap:break-word;overflow:hidden;min-height:50px;color:#545454;font-size:13px;padding:8px}.job_replies_list .reply-bottom{background:white;border-top:1px solid #DADADA;border-bottom:1px solid #DADADA;padding:0
+5px;overflow:hidden;line-height:26px;font-size:13px}.job_replies_list .reply-user-contact>*{display:inline-block;margin:0
+5px}.job_replies_list .reply-price-side{text-align:center;font-size:12px;float:right}.job_replies_list .reply-price-side>*{display:inline-block}.job_replies_list .reply-price{font-size:14px;font-weight:bold}.job_replies_list
+.entry_actions{overflow:hidden;margin:5px;clear:both}.job_replies_list .entry_actions
+.actions{clear:none;margin:0;float:right;overflow:hidden;margin:5px;clear:both}.job_replies_list .entry_actions .actions
+li{display:inline-block;margin-right:5px;padding-right:5px;border-right:1px solid #585858}.job_replies_list .entry_actions .actions li:last-child{margin-right:0px;padding-right:0px;border-right:none}#Form_Frontend_Jobs_Reply_Add{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:0;padding:10px}#Form_Frontend_Jobs_Reply_Add
+*{box-sizing:border-box}#Form_Frontend_Jobs_Reply_Add .control-group{margin-bottom:4px}#Form_Frontend_Jobs_Reply_Add .control-group>label{float:none;clear:both;display:block;text-align:left;font-weight:normal}#Form_Frontend_Jobs_Reply_Add .control-group>.controls{float:none;clear:both;display:block;width:100%;margin-left:0}#Form_Frontend_Jobs_Reply_Add
+textarea{width:100%;height:100px}#Form_Frontend_Jobs_Reply_Add input[type=text],
+#Form_Frontend_Jobs_Reply_Add
+select{width:100%}#Form_Frontend_Jobs_Reply_Add
+.group_prices{overflow:auto;margin-right:-10px}#Form_Frontend_Jobs_Reply_Add .group_prices>*{width:50%;float:left;padding-right:10px}#Form_Frontend_Jobs_Reply_Add .form-buttons
+ul{float:right}#Form_Frontend_Jobs_Reply_Add .form-buttons [type=submit]{padding-left:40px}#Form_Frontend_Jobs_Reply_Add .form-buttons [type=submit]:before{content:"";background:white url(../img/add_reply_btn.png) no-repeat center;border:1px
+solid #e2e2e2;position:absolute;top:-1px;bottom:0;left:-1px;width:31px;height:31px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}@media (max-width: 768px){.job_replies_list{display:block}.job_replies_list
+li{display:block;width:100%}.job_replies_list li>*{display:block;width:100%}.job_replies_list li .reply-left{float:none;width:auto;margin-bottom:5px;text-align:left}.job_replies_list li .reply-left>*{display:inline-block;vertical-align:bottom;margin:0}.job_replies_list li .reply-user-avatar{border:none}.job_replies_list li .reply-user-avatar
+img{max-width:20px}.job_replies_list li .reply-user-avatar:after{display:none}.job_replies_list li .reply-body{margin-left:0}#Form_Frontend_Jobs_Reply_Add .control-group{margin:0
+0 10px 0}#Form_Frontend_Jobs_Reply_Add .group_prices>*{width:100%}}.job_comments_list{margin:20px
+0;padding:0;list-style:none}.job_comments_list
+li{border-bottom:1px dashed #e5e5e5;margin-bottom:10px;padding-bottom:10px;overflow:hidden}.job_comments_list li:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}.job_comments_list
+.comment{overflow:hidden}.job_comments_list .comment .user-avatar{text-align:center;float:left}.job_comments_list .comment .user-avatar
+img{max-width:100px;margin:0
+10px}.job_comments_list .comment .comment-contents{overflow:hidden}.job_comments_list .comment .comment-header{margin-bottom:5px;overflow:hidden}.job_comments_list .comment .comment-header
+.title{font-weight:bold}.job_comments_list .comment .comment-header
+.date_added{color:#9f9f9f;font-size:10px;float:right}.job_comments_list .comment .comment-body{margin-bottom:5px}.job_comments_list .comment .comment-footer{color:#9f9f9f;overflow:hidden;text-align:right}.job_comments_list
+.subcomments{margin-left:110px}.job_comments_list .subcomments
+.subcomments{margin-left:60px}.job_comments_list .subcomments .comment .user-avatar
+img{max-width:50px}.form_add_job
+.promotion_choose{display:block;float:none;clear:both}.form_add_job .promotion_choose
+.radio_option{display:block;margin:4px;padding:10px
+5px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;position:relative;font-weight:normal}.form_add_job .promotion_choose .radio_option input[type=radio]{position:absolute;top:0;bottom:0;left:4px;width:14px;height:14px;margin:auto}.form_add_job .promotion_choose
+.radio_option.promotion_2{background:#99D9EA}.form_add_job .promotion_choose
+.radio_option.promotion_3{background:#00A2E8;color:white}.form_add_job .promotion_choose .radio_option
+.promotion_description{margin:0
+50px 0 20px}.form_add_job .promotion_choose .radio_option
+.promotion_price{position:absolute;top:0;bottom:0;right:4px;line-height:1.4em;height:1.4em;margin:auto;font-weight:bold}.form_add_job #bform-map-row
+#map{width:100%;height:300px}@media (min-width: 768px){.form_add_job
+fieldset{clear:both}.form_add_job .control-group{float:left;clear:none}.form_add_job .control-group
+label{width:164px;line-height:10px}.form_add_job .control-group
+.controls{margin-left:170px}.form_add_job #bform-title-row
+.controls{width:auto}.form_add_job #bform-title{width:438px}.form_add_job #bform-content-row
+.controls{width:450px}.form_add_job .form-buttons
+ul{margin:10px;float:right}.form_add_job #bform-map-row
+#map{width:400px;height:300px}}@media (min-width: 1200px){.form_add_job
+.localization_fieldset{overflow:hidden}.form_add_job .localization_fieldset
+.fields{width:340px;float:left;margin-top:32px}.form_add_job #bform-map-row{width:400px;float:right;margin-right:10px}.form_add_job #bform-map-row
+.controls{width:auto;margin-left:0}.form_add_job #bform-map-row
+label{clear:both;float:none;margin-bottom:5px;display:block;width:auto;text-align:left}}#jobs_layout_show #widget_modules_box .announcements_list_box
+li{padding:5px}#jobs_layout_show #widget_modules_box .index_companies_list
+li{padding:5px}

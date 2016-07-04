@@ -1,0 +1,62 @@
+/* announcements list box */
+.announcements_list_box { padding: 0; list-style: none; }
+.announcements_list_box li { width: 300px; padding: 0 6px; }
+.announcements_list_box li .image-wrapper { width: 136px; height: 102px; float: left; position:relative; }
+.announcements_list_box li .image-wrapper img { max-width: 136px; max-height: 102px; }
+.announcements_list_box li .price_side { 
+    font-size: 16px; font-weight: bold;
+    
+}
+.announcements_list_box li .price_side .currency { font-size: 8px; }
+.announcements_list_box li .info { margin-top: 0; font-size: 12px; margin-left: 144px; }
+.announcements_list_box li h3 { overflow: hidden; margin: 0; font-size: 14px; font-weight: normal; 
+    line-height: 1.3em; height: 3.9em; overflow: hidden;
+}
+.announcements_list_box li h3 a { color: #252525; }
+.announcements_list_box li .meta { font-size: 11px; }
+
+.announcements_list_box li .category a { 
+    display: inline-block;
+    color: #0072bb;
+    background: #ffffff;
+    padding: 0;
+    border: 0;
+    line-height: 27px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+
+
+/* Home page slider */
+#announcements_main_top_box .slider-track { height: 114px; }
+#announcements_main_top_box .slider-track ul li { height: auto; padding: 10px 0px; width: 300px;}
+
+/* announcements half ads box */
+
+#announcements_half_ads_box.box.half {
+    float: right;
+}
+
+#announcements_half_ads_box .banner_place_i .ads_frame {
+    width: 360px;
+    height: 320px;
+}
+
+/* Notifier form */
+#Form_Frontend_Announcement_Notifier #bform-categories-row .controls label { display: inline-block; width: 200px; }
+#Form_Frontend_Announcement_Notifier #bform-categories-row .controls .check-all-btn { display: inline-block; margin: 5px 0 10px; float: right; }
+#Form_Frontend_Announcement_Notifier #bform-categories-row .controls .categories { clear: both; overflow: hidden; }
+#Form_Frontend_Announcement_Notifier #bform-categories-row .controls .categories .category { 
+    width: 274px; float: left; margin-bottom: 20px; padding: 0 10px; overflow: hidden;
+}
+#Form_Frontend_Announcement_Notifier #bform-categories-row .controls .categories .category .main_category {
+    font-weight: bold;
+}
+#Form_Frontend_Announcement_Notifier #bform-categories-row .controls .categories .category .subcategories {
+    padding-left: 10px; list-style: none;
+}

@@ -1,0 +1,77 @@
+div#main div.box#offers_index_box>div.content{padding-top:0px}#add-offer .control-group{float:left;clear:none}#add-offer .control-group>label{width:190px}#add-offer .control-group>.label{width:190px;padding:0
+5px 0 0}#add-offer .control-group > .label
+select{width:auto}#add-offer .control-group>.controls{margin-left:190px;width:180px}#add-offer .control-group.full{float:none;clear:both}#add-offer .control-group.full>.controls{width:auto;padding-right:90px}#add-offer .offer_title input[type="text"]{width:100%}#add-offer .input-chbox.control-group{width:auto;clear:both;float:none}#add-offer .input-chbox
+.controls{width:auto}@media (max-width: 768px){#add-offer .control-group{float:none;clear:both}#add-offer .control-group>label{width:auto}#add-offer .control-group>.controls{margin-left:0;width:auto}#add-offer .control-group.full>.controls{padding-right:0}}#show_offer_box
+h1{color:#0072bc;margin:0
+4px;font-size:110%}#show_offer_box
+.meta{font-size:12px;color:#898989;margin-bottom:10px}#show_offer_box .meta>*{display:inline-block;margin-right:10px;padding-right:10px;border-right:1px solid #898989}#show_offer_box .meta>*:last-child{border:none}#show_offer_box
+.availability_box{background:white;padding:10px
+5px;text-align:center;text-transform:uppercase;font-family:'Lato',sans-serif;font-size:13px;margin-bottom:20px}#show_offer_box .availability_box
+strong{color:#0072bc;font-weight:normal}#show_offer_box .availability_box .expiration_date
+label{vertical-align:middle;font-size:20px;font-weight:normal}#show_offer_box .availability_box .expiration_date
+.ticker{display:inline-block;vertical-align:middle}#show_offer_box .availability_box .expiration_date .ticker>*{display:inline-block;margin:0
+5px}#show_offer_box .availability_box .expiration_date .ticker > *
+span{background:#F6F6F6;border:1px
+solid #EFEFEF;color:#313131;padding:6px
+10px;display:block;min-width:40px;font-size:18px;font-weight:bold}#show_offer_box .availability_box .expiration_date .ticker > *
+label{font-size:11px}#show_offer_box
+.price_box{position:relative;overflow:hidden;font-family:'Lato',sans-serif;text-align:center;max-width:300px;margin:auto}#show_offer_box .price_box
+label{font-weight:normal}#show_offer_box
+.download_coupon_btn{background:#F7941D;color:white;text-transform:uppercase;font-size:24px;font-weight:bold;display:block;padding:12px
+5px;margin-bottom:4px}#show_offer_box .price_box
+.new_price{background:#0072bc;padding:12px
+5px;color:white}#show_offer_box .price_box .new_price
+label{text-transform:uppercase}#show_offer_box .price_box .new_price
+.price{font-size:24px;font-weight:bold;display:inline-block}#show_offer_box .price_box
+.old_price{padding:12px
+5px}#show_offer_box .price_box .old_price
+.price{font-weight:bold;display:inline-block}#show_offer_box .price_box
+.discount{background:white;padding:12px
+5px}#show_offer_box .price_box .discount
+.discount_value{color:#0072bc;font-size:24px;font-weight:bold}#show_offer_box .price_box .discount
+.annotation{display:block}#show_offer_box
+.entry_content_box{font-size:14px;padding:0
+3px 10px 3px;margin-bottom:20px;border-bottom:1px solid #E5E5E5}#show_offer_box .entry_content_box
+h5{font-size:14px;font-weight:bold;color:#252525;text-transform:uppercase}#show_offer_box
+.entry_actions{margin-top:10px;padding:4px
+0;border-top:1px solid #F2F2F2}#show_offer_box .contact-details{background:white;border-radius:2px;padding:8px
+16px}#show_offer_box .contact-details
+.author{font-size:16px;color:#0072bc}#show_offer_box .contact-details
+.address{margin-bottom:10px}#show_offer_box
+.contact_btn{width:100px;margin:10px
+auto;display:block}#show_offer_box .contact-meta>*{margin-bottom:6px}#show_offer_box .contact-meta>*>span{display:inline-block;width:100px;text-align:right}#show_offer_box
+.ajax_curtain{width:160px;display:inline-block;text-transform:uppercase;background:#F6F6F6;border-radius:4px;text-align:center;border:1px
+solid #E7E7E7;padding:3px
+6px;font-size:11px}#show_offer_box
+.user_other_entries{border-top:1px solid #F5F5F5;padding:10px
+10px 0 10px}#show_offer_box .user_other_entries
+ul{list-style:none;padding:0;margin:0}#show_offer_box .user_other_entries ul
+li{display:inline-block;margin-right:20px;padding:8px}#show_offer_box
+.bottom{line-height:30px;overflow:hidden}#show_offer_box .offer-actions{padding:0;float:left}#show_offer_box .offer-actions
+li{display:inline-block;margin-right:15px}#show_offer_box .offer-actions li
+a{padding-left:30px;color:#545454;display:block;line-height:23px;text-transform:uppercase;font-size:10px;background-position:left center;background-repeat:no-repeat}#show_offer_box .offer-actions li.closet
+a{background-image:url(../img/icons/closet.png)}#show_offer_box .offer-actions li.print
+a{background-image:url(../img/icons/print.png)}#show_offer_box .offer-actions li.recommend
+a{background-image:url(../img/icons/recommend.png)}#show_offer_box .offer-actions li.report
+a{background-image:url(../img/icons/report.png)}#show_offer_box
+.share{float:right}#show_offer_box .share
+.l{display:inline-block}#show_offer_box .share .nav-social{display:inline-block}@media (max-width: 480px){#show_offer_box .price_box
+.suggest_price_btn{float:none}}#promote_offer_box
+.promotion_type{overflow:hidden;margin:10px
+0}#promote_offer_box .promotion_type>img{margin:auto}#promote_offer_box .promotion_type.no_promotion
+section{float:none;margin:auto}#promote_offer_box .promotion_type section
+.info{margin:10px
+0;overflow:hidden}#promote_offer_box .promotion_type section .info
+h3{color:#0072bc;font-size:14px;margin-bottom:10px}#promote_offer_box .promotion_type section
+form{margin-top:10px;overflow:hidden;border-top:1px solid #E1E1E1;padding:10px;position:relative}#promote_offer_box .promotion_type section form .payment-method-row>label{margin-bottom:10px;display:block;font-weight:bold;width:auto;margin:0;text-align:left;float:none}#promote_offer_box .promotion_type section form .payment-method-row
+.controls{margin-left:6px;float:none}#promote_offer_box .promotion_type section form .payment-method-row
+.radio_option{display:block;margin:4px
+0}#promote_offer_box .promotion_type section form input[type="submit"]{position:absolute;bottom:0px;right:0px}#promote_offer_box .promotion_type section form .payment-text{width:270px;float:left;color:#727272;margin-top:10px}#promote_offer_box .no-promotion{margin:20px;text-align:center}@media (min-width: 1200px){#promote_offer_box .promotion_type>img{float:left}#promote_offer_box .promotion_type
+section{float:right;width:380px}}#offers_main_top_box .slider-track{height:110px;margin:10px
+0}.offer_steps_image{margin-bottom:10px;margin-top:10px}#offer_box_pre_add
+.button.center{margin-top:10px}#offer_box_pre_add
+.pre_add_left{width:60%;float:left;line-height:23px;padding:10px;border-right:1px solid #e1e1e1}#offer_box_pre_add .pre_add_left
+.button.center{width:198px}#offer_box_pre_add
+.pre_add_right{width:40%;float:right;text-align:center;padding:10px}#offer_box_pre_add .pre_add_right .login-label{font-size:14px;padding-top:70px;font-weight:bold}#offer_box_pre_add .pre_add_right .register-label{font-size:14px;padding-top:30px}#offer_box_pre_add .pre_add_right .fb-label{font-size:14px;padding-top:30px;padding-bottom:12px}@media (max-width: 768px){#offer_box_pre_add
+.pre_add_left{width:100%;float:none;border-right:none}#offer_box_pre_add
+.pre_add_right{width:100%;float:none}#offer_box_pre_add .pre_add_right .login-label{padding-top:20px}}

@@ -1,0 +1,449 @@
+/*
+ * @author       AkoSoft Team <biuro@akosoft.pl>
+ * @link         http://www.akosoft.pl
+ * @copyright    Copyright (c) 2016, AkoSoft
+ */
+
+/* Recommended companies sidebar box */
+
+.index_companies_list { padding: 0; list-style: none; }
+.index_companies_list .entry { margin: 5px; border-bottom: 1px solid #d4d4d4; }
+.index_companies_list .entry .meta { font-size: 11px; }
+
+@media (max-width: 992px) {
+    #recommended_companies_box { display: none; }
+}
+
+/* CATALOG PROMOTED COMPANIES INDEX BOX
+*******************************************************************************/
+
+div#main div.box.index.small { width: 340px; float: right; }
+div#main div.box.index.small.companies div.content ul { text-align: center; }
+div#main div.box.index.small.companies div.content ul li { margin-bottom: 15px; }
+div#main div.box.index.small.companies div.content ul li img { max-width: 65px; max-height: 39px; }
+
+/* CATALOG COMPANIES LIST
+*******************************************************************************/
+
+.companies_list > li {
+    overflow: hidden;
+    clear: both;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #cfcfcf;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.companies_list > li.banner {
+    height: auto;
+    background: none;
+}
+
+.companies_list > li:last-child {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.companies_list .image-wrapper { 
+    width: 133px; 
+    height: 100px; 
+    float: left; 
+    text-align: center; 
+    line-height: 99px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    background: white;
+}
+
+.companies_list .entry_list_item .entry_list_item-body {
+    background: white;
+}
+.companies_list .entry_list_item .entry_list_item-body > * {
+    padding: 0 10px;
+    margin-bottom: 6px;
+}
+
+.companies_list .entry_list_item .company_header {
+    background: #efefef;
+    color: #585858;
+    display: table;
+    table-layout: fixed;
+    width:100%;
+    padding: 0;
+}
+.companies_list .entry_list_item .company_header > * {
+    display: table-cell;
+    vertical-align: top;
+    padding: 2px 10px;
+}
+.companies_list .entry_list_item .company_header h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.companies_list .entry_list_item .company_header .info {
+    font-size: 11px;
+}
+.companies_list .entry_list_item .company_header .company_link-btn {
+    white-space: nowrap;
+    background: #f6f6f6;
+    text-align: center;
+    width: 180px;
+    line-height: 34px;
+    font-weight: bold;
+}
+.companies_list .entry_list_item.company_premium_plus .company_header .company_link-btn {
+    background: #F7941D;
+    color: white;
+}
+
+.companies_list .entry_list_item .description {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 4px;
+    color: #5C5C5C;
+}
+.companies_list .entry_list_item .address {
+    border-bottom: 1px solid #F0F0F0;
+    font-size: 11px;
+    margin: 4px 0;
+    padding-bottom: 4px;
+    color: #898989;
+}
+
+.companies_list .entry_list_item .company_bottom {
+    overflow: hidden;
+    padding: 0;
+}
+.companies_list .entry_list_item .company_bottom > * {
+    padding: 0 10px;
+}
+
+.companies_list .entry_list_item .company_bottom .company-details,
+.companies_list .entry_list_item .company_email {
+    font-weight: bold;
+    float: right;
+} 
+
+.companies_list .entry_list_item.promoted .image-wrapper {
+    border-color: #0067b3;
+}
+.companies_list .entry_list_item.promoted .company_header {
+    background: #0067b3;
+    color: white;
+}
+.companies_list .entry_list_item.promoted .company_header .heading a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .companies_list .image-wrapper {
+        width: 100px;
+        height: 75px;
+        float: none;
+        margin: 0 auto 8px auto;
+    }
+    .companies_list .entry_list_item .company_header > * {
+        display: block;
+    }
+    .companies_list .entry_list_item .company_header .company_link-btn {
+        width: 100%;
+    }
+}
+
+div.box.add-company div.choose { margin-top: 50px; margin-bottom: 20px; float: right; }
+div.box.add-company div.choose .button { float: left; margin: 5px; width: auto;}
+
+/* Show company page */
+
+#show_company_box h1 {
+    color: #0072bc;
+    margin: 0 4px;
+    font-size: 110%;
+}
+
+#show_company_box .company-logo {
+    float: right;
+}
+
+#show_company_box .meta {
+    font-size: 12px;
+    color: #898989;
+    margin-bottom: 10px;
+}
+
+#show_company_box .meta > * {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #898989;
+}
+#show_company_box .meta > *:last-child {
+    border: none;
+}
+
+#show_company_box .entry_content_box {
+    font-size: 14px;
+    padding: 0 3px 10px 3px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+#show_company_box .entry_content_box h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+#show_company_box .entry_actions {
+    margin-top: 10px;
+    padding: 4px 0;
+    border-top: 1px solid #F2F2F2;
+}
+
+#show_company_box .contact-details {
+    background: white;
+    border-radius: 2px;
+    padding: 8px 16px;
+}
+#show_company_box .contact-details .author {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0072bc;
+}
+#show_company_box .contact-details .address {
+    margin-bottom: 10px;
+}
+
+#show_company_box .contact-details .show_map_container {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+#show_company_box .contact-details .opening_hours_side {
+    margin: 6px 0;
+}
+
+#show_company_box .contact-details h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #545454;
+}
+
+#show_company_box .contact-details .company_hours {
+    line-height: 1.5em;
+    padding: 6px 0;
+    font-size: 12px;
+}
+#show_company_box .contact-details .company_hours .days span {
+    display: inline-block;
+    width: 50px; 
+    text-align: right;
+    font-weight: bold;
+}
+
+#show_company_box .contact_btn {
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+#show_company_box .contact-meta > * {
+    margin-bottom: 6px;
+}
+#show_company_box .contact-meta > * > span {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+
+#show_company_box .ajax_curtain {
+    width: 160px;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #F6F6F6;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #E7E7E7;
+    padding: 3px 6px;
+    font-size: 11px;
+}
+
+#show_company_box .company_modules_entries {
+    border-top: 1px solid #F5F5F5;
+    padding: 10px 10px 0 10px;
+}
+#show_company_box .company_modules_entries ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#show_company_box .company_modules_entries ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 8px;
+}
+
+#show_company_box #slider-gallery .slider-track {
+    height: 120px;
+}
+#show_company_box #slider-gallery .slider-track .image-wrapper {
+    width: 150px;
+    height: 113px;
+}
+#show_company_box #slider-gallery .slider-track .image-wrapper img {
+    max-width: 150px;
+    max-height: 113px;
+}
+
+#show_company_box .bottom {
+    line-height: 30px;
+    overflow: hidden;
+}
+
+#show_company_box .company-actions {
+    padding: 0;
+    float: left;
+}
+#show_company_box .company-actions li {
+    display: inline-block;
+    margin-right: 15px;
+}
+#show_company_box .company-actions li a { 
+    padding-left: 30px;
+    color: #545454;
+    display: block;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-size: 10px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#show_company_box .company-actions li.closet a { background-image: url(../img/icons/closet.png); }
+#show_company_box .company-actions li.print a { background-image: url(../img/icons/print.png); }
+#show_company_box .company-actions li.recommend a  { background-image: url(../img/icons/recommend.png); }
+#show_company_box .company-actions li.report a { background-image: url(../img/icons/report.png); }
+
+#show_company_box .share {
+    float: right;
+}
+#show_company_box .share .l {
+    display: inline-block;
+}
+#show_company_box .share .nav-social {
+    display: inline-block;
+}
+
+/* Reviews */
+
+.company_reviews > .header { overflow: hidden; line-height: 33px; }
+.company_reviews > .header > * { display: inline-block; margin-right: 10px; }
+.company_reviews > .header label { display: inline-block; }
+
+.company_reviews .add_company_review {
+    background: #0072bc;
+    border: 1px solid #00558D;
+    padding: 4px 35px 4px 35px;
+    color: white;
+    font: 400 15px 'Lato';
+    position: relative;
+    border-radius: 2px;
+    height: 30px;
+    float: right;
+    margin-right: 0;
+}
+
+.company_reviews .review {
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 2px;
+    border: 1px solid #E1E1E1;
+}
+
+.company_reviews .review .header { 
+    background: #E1E1E1; overflow: hidden; padding: 3px 10px; font-size: 11px; line-height: 24px;
+}
+.company_reviews .review .header > * { margin-right: 10px; vertical-align: middle; display: inline-block; }
+.company_reviews .review .header label { display: inline-block; font-style: italic; font-weight: normal; }
+.company_reviews .review .header span { font-weight: bold; }
+.company_reviews .review .header .date_added { float: right; margin-right: 0; }
+
+.company_reviews .review .comment_body { padding: 5px 10px; }
+
+/* Form add company */
+
+#add_company_form { margin: 20px 0; width: auto; }
+
+#add_company_form .fieldset_localization { overflow: hidden; }
+#add_company_form .fieldset_localization .fields { width: 50%; float: left; margin-top: 32px; }
+#add_company_form .fieldset_localization #bform-company-map-row { width: 50%; float: left; padding-left: 10px; }
+#add_company_form .fieldset_localization #bform-company-map-row label {
+    clear: both; float: none; margin-bottom: 5px; display: block; width: auto; text-align: left;
+}
+#add_company_form .fieldset_localization #bform-company-map-row .controls { margin-left: 0; }
+#add_company_form .fieldset_localization #bform-company-map-row .field_map { width: 100%; height: 300px; }
+
+@media (max-width: 768px) {
+    #add_company_form .fieldset_localization .fields { width: 100%; float: none; margin-top: 0; }
+    #add_company_form .fieldset_localization #bform-company-map-row { width: auto; float: none; padding-left: 0; }
+}
+
+/* index MC */
+
+.categories_grid  .category {
+    background: #FFF;
+    border-bottom: 1px solid #d6d6d6;
+    margin: 5px 5px;
+    width: 267px;
+}
+
+.categories_grid ul  {
+    background: #FFF;
+}
+
+.categories_grid ul  .main_category {
+    background: none;
+}
+
+.categories_grid .category .main_category a {
+    font-weight: bold;
+    color: #252525;
+    background: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.categories_grid .category .main_category a img {
+    max-width: 18px;
+    max-height: 18px;
+    vertical-align: middle;
+    margin-right: 4px;
+	margin-bottom: 4px;
+}
+
+.categories_grid ul  .subcategories  { background: #FFF;}
+.categories_grid ul  .subcategories ul  li{  width: 95%;  /* padding-left: 5px; */ margin-left: 5px;}
+.categories_grid .category .subcategories a { color: #565656; font-size: 13px; padding-left: 20px;
+  background: url("../img/icons/category.png") no-repeat 10px 17px transparent; padding-bottom: 2px;
+}
+.categories_grid ul  .show_more  { background: #fff; }
+.categories_grid ul  .show_more a {   
+    width: 90%; margin-left: 15px; text-align: left; padding-left: 0;}
+.categories_grid ul  .show_more a:focus { background: #fff; }
+
+.box .box-header-right, .box .box-header .more_btn_carousel {
+    float: right;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.box .box-header-right, .box .box-header h2:before { content: url("../img/promoted-icon.png"); padding: 4px; vertical-align: middle; }

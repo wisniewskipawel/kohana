@@ -1,0 +1,805 @@
+/*
+// #Links
+// --------------------------------------------------
+*/
+a {
+  color: #a6ce39;
+}
+a:hover {
+  color: #98be2f;
+}
+.section-dark .title-accent > h3 > span {
+  color: #a6ce39;
+}
+/*
+// #Buttons
+// --------------------------------------------------
+*/
+.btn-primary {
+  background: #a6ce39;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border-color: transparent;
+  background-color: #98be2f;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #98be2f !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.12);
+}
+.btn-secondary {
+  background: #00adef;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: transparent;
+  background-color: #009bd6;
+}
+.btn-secondary:active,
+.btn-secondary.active {
+  background-color: #009bd6 !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.12);
+}
+.btn-link {
+  color: #00adef;
+}
+.btn-link:hover,
+.btn-link:active,
+.btn-link.active {
+  color: #009bd6;
+}
+/*
+// #Lists
+// --------------------------------------------------
+*/
+div.list ul li:before {
+  color: #a6ce39;
+}
+div.list.list__lg ul li:before {
+  border: 1px solid #a6ce39;
+}
+/*
+// #Thumbnails
+// --------------------------------------------------
+*/
+/* Image Box (used on Home Page) */
+.img-box:before {
+  background: #a6ce39;
+}
+/*
+// #Social Links
+// --------------------------------------------------
+*/
+.social-links > li > a:hover {
+  background: #a6ce39;
+}
+.social-links__primary > li > a {
+  background: #a6ce39;
+  border: 1px solid #a6ce39;
+}
+.social-links__primary > li > a:hover {
+  color: #a6ce39;
+}
+/*
+// #Forms
+// --------------------------------------------------
+*/
+.form-control:focus,
+.input-text:focus,
+.cleanlogin-form input[type="text"]:focus,
+.cleanlogin-form input[type="password"]:focus,
+.cleanlogin-form input[type="email"]:focus,
+.rwp-ratings-form input[type="text"]:focus,
+.rwp-ratings-form input[type="email"]:focus,
+.rwp-ratings-form textarea:focus {
+  border-color: #a6ce39;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(166, 206, 57, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(166, 206, 57, 0.6);
+}
+/* Radio Button */
+.radio__custom input[type="radio"]:checked + span:before {
+  background: #a6ce39;
+}
+.radio__custom.radio__style2 label:before {
+  background: #a6ce39;
+  border-color: #98be2f;
+}
+.radio__custom.radio__style4 label:before {
+  border-color: #a6ce39;
+}
+.radio__custom.radio__style4 input[type="radio"]:checked + span:before {
+  background: #a6ce39;
+}
+/* Checkbox */
+.checkbox__custom input[type="checkbox"]:checked + span:before {
+  color: #a6ce39;
+}
+.checkbox__custom.checkbox__style2 label:before {
+  background: #a6ce39;
+  border-color: #98be2f;
+}
+.checkbox__custom.checkbox__style4 label:before {
+  border-color: #a6ce39;
+}
+.checkbox__custom.checkbox__style4 input[type="checkbox"]:checked + span:before {
+  color: #a6ce39;
+}
+/*
+// #Tabs
+// --------------------------------------------------
+*/
+.tabs .nav-tabs > li.active > a {
+  color: #a6ce39;
+}
+.tabs .nav-tabs > li.active > a:after {
+  background: #a6ce39;
+}
+/*
+// #Tables
+// --------------------------------------------------
+*/
+table > thead > tr > th,
+.table > thead > tr > th,
+table > thead > tr > td,
+.table > thead > tr > td {
+  background: #a6ce39;
+}
+/*
+// #Accordion
+// --------------------------------------------------
+*/
+.panel-group .panel-title > a {
+  background: #a6ce39;
+}
+.panel-group__alt .panel-title > a:before {
+  background: #a6ce39;
+}
+/*
+// #Icon Box
+// --------------------------------------------------
+*/
+.icon-box .icon {
+  color: #a6ce39;
+}
+.icon-box.circled .icon {
+  color: #a6ce39;
+}
+.icon-box.circled .icon:after {
+  background: #a6ce39;
+}
+.icon-box.squared .icon:before {
+  background-color: #a6ce39;
+}
+.no-touch .icon-box.icon-box-animated .icon:hover:before {
+  background-color: #a6ce39;
+}
+.icon-box.icon-box-animated-inverse .icon {
+  color: #fff;
+}
+.icon-box.icon-box-animated-inverse .icon:before {
+  background: #a6ce39;
+}
+.no-touch .icon-box.icon-box-animated-inverse .icon:after {
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.3s;
+  transition: transform 0.2s, opacity 0.3s;
+}
+.no-touch .icon-box.icon-box-animated-inverse .icon:hover {
+  color: #a6ce39;
+}
+.no-touch .icon-box.icon-box-animated-inverse .icon:hover:before {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 3px #a6ce39;
+  box-shadow: 0 0 0 3px #a6ce39;
+}
+.no-touch .icon-box.icon-box-animated-inverse .icon:hover:after {
+  -webkit-transform: scale(1.3, 1.3);
+  -ms-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.icon-box.lg .icon {
+  border: 2px solid #a6ce39;
+}
+.icon-box.filled .icon {
+  color: #fff;
+  background: #a6ce39;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(#ffffff, #000000);
+}
+.icon-box.filled .icon:before {
+  background: #a6ce39;
+}
+.icon-box.filled .icon:after {
+  width: 50px;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.08);
+  z-index: 2;
+  border-radius: 0 50% 50% 0;
+}
+.icon-box.filled .icon i {
+  z-index: 3;
+}
+.icon-box.filled.icon-box-animated-inverse .icon:hover:after {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.icon-box.icon-box__color-secondary .icon,
+.icon-box.icon-box__color-secondary .icon > a {
+  color: #a6ce39;
+}
+.icon-box.icon-box__color-secondary.circled .icon {
+  color: #a6ce39;
+}
+.icon-box.icon-box__color-secondary.circled .icon:after {
+  background: #a6ce39;
+}
+.icon-box.icon-box__color-secondary.squared .icon,
+.icon-box.icon-box__color-secondary.squared .icon > a {
+  color: #fff;
+}
+.icon-box.icon-box__color-secondary.squared .icon:before,
+.icon-box.icon-box__color-secondary.squared .icon > a:before {
+  background-color: #a6ce39;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated .icon:hover:before {
+  background-color: #a6ce39;
+}
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon,
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a {
+  color: #fff;
+}
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:before,
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:before {
+  background: #a6ce39;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:hover,
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:hover {
+  color: #fff;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:hover > a,
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:hover > a {
+  color: #fff;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:hover:before,
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:hover:before {
+  -webkit-box-shadow: 0 0 0 3px #a6ce39;
+  box-shadow: 0 0 0 3px #a6ce39;
+}
+.icon-box.icon-box__color-secondary.lg .icon {
+  border: 2px solid #a6ce39;
+}
+.icon-box.icon-box__color-secondary.filled .icon {
+  color: #fff;
+  background: #a6ce39;
+}
+.icon-box.icon-box__color-secondary.filled .icon:after {
+  background: rgba(0, 0, 0, 0.08);
+}
+.no-touch .icon-box.icon-box__color-secondary.filled.icon-box-animated .icon:hover,
+.no-touch .icon-box.icon-box__color-secondary.filled.icon-box-animated .icon:hover > a {
+  color: #a6ce39;
+}
+.no-touch .icon-box.icon-box__color-secondary.filled.icon-box-animated .icon:hover:before {
+  background-color: #fff;
+}
+.icon-box.icon-box__color-secondary.filled.icon-box-animated-inverse .icon:hover:after {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+.icon-box.icon-box__color-secondary .icon,
+.icon-box.icon-box__color-secondary .icon > a {
+  color: #00adef;
+}
+.icon-box.icon-box__color-secondary.circled .icon {
+  color: #00adef;
+}
+.icon-box.icon-box__color-secondary.circled .icon:after {
+  background: #00adef;
+}
+.icon-box.icon-box__color-secondary.squared .icon,
+.icon-box.icon-box__color-secondary.squared .icon > a {
+  color: #fff;
+}
+.icon-box.icon-box__color-secondary.squared .icon:before,
+.icon-box.icon-box__color-secondary.squared .icon > a:before {
+  background-color: #00adef;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated .icon:hover:before {
+  background-color: #00adef;
+}
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon,
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a {
+  color: #fff;
+}
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:before,
+.icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:before {
+  background: #00adef;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:hover,
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:hover {
+  color: #fff;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:hover > a,
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:hover > a {
+  color: #fff;
+}
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon:hover:before,
+.no-touch .icon-box.icon-box__color-secondary.icon-box-animated-inverse .icon > a:hover:before {
+  -webkit-box-shadow: 0 0 0 3px #00adef;
+  box-shadow: 0 0 0 3px #00adef;
+}
+.icon-box.icon-box__color-secondary.lg .icon {
+  border: 2px solid #00adef;
+}
+.icon-box.icon-box__color-secondary.filled .icon {
+  color: #fff;
+  background: #00adef;
+}
+.icon-box.icon-box__color-secondary.filled .icon:after {
+  background: rgba(0, 0, 0, 0.08);
+}
+.no-touch .icon-box.icon-box__color-secondary.filled.icon-box-animated .icon:hover,
+.no-touch .icon-box.icon-box__color-secondary.filled.icon-box-animated .icon:hover > a {
+  color: #00adef;
+}
+.no-touch .icon-box.icon-box__color-secondary.filled.icon-box-animated .icon:hover:before {
+  background-color: #fff;
+}
+.icon-box.icon-box__color-secondary.filled.icon-box-animated-inverse .icon:hover:after {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+/*
+// #Blockquotes & Testimonial
+// --------------------------------------------------
+*/
+blockquote {
+  border-left: 4px solid #a6ce39;
+}
+blockquote:before {
+  color: #a6ce39;
+}
+/* Testimonial */
+.testimonial {
+  border: 2px solid #a6ce39;
+}
+.testimonial .bq-author {
+  background: #a6ce39;
+}
+.testimonial.testimonial-color__success {
+  border-color: #a6ce39;
+}
+.testimonial.testimonial-color__success:before {
+  border-right-color: #a6ce39;
+}
+.testimonial.testimonial-color__success .bq-author {
+  background: #a6ce39;
+}
+.testimonial.testimonial-color__success .bq-author h6 {
+  color: #454545;
+}
+.testimonial.testimonial-color__primary {
+  border-color: #a6ce39;
+}
+.testimonial.testimonial-color__primary:before {
+  border-right-color: #a6ce39;
+}
+.testimonial.testimonial-color__primary .bq-author {
+  background: #a6ce39;
+}
+.testimonial.testimonial-color__secondary {
+  border-color: #00adef;
+}
+.testimonial.testimonial-color__secondary:before {
+  border-right-color: #00adef;
+}
+.testimonial.testimonial-color__secondary .bq-author {
+  background: #00adef;
+}
+/*
+// #Dropcaps
+// --------------------------------------------------
+*/
+.dropcap {
+  color: #a6ce39;
+}
+.dropcap.dropcap__rounded {
+  border: 3px solid #a6ce39;
+  color: #a6ce39;
+}
+.dropcap.dropcap__squared {
+  border: 3px solid #a6ce39;
+  color: #a6ce39;
+}
+/*
+// #Pricing Tables
+// --------------------------------------------------
+*/
+/* Default */
+.pricing-table.popular .pricing-head h3 {
+  background: #a6ce39;
+  border-color: #a6ce39;
+}
+/* Style 2 */
+.pricing-table__style2.popular {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pricing-table__style2.popular .pricing-head .circled {
+  background: #a6ce39;
+}
+.pricing-table__style2.popular .pricing-head .circled:after {
+  background: #a6ce39;
+}
+.pricing-table__style2.popular .pricing-head h3 {
+  color: #a6ce39;
+}
+/* Style 3 */
+.pricing-table__style3 .pricing-head .circled {
+  background: #a6ce39;
+}
+.pricing-table__style3.popular {
+  background: #a6ce39;
+}
+/* Style 4 */
+.pricing-table__style4 .pricing-head .pricing-head-inner {
+  background: #a6ce39;
+}
+.pricing-table__style4.popular {
+  background: #a6ce39;
+}
+.pricing-table__style4.popular .pricing-head h3 {
+  background: #a6ce39;
+}
+/*
+// #Call to Action
+// --------------------------------------------------
+*/
+.call-to-action.cta__overlay.cta-overlay-color__primary:before {
+  background: #a6ce39;
+}
+.call-to-action.cta__overlay.cta-overlay-color__secondary:before {
+  background: #00adef;
+}
+/*
+// #Section
+// --------------------------------------------------
+*/
+.section-overlay__yes.section-overlay-color__primary:before {
+  background: #a6ce39;
+}
+.section-overlay__yes.section-overlay-color__secondary:before {
+  background: #00adef;
+}
+/*
+// #Progress Bars
+// --------------------------------------------------
+*/
+.progress-bar-success {
+  line-height: 32px;
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  padding: 0 20px;
+  background: #a6ce39;
+  border-radius: 4px 0 0 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/*
+// #Counter
+// --------------------------------------------------
+*/
+.counter-holder.counter-primary .counter,
+.counter-holder.counter-primary .fa {
+  color: #a6ce39;
+}
+.counter-holder.counter-secondary .counter,
+.counter-holder.counter-secondary .fa {
+  color: #00adef;
+}
+/* Header Main */
+.header-main:before {
+  background: #a6ce39;
+}
+/* Logo */
+.header .logo h1 > a,
+.header .logo h2 > a {
+  color: #a6ce39;
+}
+/* Navigation styles - For Desktop */
+@media all and (min-width: 992px) {
+  .flexnav > li:hover > a,
+  .flexnav > li.active > a,
+  .flexnav > li.current-menu-parent > a {
+    color: #a6ce39;
+  }
+  .flexnav > li:hover > a:before,
+  .flexnav > li.active > a:before,
+  .flexnav > li.current-menu-parent > a:before {
+    background: #a6ce39;
+  }
+}
+/* Flexslider */
+.flexslider {
+  /* Direction Nav */
+  /* Control Nav */
+}
+.flexslider .flex-direction-nav a {
+  background: #a6ce39;
+}
+.flexslider .flex-control-nav li a:hover:after {
+  border: 8px solid #a6ce39;
+}
+.flexslider .flex-control-nav li a.flex-active:after {
+  border: 8px solid #a6ce39;
+}
+/*
+// #Widgets
+// --------------------------------------------------
+*/
+/* Base Widgets */
+.widget_archive ul li:before,
+.widget_nav_menu ul li:before,
+.widget_meta ul li:before,
+.widget_pages ul li:before,
+.widget_recent_comments ul li:before,
+.widget_recent_entries ul li:before,
+.widget_categories ul li:before {
+  color: #a6ce39;
+}
+/* Widget :: Latest Post Widget */
+.widget .title > a:hover {
+  color: #a6ce39;
+  border-bottom: 1px solid #a6ce39;
+}
+.widget.widget__footer .title > a:hover {
+  color: #a6ce39;
+}
+/* Widget :: Contacts Info */
+.contacts-widget.widget__footer .contacts-info-list > li a:hover {
+  color: #a6ce39;
+}
+/* Widget :: Flickr */
+.widget_flickr .flickr-feed > li > a:hover {
+  border: 4px solid #a6ce39;
+}
+/* Widget :: Tag Cloud */
+.widget_tag_cloud .tagcloud a:hover {
+  background: #a6ce39;
+}
+.widget_tag_cloud.widget__sidebar .tagcloud a:hover {
+  background: #a6ce39;
+}
+/* Widget :: Recent Jobs */
+.widget_recent_jobs ul.job_listings > li.job_listing .job-type,
+.widget_featured_jobs ul.job_listings > li.job_listing .job-type {
+  color: #a6ce39;
+}
+.widget_recent_jobs ul.job_listings > li.job_listing .location,
+.widget_featured_jobs ul.job_listings > li.job_listing .location {
+  color: #a6ce39;
+}
+/* Widget :: Recent Resumes */
+.widget_recent_resumes ul.resumes > li.resume .candidate-location,
+.widget_featured_resumes ul.resumes > li.resume .candidate-location {
+  color: #a6ce39;
+}
+.widget_recent_resumes ul.resumes > li.resume.resume_featured .candidate-location,
+.widget_featured_resumes ul.resumes > li.resume.resume_featured .candidate-location {
+  color: #fff;
+}
+/* Widget :: Calendar */
+#wp-calendar tbody td:hover {
+  color: #a6ce39;
+}
+#wp-calendar tbody td:hover a {
+  color: #a6ce39;
+}
+/* Team */
+.team-item .team-item-inner:hover:before {
+  background: #a6ce39;
+}
+.team-item .team-thumb .overlay {
+  background: #a6ce39;
+}
+.team-item .team-social > li > a:hover .fa {
+  color: #a6ce39;
+}
+/* 404 Error Page */
+.error-title {
+  color: #a6ce39;
+}
+/*
+// #Page :: Coming Soon
+// --------------------------------------------------
+*/
+/* Header  */
+.header-coming-soon {
+  border-top: 4px solid #a6ce39;
+}
+.header-coming-soon .header-main {
+  background: #a6ce39;
+}
+/*
+// #Blog
+// --------------------------------------------------
+*/
+.post.post__with-icon .entry-icon,
+.type-page.post__with-icon .entry-icon {
+  background-color: #a6ce39;
+}
+.post .entry-header h2 > a:hover,
+.type-page .entry-header h2 > a:hover {
+  color: #a6ce39;
+}
+.post .entry-meta a:hover,
+.type-page .entry-meta a:hover {
+  color: #a6ce39;
+}
+.post .entry-thumb > a:before,
+.type-page .entry-thumb > a:before {
+  background: #a6ce39;
+}
+/* Comments */
+.commentlist .bypostauthor > .comment-wrapper {
+  border-left-color: #a6ce39;
+}
+/*
+// #Portfolio
+// --------------------------------------------------
+*/
+/*  Project Item Overlay */
+.project-item .dlink,
+.project-item .zoom {
+  color: #a6ce39;
+}
+.project-item .dlink:hover,
+.project-item .zoom:hover {
+  background: #a6ce39;
+}
+/*  Portfolio Description  */
+.project-desc .title > a:hover {
+  color: #a6ce39;
+}
+/*
+// #Footer
+// --------------------------------------------------
+*/
+/* Footers Widgets specific styling */
+.widget__footer {
+  margin-bottom: 50px;
+  /* Thumbnail */
+  /* Base Widgets */
+}
+.widget__footer .thumbnail a:after {
+  background: #a6ce39;
+}
+.widget__footer.widget_archive ul li > a:hover,
+.widget__footer.widget_nav_menu ul li > a:hover,
+.widget__footer.widget_meta ul li > a:hover,
+.widget__footer.widget_pages ul li > a:hover,
+.widget__footer.widget_recent_comments ul li > a:hover,
+.widget__footer.widget_recent_entries ul li > a:hover,
+.widget__footer.widget_categories ul li > a:hover {
+  color: #a6ce39;
+}
+.footer-widgets .form-control:focus {
+  border-color: #a6ce39;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(166, 206, 57, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(166, 206, 57, 0.6);
+}
+.owl-theme .owl-controls .owl-buttons div:after {
+  background: #a6ce39;
+}
+.owl-theme .prev-btn,
+.owl-theme .next-btn {
+  background: #a6ce39;
+}
+.owl-theme .owl-pagination .owl-page.active span {
+  background-color: #a6ce39;
+}
+.prev-next-holder .prev-btn,
+.prev-next-holder .next-btn {
+  background: #a6ce39;
+}
+/*
+// #Job Manager
+// --------------------------------------------------
+*/
+/* Job Latest Listings */
+.job_summary_shortcode .job_summary_content .name > a {
+  color: #a6ce39;
+}
+.job_summary_shortcode .job_summary_footer .meta > li > a {
+  color: #a6ce39;
+}
+.owl-featured-listings .listing-box .job_summary_shortcode .job_summary_content-holder .job_summary_content .name > a:hover {
+  color: #a6ce39;
+}
+.owl-featured-listings .listing-box .job_summary_shortcode .job_summary_content-holder .job_summary_content .job_summary_title > a:hover {
+  color: #a6ce39;
+}
+.gallery-imgs .gallery-img-holder .gallery-item-thumb > a:before {
+  background: #a6ce39;
+}
+/*
+// #Resume Manager
+// --------------------------------------------------
+*/
+/* Resume Summary shortcode */
+.resume_summary_shortcode .resume_summary_content .name > a {
+  color: #a6ce39;
+}
+.resume_summary_shortcode .resume_summary_content .resume_summary_title > a:hover {
+  color: #a6ce39;
+}
+.resume_summary_shortcode .resume_summary_footer .meta > li > a {
+  color: #a6ce39;
+}
+.owl-featured-listings .listing-box .resume_summary_shortcode .resume_summary_content-holder .resume_summary_content .name > a:hover {
+  color: #a6ce39;
+}
+.owl-featured-listings .listing-box .resume_summary_shortcode .resume_summary_content-holder .resume_summary_content .resume_summary_title > a:hover {
+  color: #a6ce39;
+}
+.chosen-container-active .chosen-choices {
+  border-color: #a6ce39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #a6ce39;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #a6ce39;
+}
+/* Job Listings */
+div.job_listings ul.job_listings li.job_listing a div.location:before,
+div.job_listings ul.job_listings li.no_job_listings_found a div.location:before {
+  color: #a6ce39;
+}
+/* Job Dashboard */
+.job-manager-jobs .filled .fa-check {
+  color: #a6ce39;
+}
+/* Resumes Listings */
+div.resumes ul.resumes li.resume a div.candidate-location-column .candidate-location:before,
+div.resumes ul.resumes li.no_resumes_found a div.candidate-location-column .candidate-location:before {
+  color: #a6ce39;
+}
+/* Job Alerts */
+.job_filters .search_jobs div.filter_by_tag > a {
+  color: #454545;
+}
+.job_filters .search_jobs div.filter_by_tag > a:hover {
+  background: #a6ce39;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}

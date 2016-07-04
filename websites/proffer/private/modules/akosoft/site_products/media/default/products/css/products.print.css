@@ -1,0 +1,95 @@
+div.product { clear: both; border: 1px solid #e1e1e1; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding: 1px; }
+div.product > div.content { padding-left: 13px; padding-right: 13px; padding-bottom: 13px; }
+div.product > h1 { 
+    background: #ffffff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-8 */
+    color: #013D6B; 
+    font-size: 14px; 
+    font-weight: bold; 
+    line-height: 29px; 
+    height: 29px; 
+    padding-left: 14px; 
+    border-top: #ffffff; 
+    border-bottom: #f2f2f2; 
+    -webkit-border-bottom-right-radius: 1px;
+    -webkit-border-bottom-left-radius: 1px; 
+    -moz-border-radius-bottomright: 1px; 
+    -moz-border-radius-bottomleft: 1px; 
+    border-bottom-right-radius: 1px; 
+    border-bottom-left-radius: 1px; 
+}
+
+.entry_show_box .entry_row { overflow: hidden; clear: both; }
+.entry_show_box .entry_row > .entry_row_col { width: 50%; float: left; }
+
+div.product .product-content { clear: both; border-top: 1px dashed #e5e5e5; padding-top: 14px; margin-top: 20px; }
+div.product .product-content > h3 { font-size: 14px; font-weight: bold; color: #898989; margin-bottom: 15px; }
+div.product .product-content > div { font-size: 12px; line-height: 17px; }
+
+div.product .product-content > div ul {
+    list-style-type: disc;
+}
+
+div.product .product-content > div ul,
+div.product .product-content > div ol {
+    list-style-position: inside;
+}
+
+div.product .product-info { 
+    width: 310px; 
+    float: left; 
+    padding-left: 2px; 
+    margin-top: 20px; 
+}
+
+div.product .product-info .entry_content_box {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+div.product .product-info .entry_content_box h3 {
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+div.product .product-info .product_details {
+    font-size: 12px;
+    font-weight: bold; 
+}
+
+div.product .product-info .product_details label { 
+    color: #9f9f9f; 
+    line-height: 22px;
+}
+
+div.product .product-info .product_details span { 
+    font-size: 14px; 
+    color: #013D6B; 
+}
+
+div.product .product-info .product_announcer_box h2 {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+div.product .entry_content_box .entry_content_box_body {
+    padding-left: 10px; 
+}
+
+div.slider-gallery { height: 300px; width: 355px; }
+div.slider-gallery div.big-photo img { max-width: 355px; max-height: 280px; margin: 0 auto; }
+div.slider-gallery div.nav {  }
+div.slider-gallery div.nav a.browse { display: block; width: 7px; height: 30px; margin-top: 6px; }
+div.slider-gallery div.nav div.slider div.items div { float: left; margin: 6px; width: 58px; height: 43px; }
+div.slider-gallery div.nav div.slider div.items a { float: left; width: 58px; height: 43px; }
+div.slider-gallery div.nav div.slider div.items img { max-width: 58px; max-height: 43px; }

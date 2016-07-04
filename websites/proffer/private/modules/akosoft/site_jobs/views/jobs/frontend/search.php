@@ -1,0 +1,1 @@
+<div class="box primary jobs">	<h2><?php echo ___('jobs.search.results') ?></h2>		<div class="content">				<?php echo $pager ?>				<?php echo View::factory('jobs/lists/rows')			->set('jobs', $jobs)			->set('context', 'search');		?>		<?php echo $pager ?>	</div></div>

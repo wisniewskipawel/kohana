@@ -1,0 +1,31 @@
+/* Home slider */
+
+#widget_catalog_companies_carousel_box {
+    clear: both;
+}
+
+#widget_catalog_companies_carousel_box .slider-track ul li {
+    width: 320px;
+}
+
+.index_companies_list li .entry { margin: 10px 0px;}
+.index_companies_list li .title { font-size: 14px; text-decoration: underline; margin: 5px 0px; display: block; line-height: 16px; }
+.index_companies_list li .entry .meta { color: #545454; font-size: 11px; }
+
+/* widget modules */
+#widget_modules_box .slider-track .index_companies_list li {
+    padding: 5px 30px;
+}
+
+#widget_modules_box .index_companies_list li .entry {
+    margin: 24px 0;
+}
+
+/* Company hours field */
+.company_hours_field .days { margin-bottom: 2px; }
+.company_hours_field .days .day_of_week { display: inline-block; width: 100px;
+    font-weight: bold; text-align: right;
+}
+.company_hours_field .days .is_open { width: 90px; margin-right: 5px; }
+.company_hours_field .days .from { display: inline-block; margin-right: 5px; width: auto; }
+.company_hours_field .days input { width: 50px; }

@@ -1,0 +1,1 @@
+<div class="box primary products">	<h2><?php echo ___('products.search.results') ?></h2>	<div class="content">		<?php echo $pager ?>		<div class="clearfix"></div>		<?php echo View::factory('frontend/products/partials/list_box')->set('products', $products)->bind('ad', $ad) ?>		<div class="clearfix"></div>		<?php echo $pager ?>		<div class="clearfix"></div>	</div></div>

@@ -1,0 +1,51 @@
+/* announcements list box */
+.announcements_moto_list_box li .image-wrapper { 
+    width: 108px; height: 83px; float: left; padding: 4px; background: white;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 3px 0px rgba(50, 50, 50, 0.75);
+}
+.announcements_moto_list_box li img { max-width: 100px; max-height: 75px; }
+.announcements_moto_list_box li .info { 
+    margin-top: 5px; font-size: 12px; margin-left: 120px; width: 140px;
+}
+.announcements_moto_list_box li h3 { 
+    overflow: hidden; line-height: 1.3em; font-size: 13px;
+    padding: 0; margin: 0;
+}
+.announcements_moto_list_box li h3 a { font-size: inherit; color: #252525; font-weight: bold; }
+.announcements_moto_list_box li .price { margin-bottom: 5px; margin-top: 10px; }
+.announcements_moto_list_box li .price span.price { font-size: 16px; font-weight: bold; color: #0072bc; }
+
+/* announcements half ads box */
+
+#announcements_half_ads_box.box.half {
+    float: right;
+}
+
+#announcements_half_ads_box .banner_place_i .ads_frame {
+    width: 360px;
+    height: 320px;
+}
+
+/* widget modules */
+#widget_modules_box .announcements_list_box {
+    margin: 30px 0;
+}
+
+#widget_modules_box .announcements_list_box li {
+    padding: 5px 30px;
+}
+/* Notifier form */
+#NotifierForm #bform-categories-row .controls label { display: inline-block; width: 200px; }
+#NotifierForm #bform-categories-row .controls .check-all-btn { display: inline-block; margin: 5px 0 10px; float: right; }
+#NotifierForm #bform-categories-row .controls .categories { clear: both; overflow: hidden; }
+#NotifierForm #bform-categories-row .controls .categories .category { 
+    width: 274px; float: left; margin-bottom: 20px; padding: 0 10px; overflow: hidden;
+}
+#NotifierForm #bform-categories-row .controls .categories .category .main_category {
+    font-weight: bold;
+}
+#NotifierForm #bform-categories-row .controls .categories .category .subcategories {
+    padding-left: 10px; list-style: none;
+}

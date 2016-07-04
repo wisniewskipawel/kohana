@@ -1,0 +1,144 @@
+/*
+ * @author       AkoSoft Team <biuro@akosoft.pl>
+ * @link         http://www.akosoft.pl
+ * @copyright    Copyright (c) 2016, AkoSoft
+ */
+
+/* Banners */
+
+.banners {
+    clear: both;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.ads_frame {
+    margin: auto;
+    display: block;
+    border: none;
+    overflow: hidden;
+}
+
+.banner_place_a .ads_frame,
+.banner_place_ab .ads_frame,
+.banner_place_ac .ads_frame,
+.banner_place_f .ads_frame,
+.banner_place_g .ads_frame
+{
+    width: 750px;
+    height: 100px;
+}
+
+.banner_place_b, 
+.banner_place_bb
+{
+    margin: 0;
+}
+
+.banner_place_b .ads_frame, 
+.banner_place_bb .ads_frame
+{
+    width: 250px;
+    height: 250px;
+}
+
+.banner_place_d .ads_frame,
+.banner_place_d2 .ads_frame
+{
+    width: 120px;
+    height: 600px;
+}
+.banner_place_d {
+    position: absolute;
+    left: 0;
+    top: 43px;
+    margin-left: -120px;
+}
+.banner_place_d2 {
+    position: absolute;
+    right: 0;
+    top: 43px;
+    margin-right: -120px;
+}
+
+.banner_place_e .ads_frame {
+    width: 300px;
+    height: 250px;
+}
+
+
+#sponsored-links {
+    padding: 10px 0 0;
+    border-bottom: 1px solid #dedede;
+}
+
+#sponsored-links ul { border: 1px solid #ebebeb; width: 100%; padding: 10px; margin-top: 5px; }
+#sponsored-links ul li { display: inline-block; margin: 0 10px; }
+
+/* TEXT BOX
+*******************************************************************************/
+
+.text-links .box-content-link a {
+    font-family: 'Lato', sans-serif;
+    color: #242424;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.text-links .ad_entry {
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ebebeb;
+    margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+    color: #545454;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.text-links .ad_entry:last-child {
+    padding-bottom: 0;
+    border-bottom: 0 none;
+}
+
+.text-links .ad_entry .ad_title {
+    margin-bottom: 6px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: #0072bc;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Ads page template */
+
+body#ads_layout {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#ads_layout a img{
+    border: none;
+    outline: none;
+}
+
+.banner {
+    margin: auto;
+    text-align: center;
+}
+
+.skycraper_container { position: relative; }
+
+@media (max-width: 1200px) {
+    .banners { display: none; }
+    #ad_half_box { display: none; }
+}
+
+@media (max-width: 1430px) {
+    .banner_place_d { display: none; }
+    .banner_place_d2 { display: none; }
+}
+
+@media (max-width: 992px) {
+    .box.text-links { display: none; }
+}

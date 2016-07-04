@@ -1,0 +1,59 @@
+.companies_box_list { padding: 0; }
+.companies_box_list li {
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    width: 320px;
+}
+.companies_box_list li .image-wrapper { 
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #d7d7d7;
+    padding: 3px;
+    background: white; 
+    width: 143px;
+    height: 109px;
+}
+
+.companies_box_list li .entry { overflow: hidden; zoom: 1; position: relative; }
+.companies_box_list li .entry .title { 
+    font-size: 14px;  margin: 0; display: block; 
+    line-height: 1.4em; height: 6.2em;
+}
+
+.companies_box_list li .entry .title a { color: #252525; }
+.companies_box_list li .entry .meta { color: #545454; font-size: 11px; }
+.companies_box_list li .entry .meta .date_added { color: #898989; }
+
+.companies_box_list li .entry .meta .category a {
+    display: inline-block; color: #0072bb; line-height: 26px; font-family: 'Roboto Condensed', sans-serif; text-transform: uppercase;
+    white-space: nowrap; text-overflow: ellipsis; overflow: hidden; max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .companies_box_list li {
+        width: 260px;
+    }
+    .companies_box_list li .image-wrapper {
+        width: 80px;
+        height: 60px;
+    }
+}
+
+/* widget modules */
+#widget_modules_box .companies_box_list { margin: 20px 0; }
+
+/* Home slider */
+#widget_catalog_companies_carousel_box { clear: both; }
+#widget_catalog_companies_carousel_box .slider-track { height: 116px; }
+#widget_catalog_companies_carousel_box .companies_box_list li { width: 300px;
+    padding: 7px 0;
+    height: auto;}
+/* Company hours field */
+.company_hours_field .days { margin-bottom: 2px; }
+.company_hours_field .days .day_of_week { display: inline-block; width: 100px;
+    font-weight: bold; text-align: right;
+}
+.company_hours_field .days .is_open { width: 90px; margin-right: 5px; }
+.company_hours_field .days .from { display: inline-block; margin-right: 5px; width: auto; }
+.company_hours_field .days input { width: 50px; }

@@ -1,0 +1,282 @@
+#recommended_companies_box .entry {
+    padding:  5px 10px;
+    margin: 0px;
+}
+
+/* CATALOG PROMOTED COMPANIES INDEX BOX
+*******************************************************************************/
+
+div#main div.box.index.small { width: 340px; float: right; }
+div#main div.box.index.small.companies div.content ul { text-align: center; }
+div#main div.box.index.small.companies div.content ul li { margin-bottom: 15px; }
+div#main div.box.index.small.companies div.content ul li img { max-width: 65px; max-height: 39px; }
+
+/* CATALOG COMPANIES LIST
+*******************************************************************************/
+.companies_list .map { height: 150px; width: 100%; display: none; }
+
+div.box.add-company div.choose { margin-top: 50px; margin-bottom: 20px; float: right; }
+div.box.add-company div.choose .button { float: left; margin: 5px; width: auto;}
+
+/* CATALOG MAP
+*******************************************************************************/
+.m170 { border: 0 none !important; }
+
+/* Show company page */
+
+#show_company_box .entry_info tr.announcements a,
+#show_company_box .entry_info tr.offers a
+{
+    color: #0054A6;
+    font-weight: bold;
+}
+#show_company_box .entry_body>.content { margin-top: 10px; }
+
+#show_company_box .entry_body_top .entry_actions li.closet a { background: url("../img/icons/closet.png") no-repeat 0 15px transparent; }
+#show_company_box .entry_body_top .entry_actions li.print a { background: url("../img/icons/print.png") no-repeat 0 15px transparent; }
+#show_company_box .entry_body_top .entry_actions li.recommend a  { background: url("../img/icons/recommend.png") no-repeat 0 15px transparent; }
+#show_company_box .entry_body_top .entry_actions li.report a { background: url("../img/icons/report.png") no-repeat 0 15px transparent; }
+
+#show_company_box  .entry_body .entry_tabs .container.full { margin-bottom: 20px; }
+
+
+.company_hours { line-height: 1.5em; padding: 6px 0; }
+.company_hours .days span { display: inline-block; width: 50px; 
+    text-align: right; font-weight: bold;
+}
+
+#company-map #map {
+    width: 355px;
+    height: 350px;
+}
+
+#company-products .entry-content {
+    padding: 14px 0px;
+}
+
+/* Reviews */
+
+.company_reviews .header {
+    overflow: hidden;
+    line-height: 33px;
+}
+
+.company_reviews .header > * {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.company_reviews .header label {
+    display: inline;
+}
+
+.company_reviews .add_company_review {
+    float: right;
+    margin: 0px;
+    display: block;
+    padding: 0px 10px 0px 30px;
+    background: #EBEBEB url("../img/icons/comment.png") no-repeat 7px center;
+    border: 1px solid #C9C8C9;
+    font-size: 12px;
+}
+
+.company_reviews .review {
+    overflow: hidden;
+    margin: 10px 5px;
+    padding: 2px;
+    border: 1px solid #E1E1E1;
+}
+
+.company_reviews .review .header {
+    background: #E1E1E1;
+    overflow: hidden;
+    padding: 3px 10px;
+    line-height: 22px;
+    font-size: 11px;
+}
+
+.company_reviews .review .header label {
+    display: inline;
+    font-style: italic;
+}
+
+.company_reviews .review .header span {
+    font-weight: bold;
+}
+
+.company_reviews .review .header > *{
+    float: left;
+    margin-right: 10px;
+}
+
+.company_reviews .review .header .date_added {
+    float: right;
+    margin-right: 0px;
+}
+
+.company_reviews .review .header .rating > span {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.company_reviews .review .comment_body {
+    padding: 5px 10px;
+}
+
+/* Form add company */
+
+#add_company_form {
+    margin: 20px 0px;
+    width: auto;
+}
+
+#add_company_form .upload_photos .controls {
+    width: 604px;
+}
+
+#add_company_form .upload_photos input {
+    margin: 5px;
+}
+
+#add_company_form .fieldset_localization {
+    overflow: hidden;
+}
+
+#add_company_form .fieldset_localization .fields {
+    width: 335px;
+    float: left;
+    margin-top: 32px;
+}
+
+#add_company_form #bform-company-map-row {
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+}
+
+#add_company_form #bform-company-map-row label {
+    clear: both;
+    float: none;
+    margin-bottom: 5px;
+    display: block;
+    width: auto;
+    text-align: left;
+}
+
+#add_company_form #bform-company-map-row .controls {
+    margin-left: 0;
+}
+
+#add_company_form #bform-company-map-row #announcement_map {
+    width: 400px;
+    height: 300px;
+}
+ 
+#add_company_form .not_logged .rules {
+    overflow: hidden;
+    float: left;
+    margin-left: 24px;
+}
+
+#add_company_form .not_logged .rules .control-group {
+    float: left;
+    width: auto;
+    clear: both;
+}
+
+#add_company_form .not_logged .rules .controls {
+    width: 380px;
+}
+
+#add_company_form .not_logged .rules label {
+    width: auto;
+    text-align: left;
+}
+
+#add_company_form #bform-with-discount-row > label { display: block; }
+#add_company_form #bform-with-discount-row > .controls { wiadth: auto; }
+
+.frontend_main_index_top #widget_catalog_companies_carousel_box .slider-track ul li { width: 280px; }
+
+/* Entries list */
+
+.entry_list { margin-top: 10px; color: #898989; list-style: none !important; }
+.entry_list > li{
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+.entry_list > li .item-body {
+    overflow: hidden;
+    clear: both;
+}
+.entry_list > li.distinct div.announcement { background-color: #f5f5f5; }
+.entry_list > li.banner { height: auto; background: none; border: 0 none; }
+
+.entry_list > li .entry { 
+    float: left; 
+    width: 632px;
+    height: 100px; 
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.entry_list > li.promoted .entry {
+    border-color: #0072bb;
+}
+
+.entry_list > li .image-wrapper { 
+    width: 133px; 
+    height: 100px; 
+    float: left; 
+    text-align: center; 
+    line-height: 99px;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    margin: 0;
+}
+.entry_list > li.promoted .image-wrapper {
+    border-color: #a0a0a0;
+}
+.entry_list > li .image-wrapper img { max-width: 133px; max-height: 99px; vertical-align: middle; }
+.entry_list > li .image-wrapper img.no-photo { width: 133px !important; height: 99px !important; }
+.entry_list > li .content {
+    padding: 10px 16px 0px 16px;
+    float: left;
+    width: 444px;
+    height: 90px;
+    overflow: hidden;
+}
+.entry_list > li .content h3 { line-height: 20px; margin-top: 0; color: #545454; font-size: 14px; font-weight: bold; }
+.entry_list > li .content h3 a { color: #535353; }
+.entry_list > li .content .info { font-size: 10px; }
+.entry_list > li .content .company_email { float: right; display: block; font-size: 11px; }
+.entry_list > li .content .description { padding-top: 6px; height: 30px; }
+.entry_list > li .content .company-details { float: right; font-weight: bold; }
+.entry_list > li .details {
+    width: 134px;
+    background: #ebebeb;
+    margin: 2px 0px;
+    float: right;
+    padding: 0 10px;
+    height: 96px;
+    position: relative;
+}
+
+.entry_list > li .details .address {
+    color: #545454;
+    line-height: 14px;
+    margin-bottom: 4px; 
+}
+
+.entry_list > li .details .address .header {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0067C0;
+    line-height: 18px;
+}
+
+.entry_list > li .details .show_map_btn {
+    position: absolute; 
+    bottom: 0;
+    line-height: 20px;
+}

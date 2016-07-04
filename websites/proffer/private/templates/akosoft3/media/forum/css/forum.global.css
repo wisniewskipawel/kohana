@@ -1,0 +1,50 @@
+/*
+ * @author       AkoSoft Team <biuro@akosoft.pl>
+ * @link         http://www.akosoft.pl
+ * @copyright    Copyright (c) 2016, AkoSoft
+ */
+
+#widget_forum_threads_active .content {
+    padding: 0;
+}
+
+#widget_forum_threads_active .post-contents {
+    margin: 20px 0;
+    background: white;
+    padding: 8px;
+    overflow: hidden;
+}
+
+#widget_forum_threads_active .post-contents .more_btn {
+    font-weight: bold;
+    font-size: 12px;
+    color: #242424;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forum_threads_list_simple {
+    list-style: none;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.forum_threads_list_simple li {
+    margin-bottom: 4px;
+    padding: 10px 20px;
+    background-color:  #f5f5f5;
+}
+
+.forum_threads_list_simple .thread-title {
+    margin-bottom: 10px;
+}
+
+.forum_threads_list_simple .thread-title a {
+    color: #242424;
+    font-size: 18px;
+}
+
+.forum_threads_list_simple .details {
+    color: #898989;
+    font-size: 12px;
+}

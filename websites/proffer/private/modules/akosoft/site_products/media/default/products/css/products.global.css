@@ -1,0 +1,276 @@
+#category_products_box {
+    clear: both;
+}
+
+/* products list
+*******************************************************************************/
+
+.products_list.list_rows {
+    margin-top: 10px;
+}
+
+.products_list.list_rows > li {
+    overflow: hidden;
+    clear: both;
+    margin: 20px 6px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #cfcfcf;
+    font-size: 11px;
+    list-style-type: none;
+    line-height: 11px;
+}
+
+.products_list.list_rows > li:last-child {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.products_list.list_rows .entry {
+    overflow: hidden;
+    clear: both;
+}
+
+.products_list.list_rows li.distinct .entry {
+    background: #efefef;
+}
+
+.products_list.list_rows > li .image-wrapper {
+    width: 133px;
+    height: 100px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+
+.products_list.list_rows > li .image-wrapper img {
+    max-width: 133px;
+    max-height: 100px;
+}
+
+.products_list.list_rows > li.promoted .image-wrapper {
+    border-color: #0553a6;
+}
+
+.products_list.list_rows > li .info {
+    float: left;
+    width: 480px;
+    height: 102px;
+    background: white;
+}
+
+#show_company_box .products_list.list_rows > li .info {
+    width: 430px;
+}
+
+.products_list.list_rows .entry .header {
+    height: 40px;
+    background: #efefef;
+    position: relative;
+    color: #585858;
+    padding: 0 10px;
+}
+
+.products_list.list_rows li.promoted .header {
+    background: #003b75;
+    color: white;
+}
+
+.products_list.list_rows .entry .header:after {
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 10px solid #efefef;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px; 
+    left: 100%;
+    z-index: 2; 
+}
+
+.products_list.list_rows li.promoted .entry .header:after {
+    border-left-color: #003b75;
+}
+
+.products_list.list_rows .entry .header h3 {
+    padding: 3px 0;
+}
+
+.products_list.list_rows .entry .header h3 a {
+    color: inherit;
+    line-height: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.products_list.list_rows .entry .header a {
+    color: inherit;
+}
+
+.products_list.list_rows .entry .content {
+    border-bottom: 1px solid #ebebeb;
+    height: 61px;
+    overflow: hidden;
+    position: relative;
+}
+
+.products_list.list_rows .entry .description {
+    padding: 10px;
+    color: #8f8f8f;
+    overflow: hidden;
+}
+
+.products_list.list_rows .entry .content .more_btn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 4px;
+    font-weight: bold;
+}
+
+.products_list.list_rows .details {
+    text-align: center;
+    float: left;
+    width: 140px;
+}
+
+.products_list.list_rows .details .info_group {
+    background: #fafafa url("../img/list_rows/info_group_bg.png") repeat-x;
+    padding: 10px 2px;
+    height: 43px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.products_list.list_rows .details .info_group .price_side {
+    font-size: 15px;
+}
+
+.products_list.list_rows .details .info_group .price_side label {
+    display: block;
+}
+
+.products_list.list_rows .details .info_group .price_side .price {
+    color: #0067C0;
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+}
+
+.products_list.list_rows .details .info_group .price_side .currency {
+    font-weight: normal;
+}
+    
+.products_list.list_rows .details .info_group_header {
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background: #7b7b7b url("../img/list_rows/normal_bg.png") repeat-x;
+    overflow: hidden;
+}
+
+.products_list.list_rows li.promoted .details .info_group_header {
+    background: #0054a6 url("../img/list_rows/promoted_bg.png") repeat-x;
+}
+
+.products_list.list_rows .details .info_group_header a {
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-left: 30px;
+    padding-top: 27px;
+    font-size: 9px;
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-width: 30px;
+}
+.products_list.list_rows .details .info_group_header a.dig-up { 
+    background-image: url(../img/list_rows/action-digup.png);
+}
+.products_list.list_rows .details .info_group_header a.closet { 
+    background-image: url(../img/list_rows/action-closet.png);
+}
+.products_list.list_rows .details .info_group_header a.promote { 
+    background-image: url(../img/list_rows/action-promote.png); 
+}
+
+.products_list.list_rows.actions_list > li {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.products div.content div.category-text { margin-top: 20px; margin-bottom: 20px; text-align: center; font-size: 11px; }
+
+.products.list_box .filter_entries .buttons {
+    margin-bottom: 0px;
+    float:right;
+}
+
+.products.list_box .filter_entries #city-field-row {
+    margin-bottom: 5px;
+}
+
+.filter_entries fieldset.localization label {
+    min-width: 0;
+}
+
+#layout_company .products_list.list_rows > li .info {
+    width: 354px;
+}
+
+#layout_company .products_list.list_rows > li .province, 
+#layout_company .products_list.list_rows > li .category {
+    display: none;
+}
+
+/* list box small */
+.products_list.list_box_small {
+    overflow: hidden;
+}
+
+.products_list.list_box_small li {
+    float: left;
+    width: 152px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#sidebar .products_list.list_box_small li {
+    margin: auto;
+    margin-bottom: 10px;
+    float: none;
+    height: 142px;
+    overflow: hidden;
+}
+
+.products_list.list_box_small li .image-wrapper {
+    width: 133px;
+    height: 100px;
+    border: 1px solid #cccccc;
+}
+
+.products_list.list_box_small li .image-wrapper img {
+    max-width: 133px;
+    max-height: 100px;
+}
+
+.products_list.list_box_small li .title {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#sidebar #sidebar_products_box .slider {
+    width: 152px;
+    height: 304px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* widget modules */
+#widget_modules_box .products_list li {
+    padding: 5px 15px;
+}

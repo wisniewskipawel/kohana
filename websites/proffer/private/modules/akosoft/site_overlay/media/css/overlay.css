@@ -1,0 +1,76 @@
+/* Overlay */
+
+.overlay_header {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.overlay_body {
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/* Newsletter overlay */
+
+#newsletter_overlay_form {
+    width: 600px;
+    margin: 10px 0;
+}
+
+#newsletter_overlay_form #accept_terms_overlay-row > label,
+#newsletter_overlay_form #accept_trading_overlay-row > label
+{
+    display: none;
+}
+
+#newsletter_overlay_form #accept_terms_overlay-row,
+#newsletter_overlay_form #accept_trading_overlay-row,
+#newsletter_overlay_form #bform-accept-ads-row {
+    font-size: 10px;
+    line-height: 1.4em;
+}
+
+#newsletter_overlay_form .controls {
+    float: none;
+    width: auto;
+}
+
+#newsletter_overlay_form input[type=text] {
+    width: 200px;
+    border: 1px solid #E1E1E1;
+    padding-left: 12px;
+    padding: 6px 8px;
+}
+
+/* Notifier overlay */
+
+#notifier_overlay {
+    width: 700px;
+}
+
+#notifier_overlay form {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#notifier_overlay form .control-group > label {
+    width: 350px;
+}
+
+#notifier_overlay form .control-group .controls {
+    width: 320px;
+}
+
+#notifier_overlay form .categories-row .html-before {
+    font-size: 11px;
+    color: #999999;
+    padding: 4px 0;
+}
+
+#notifier_overlay form .categories-row select {
+    height: 150px;
+}

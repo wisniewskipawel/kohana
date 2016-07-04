@@ -1,0 +1,8 @@
+div#main form .control-group.input_date .input_month {
+    width: 50px;
+    margin-right: 6px;
+}
+
+div#main form .control-group.input_date .input_year {
+    width: 112px;
+}

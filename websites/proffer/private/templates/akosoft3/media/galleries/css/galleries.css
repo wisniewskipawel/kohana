@@ -1,0 +1,495 @@
+/*
+ * @author       AkoSoft Team <biuro@akosoft.pl>
+ * @link         http://www.akosoft.pl
+ * @copyright    Copyright (c) 2016, AkoSoft
+ */
+
+/* Home other galleries */
+
+.galleries_list_half {
+    padding:0;
+    list-style:none
+}
+
+.galleries_list_half li {
+    margin:5px
+}
+
+.galleries_list_half .entry {
+    display:inline-block;
+    width:49%;
+    height: 120px;
+    padding:10px 2px;
+    overflow:hidden
+}
+
+.galleries_list_half .details {
+    margin-left: 170px;
+    padding: 4px 10px;
+    background:#fff
+}
+
+.galleries_list_half .image-wrapper {
+    float:left;
+    width:160px;
+    height:90px;
+}
+
+.galleries_list_half .image-wrapper img {
+    max-width:160px;
+    max-height:90px
+}
+
+.galleries_list_half .title {
+    line-height:1.4em;
+    max-height: 2.8em;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:block;
+    margin-bottom:6px;
+    font-family: 'Open Sans', sans-serif;
+    color:  #0072bc;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.galleries_list_half .details .meta .date_added {
+    font-family: 'Open Sans', sans-serif;
+    color:  #898989;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.galleries_list_half .details .meta .images_counter {
+    font-family: 'Lato', sans-serif;
+    color:  #545454;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.galleries_list_half .details .meta .images_counter .value {
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    .galleries_list_half .entry {
+        width: 100%;
+    }
+}
+
+/* Sidebar gallery list */
+
+.galleries_list_sidebar {
+    padding:0;
+    list-style:none
+}
+
+.galleries_list_sidebar li {
+    border-bottom:1px solid #dedede;
+    padding:10px 2px;
+    margin:5px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.galleries_list_sidebar li:last-child {
+    border:none
+}
+
+.galleries_list_sidebar .image-wrapper {
+    float:left;
+    width:100px;
+    height:56px;
+    margin-right: 8px;
+}
+
+.galleries_list_sidebar .image-wrapper .details {
+    margin-left:110px
+}
+
+.galleries_list_sidebar .details {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.galleries_list_sidebar .details .title {
+    line-height:1.4em;
+    max-height: 2.8em;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:block;
+    margin-bottom:6px;
+    font-family: 'Open Sans', sans-serif;
+    color:  #0072bc;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.galleries_list_sidebar .details .meta .date_added {
+    font-family: 'Open Sans', sans-serif;
+    color:  #898989;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.galleries_list_sidebar .details .meta .images_counter {
+    font-family: 'Roboto', sans-serif;
+    color:  #545454;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.galleries_list_sidebar .details .meta .images_counter .value {
+    font-weight: 700;
+}
+
+/* Gallery list */
+
+.galleries_list_rows {
+    padding:0;
+    list-style:none;
+    margin-top:10px
+}
+
+.galleries_list_rows>li {
+    overflow:hidden;
+    clear:both;
+    margin:20px 6px;
+    padding-bottom:20px;
+    border-bottom:1px dotted #cfcfcf;
+    font-size:11px;
+    line-height:1.4em
+}
+
+.galleries_list_rows>li:last-child {
+    border:none;
+    padding-bottom:0
+}
+
+.galleries_list_rows.actions_list>li {
+    margin-top:0;
+    margin-bottom:15px
+}
+
+.galleries_list_rows .entry {
+    overflow:hidden;
+    clear:both
+}
+
+.galleries_list_rows .entry .image-wrapper {
+    width:133px;
+    height:100px;
+    border:1px solid #ccc;
+    float:left;
+    margin:0
+}
+
+.galleries_list_rows .entry .image-wrapper img {
+    max-width:133px;
+    max-height:100px
+}
+
+.galleries_list_rows .info {
+    margin-left:135px
+}
+
+.galleries_list_rows .entry .header {
+    background:#efefef;
+    position:relative;
+    color:#585858;
+    padding:3px 10px
+}
+
+.galleries_list_rows .entry .header h3 {
+    padding:3px 0
+}
+
+.galleries_list_rows .entry .header a {
+    color:inherit
+}
+
+.galleries_list_rows .entry .header h3 a {
+    font-size:14px;
+    white-space:nowrap
+}
+
+.galleries_list_rows .entry .content {
+    overflow:hidden;
+    position:relative;
+    padding:10px
+}
+
+.galleries_list_rows .entry .content .value {
+    font-weight:700;
+    color:#0067C0
+}
+
+#gallery_show_box .meta {
+    margin-bottom:10px;
+    color:#9f9f9f
+}
+
+#gallery_show_box .meta>* {
+    margin-right:10px;
+    display:inline-block
+}
+
+#gallery_show_box #big_image {
+    margin-bottom:10px;
+    position:relative;
+    width:100%
+}
+
+#gallery_show_box #big_image img {
+    width:auto;
+    height: auto;
+    max-width:100%;
+    position:static;
+    margin:auto
+}
+
+#gallery_show_box .page_action {
+    position:absolute;
+    opacity:0;
+    top:0;
+    bottom:0;
+    width:100px;
+    text-indent:-9999px
+}
+
+#gallery_show_box .page_action:hover {
+    opacity:1
+}
+
+#gallery_show_box .page_prev {
+    left:0;
+    background:url(../img/image-prev.png) no-repeat center;
+}
+
+#gallery_show_box .page_next {
+    right:0;
+    background:url(../img/image-next.png) no-repeat center;
+}
+
+#gallery_show_box .description {
+    margin-bottom:10px;
+    text-align:center;
+    font-size:13px
+}
+
+#gallery_show_box .gallery_pagination {
+    text-align:center;
+    margin-bottom:10px;
+    font-size:13px;
+    position:relative
+}
+
+#gallery_show_box .gallery_pagination .page_info {
+    font-size:14px
+}
+
+#gallery_show_box .gallery_pagination [rel=prev] {
+    display:inline-block;
+    left:0;
+    position:absolute
+}
+
+#gallery_show_box .gallery_pagination [rel=next] {
+    display:inline-block;
+    right:0;
+    position:absolute
+}
+
+#gallery_show_box .gallery_images_list {
+    padding:10px;
+    text-align:center;
+    margin-bottom:10px;
+    border-top:1px solid #ECECEC;
+    border-bottom:1px solid #ECECEC
+}
+
+#gallery_show_box .gallery_images_list li {
+    display:inline-block;
+    border:1px solid transparent;
+    padding:4px
+}
+
+#gallery_show_box .gallery_images_list li.active {
+    border-color:#013571
+}
+
+#gallery_show_box .gallery_images_list li .image-wrapper {
+    width:160px;
+    height:90px
+}
+
+#gallery_show_box .gallery_images_list li img {
+    max-width:160px;
+    max-height:90px
+}
+
+.share {
+    overflow:hidden;
+}
+
+.gallery_edit_images .image_entry {
+    display:inline-block;
+    margin:5px;
+    text-align:center
+}
+
+.gallery_edit_images .image_entry .image-wrapper {
+    width:140px;
+    height:100px;
+    margin-bottom:5px
+}
+
+.gallery_edit_images .image_entry .image-wrapper img {
+    max-width:140px;
+    max-height:100px
+}
+
+#galleries_layout #widget_modules_box .announcements_list_box li {
+    padding:5px
+}
+
+#galleries_layout #widget_modules_box .index_companies_list li {
+    padding:5px
+}
+
+input[type=submit],input[type=reset],a.button {
+    background:#0072bc;
+    border:1px solid #00558D;
+    padding:4px 35px;
+    color:#fff;
+    font:400 15px 'Lato';
+    position:relative;
+    border-radius:2px;
+    
+    height:30px
+}
+
+.banner_place_galleries_b .ads_frame {
+    width: 350px;
+    height: 250px;
+}
+
+.banner_place_galleries_a .ads_frame {
+    width: 720px;
+    height: 100px;
+}
+
+/* Last gallery home */
+
+#galleries_home_last_box .image-wrapper {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+#galleries_home_last_box .title {
+    font-family: 'Open Sans', sans-serif;
+    color: #0072bc;
+    font-size: 19px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#galleries_home_last_box .details {
+    font-family: 'Open Sans', sans-serif;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#galleries_home_last_box .details > * {
+    border-right: 1px solid #e1e1e1;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#galleries_home_last_box .details > *:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#galleries_home_last_box .details .author .value {
+    color: #0072bc;
+}
+
+#galleries_home_last_box .details .date_added {
+    font-style: italic;
+    font-size: 12px;
+}
+
+#galleries_home_last_box .images_counter {
+    font-family: 'Roboto', sans-serif;
+    color:  #545454;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#galleries_home_last_box .images_counter .value {
+    font-weight: 700;
+}
+
+/* Last gallery sidebar */
+
+#galleries_last_box .image-wrapper {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+#galleries_last_box .title {
+    font-family: 'Open Sans', sans-serif;
+    color: #101010;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#galleries_last_box .details {
+    font-family: 'Open Sans', sans-serif;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#galleries_last_box .details > * {
+    border-right: 1px solid #e1e1e1;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#galleries_last_box .details > *:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#galleries_last_box .details .author .value {
+    color: #0072bc;
+}
+
+#galleries_last_box .details .date_added {
+    font-style: italic;
+    font-size: 12px;
+}
+
+#galleries_last_box .visits {
+    font-family: 'Lato Light', sans-serif;
+    color: #545454;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#galleries_last_box .visits .value {
+    font-weight: 700;
+}

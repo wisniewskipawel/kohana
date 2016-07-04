@@ -1,0 +1,1 @@
+<div class="box primary offers">	<h2><?php echo ___('offers.search.results') ?></h2>	<div class="content">				<?php echo $pager ?>		<div class="clearfix"></div>		<?php echo View::factory('frontend/offers/_offers_list')->set('offers', $offers)->bind('ad', $ad) ?>		<div class="clearfix"></div>				<?php echo $pager ?>		<div class="clearfix"></div>			</div></div>

@@ -1,0 +1,4799 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PetSitter\n"
+"POT-Creation-Date: 2016-05-03 19:06+0100\n"
+"PO-Revision-Date: 2016-05-03 19:06+0100\n"
+"Last-Translator: Dan Fisher <dan.fisher85@yahoo.com>\n"
+"Language-Team: Dan Fisher <dan.fisher85@yahoo.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: 404.php:18
+msgid "Please try using our search box below to look for information on the our site."
+msgstr ""
+
+#: admin/options-init.php:91
+msgid "General Settings"
+msgstr ""
+
+#: admin/options-init.php:98
+msgid "Custom Favicon"
+msgstr ""
+
+#: admin/options-init.php:101
+msgid "Default favicon."
+msgstr ""
+
+#: admin/options-init.php:102
+msgid "Format: ico, Size: 16x16"
+msgstr ""
+
+#: admin/options-init.php:111
+msgid "iPhone Favicon"
+msgstr ""
+
+#: admin/options-init.php:114
+msgid "iPhone with high-resolution Retina display."
+msgstr ""
+
+#: admin/options-init.php:115
+msgid "Format: png, Size: 120x120"
+msgstr ""
+
+#: admin/options-init.php:125
+msgid "iPad Favicon"
+msgstr ""
+
+#: admin/options-init.php:128
+msgid ""
+"For iPad with high-resolution Retina display. General use iOS/Android icon, auto-downscaled by "
+"devices."
+msgstr ""
+
+#: admin/options-init.php:129
+msgid "Format: png, Size: 152x152"
+msgstr ""
+
+#: admin/options-init.php:138
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/options-init.php:139
+msgid "Google Analytics or similar"
+msgstr ""
+
+#: admin/options-init.php:140
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be added into the footer "
+"template of your theme."
+msgstr ""
+
+#: admin/options-init.php:148
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/options-init.php:149
+msgid "Breadcrumbs are displayed by default."
+msgstr ""
+
+#: admin/options-init.php:160
+msgid "Header"
+msgstr ""
+
+#: admin/options-init.php:166 admin/options-init.php:1218
+msgid "Header Top Bar"
+msgstr ""
+
+#: admin/options-init.php:167
+msgid "Top Bar located at the top of the header."
+msgstr ""
+
+#: admin/options-init.php:176 admin/options-init.php:2082
+msgid "Logo"
+msgstr ""
+
+#: admin/options-init.php:179
+msgid "Upload your image or remove image if you want to use text-based logo."
+msgstr ""
+
+#: admin/options-init.php:188
+msgid "Phone Title"
+msgstr ""
+
+#: admin/options-init.php:189
+msgid "Text before phone number."
+msgstr ""
+
+#: admin/options-init.php:190
+msgid "Enter short text used before phone number."
+msgstr ""
+
+#: admin/options-init.php:197
+msgid "Phone Number"
+msgstr ""
+
+#: admin/options-init.php:198
+msgid "Enter phone number."
+msgstr ""
+
+#: admin/options-init.php:205
+msgid "Email Title"
+msgstr ""
+
+#: admin/options-init.php:206
+msgid "Text before email address."
+msgstr ""
+
+#: admin/options-init.php:207
+msgid "Enter short text used before email address."
+msgstr ""
+
+#: admin/options-init.php:214
+msgid "Email Address"
+msgstr ""
+
+#: admin/options-init.php:215
+msgid "Email Address used in the header."
+msgstr ""
+
+#: admin/options-init.php:216
+msgid "Enter email address."
+msgstr ""
+
+#: admin/options-init.php:224
+msgid "Custom Info Title"
+msgstr ""
+
+#: admin/options-init.php:225
+msgid "Text before custom info field."
+msgstr ""
+
+#: admin/options-init.php:226
+msgid "Enter short text used before custom info field (e.g. Working Hours:)"
+msgstr ""
+
+#: admin/options-init.php:232
+msgid "Custom Info Text"
+msgstr ""
+
+#: admin/options-init.php:233
+msgid "Enter short text used for custom info field (e.g. 9:00 - 21:00)"
+msgstr ""
+
+#: admin/options-init.php:239
+msgid "Header Social Links"
+msgstr ""
+
+#: admin/options-init.php:240
+msgid "Header Social Link are displayed by default."
+msgstr ""
+
+#: admin/options-init.php:248 admin/options-init.php:1077
+#: job_manager/content-single-job_listing-company.php:84
+msgid "Facebook"
+msgstr ""
+
+#: admin/options-init.php:249 admin/options-init.php:1078
+msgid "Link to your Facebook account."
+msgstr ""
+
+#: admin/options-init.php:255 admin/options-init.php:1084 functions.php:525 single-company.php:55
+msgid "Twitter"
+msgstr ""
+
+#: admin/options-init.php:256 admin/options-init.php:1085
+msgid "Link to your Twitter account."
+msgstr ""
+
+#: admin/options-init.php:262 admin/options-init.php:1091
+msgid "Linkedin"
+msgstr ""
+
+#: admin/options-init.php:263 admin/options-init.php:1092
+msgid "Link to your Linkedin account."
+msgstr ""
+
+#: admin/options-init.php:269 admin/options-init.php:1098
+#: job_manager/content-single-job_listing-company.php:88
+msgid "Google+"
+msgstr ""
+
+#: admin/options-init.php:270 admin/options-init.php:1099
+msgid "Link to your Google+ account."
+msgstr ""
+
+#: admin/options-init.php:276 admin/options-init.php:1105
+msgid "Pinterest"
+msgstr ""
+
+#: admin/options-init.php:277 admin/options-init.php:1106
+msgid "Link to your Pinterest account."
+msgstr ""
+
+#: admin/options-init.php:283 admin/options-init.php:1112
+msgid "YouTube"
+msgstr ""
+
+#: admin/options-init.php:284 admin/options-init.php:1113
+msgid "Link to your YouTube account."
+msgstr ""
+
+#: admin/options-init.php:290 admin/options-init.php:1119
+msgid "Instagram"
+msgstr ""
+
+#: admin/options-init.php:291 admin/options-init.php:1120
+msgid "Link to your Instagram account."
+msgstr ""
+
+#: admin/options-init.php:297 admin/options-init.php:1126
+msgid "Tumblr"
+msgstr ""
+
+#: admin/options-init.php:298 admin/options-init.php:1127
+msgid "Link to your Tumblr account."
+msgstr ""
+
+#: admin/options-init.php:304 admin/options-init.php:1133
+msgid "Dribbble"
+msgstr ""
+
+#: admin/options-init.php:305 admin/options-init.php:1134
+msgid "Link to your Dribbble account."
+msgstr ""
+
+#: admin/options-init.php:311 admin/options-init.php:1140
+msgid "Vimeo"
+msgstr ""
+
+#: admin/options-init.php:312 admin/options-init.php:1141
+msgid "Link to your Vimeo account."
+msgstr ""
+
+#: admin/options-init.php:318 admin/options-init.php:1147
+msgid "Flickr"
+msgstr ""
+
+#: admin/options-init.php:319 admin/options-init.php:1148
+msgid "Link to your Flickr account."
+msgstr ""
+
+#: admin/options-init.php:325 admin/options-init.php:1154
+msgid "Yelp"
+msgstr ""
+
+#: admin/options-init.php:326 admin/options-init.php:1155
+msgid "Link to your Yelp account."
+msgstr ""
+
+#: admin/options-init.php:332 admin/options-init.php:1161
+msgid "RSS Feed"
+msgstr ""
+
+#: admin/options-init.php:333 admin/options-init.php:1162
+msgid "Link to your RSS Feed."
+msgstr ""
+
+#: admin/options-init.php:339
+msgid "Header Shopping Cart"
+msgstr ""
+
+#: admin/options-init.php:340
+msgid "Shopping cart is in the Header Top Bar."
+msgstr ""
+
+#: admin/options-init.php:352
+msgid "Main Slider"
+msgstr ""
+
+#: admin/options-init.php:358
+msgid "Delay between slides"
+msgstr ""
+
+#: admin/options-init.php:359
+msgid "Set the speed of the slideshow cycling, in seconds."
+msgstr ""
+
+#: admin/options-init.php:360
+msgid "Recommended value is 7 secs."
+msgstr ""
+
+#: admin/options-init.php:370
+msgid "Show Pagination?"
+msgstr ""
+
+#: admin/options-init.php:371
+msgid "Slider controls (bullets)."
+msgstr ""
+
+#: admin/options-init.php:379
+msgid "Autoplay"
+msgstr ""
+
+#: admin/options-init.php:380
+msgid "Slideshow starts automatically."
+msgstr ""
+
+#: admin/options-init.php:388
+msgid "Infinite Loop"
+msgstr ""
+
+#: admin/options-init.php:389
+msgid "Looped animation."
+msgstr ""
+
+#: admin/options-init.php:402
+msgid "Search Form (Home)"
+msgstr ""
+
+#: admin/options-init.php:409
+msgid "Box Content"
+msgstr ""
+
+#: admin/options-init.php:410
+msgid "Choose your slider's box content."
+msgstr ""
+
+#: admin/options-init.php:422
+msgid "Call to Action Heading"
+msgstr ""
+
+#: admin/options-init.php:423 admin/options-init.php:481 admin/options-init.php:556
+msgid "This heading used in the box in slider."
+msgstr ""
+
+#: admin/options-init.php:430
+msgid "Call to Action Text"
+msgstr ""
+
+#: admin/options-init.php:431
+msgid "This text used goes under the title."
+msgstr ""
+
+#: admin/options-init.php:440
+msgid "First Button Text"
+msgstr ""
+
+#: admin/options-init.php:441
+msgid "First button text used in the box in slider."
+msgstr ""
+
+#: admin/options-init.php:448
+msgid "First Button URL"
+msgstr ""
+
+#: admin/options-init.php:449
+msgid "First button url used in the box in slider."
+msgstr ""
+
+#: admin/options-init.php:456
+msgid "Second Button Text"
+msgstr ""
+
+#: admin/options-init.php:457
+msgid "Second button text used in the box in slider."
+msgstr ""
+
+#: admin/options-init.php:464
+msgid "Second Button URL"
+msgstr ""
+
+#: admin/options-init.php:465
+msgid "Second button url used in the box in slider."
+msgstr ""
+
+#: admin/options-init.php:472
+msgid "Text between buttons"
+msgstr ""
+
+#: admin/options-init.php:473
+msgid "This tet located between buttons."
+msgstr ""
+
+#: admin/options-init.php:480
+msgid "Jobs Search Form Heading"
+msgstr ""
+
+#: admin/options-init.php:488
+msgid "Jobs Page URL"
+msgstr ""
+
+#: admin/options-init.php:489
+msgid "URL to your jobs page."
+msgstr ""
+
+#: admin/options-init.php:490
+msgid ""
+"Put the URL to your jobs page (assuming filters are enabled). Example <em>pet-sitters/pet-"
+"sitter-jobs/</em>"
+msgstr ""
+
+#: admin/options-init.php:497 admin/options-init.php:572
+msgid "Form Fields Layout"
+msgstr ""
+
+#: admin/options-init.php:498 admin/options-init.php:573
+msgid "Organize search fields order."
+msgstr ""
+
+#: admin/options-init.php:499 admin/options-init.php:574
+msgid "Organize how you want the fields to appear in the box."
+msgstr ""
+
+#: admin/options-init.php:503 admin/options-init.php:578 admin/options-init.php:1955
+#: admin/options-init.php:2049 job_manager/job-filters.php:10
+#: wp-job-manager-resumes/resume-filters.php:10
+msgid "Keywords"
+msgstr ""
+
+#: admin/options-init.php:504 admin/options-init.php:579
+#: job_manager/content-single-job_listing.php:34
+#: wp-job-manager-resumes/content-single-resume.php:57
+msgid "Location"
+msgstr ""
+
+#: admin/options-init.php:505 admin/options-init.php:580
+msgid "Categories"
+msgstr ""
+
+#: admin/options-init.php:506 admin/options-init.php:581
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:286
+#: functions.php:343 job_manager/job-filters.php:65 wp-job-manager-resumes/resume-filters.php:64
+msgid "Submit"
+msgstr ""
+
+#: admin/options-init.php:516 admin/options-init.php:591
+msgid "Keywords Field - Placeholder"
+msgstr ""
+
+#: admin/options-init.php:517 admin/options-init.php:526 admin/options-init.php:535
+#: admin/options-init.php:592 admin/options-init.php:601 admin/options-init.php:610
+#: admin/options-init.php:1953 admin/options-init.php:1961 admin/options-init.php:1969
+#: admin/options-init.php:2047 admin/options-init.php:2055 admin/options-init.php:2063
+msgid "Placeholder text."
+msgstr ""
+
+#: admin/options-init.php:518 admin/options-init.php:593 admin/options-init.php:1954
+#: admin/options-init.php:2048
+msgid "Change placeholder text for <em>Keywords</em> field."
+msgstr ""
+
+#: admin/options-init.php:525 admin/options-init.php:600
+msgid "Location Field - Placeholder"
+msgstr ""
+
+#: admin/options-init.php:527 admin/options-init.php:602 admin/options-init.php:1962
+#: admin/options-init.php:2056
+msgid "Change placeholder text for <em>Location</em> field."
+msgstr ""
+
+#: admin/options-init.php:534 admin/options-init.php:609
+msgid "Categories Field - Placeholder"
+msgstr ""
+
+#: admin/options-init.php:536 admin/options-init.php:611 admin/options-init.php:1970
+#: admin/options-init.php:2064
+msgid "Change placeholder text for <em>Categories</em> field."
+msgstr ""
+
+#: admin/options-init.php:543 admin/options-init.php:618
+msgid "Submit Button - Text"
+msgstr ""
+
+#: admin/options-init.php:544 admin/options-init.php:619
+msgid "Button's text."
+msgstr ""
+
+#: admin/options-init.php:545 admin/options-init.php:620
+msgid "Change text for <em>Submit</em> button."
+msgstr ""
+
+#: admin/options-init.php:555
+msgid "Resumes Search Form Heading"
+msgstr ""
+
+#: admin/options-init.php:563
+msgid "Resumes Page URL"
+msgstr ""
+
+#: admin/options-init.php:564
+msgid "URL to your resumes page."
+msgstr ""
+
+#: admin/options-init.php:565
+msgid ""
+"Put the URL to your resumes page (assuming filters are enabled). Example <em>pet-sitters/pet-"
+"sitters-list/</em>"
+msgstr ""
+
+#: admin/options-init.php:631
+msgid "Blog"
+msgstr ""
+
+#: admin/options-init.php:638
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/options-init.php:639 admin/options-init.php:1917 admin/options-init.php:2005
+msgid "Select sidebar alignment or disable it."
+msgstr ""
+
+#: admin/options-init.php:656
+msgid "Thumbnail Size"
+msgstr ""
+
+#: admin/options-init.php:657
+msgid "Blog Thumbnail Size"
+msgstr ""
+
+#: admin/options-init.php:658
+msgid "Choose your blogs's thumbnail size"
+msgstr ""
+
+#: admin/options-init.php:668
+msgid "Blog Page Title"
+msgstr ""
+
+#: admin/options-init.php:669
+msgid "This title used on Blog Page"
+msgstr ""
+
+#: admin/options-init.php:670
+msgid "Enter Your Blog Title used on Blog page."
+msgstr ""
+
+#: admin/options-init.php:678
+msgid "Blog Date"
+msgstr ""
+
+#: admin/options-init.php:679
+msgid "Show/hide date icon on blog and single post pages."
+msgstr ""
+
+#: admin/options-init.php:687
+msgid "Featured Image on Single Post"
+msgstr ""
+
+#: admin/options-init.php:688
+msgid "Show/hide featured images on single post pages."
+msgstr ""
+
+#: admin/options-init.php:696
+msgid "Post Title on Single Post"
+msgstr ""
+
+#: admin/options-init.php:697
+msgid "Show/hide the post title that goes below the featured images."
+msgstr ""
+
+#: admin/options-init.php:705
+msgid "Author Info Box on Single Post"
+msgstr ""
+
+#: admin/options-init.php:706
+msgid "Show/hide the author info box below posts."
+msgstr ""
+
+#: admin/options-init.php:714
+msgid "Social Sharing Box"
+msgstr ""
+
+#: admin/options-init.php:715
+msgid "Show/hide the social sharing box."
+msgstr ""
+
+#: admin/options-init.php:723
+msgid "Read More Text"
+msgstr ""
+
+#: admin/options-init.php:724
+msgid "Enter button text for post. Example <em>'Read More'</em>"
+msgstr ""
+
+#: admin/options-init.php:733
+msgid "Comments Login Page"
+msgstr ""
+
+#: admin/options-init.php:734 admin/options-init.php:1909 admin/options-init.php:1997
+msgid "Login page on your site."
+msgstr ""
+
+#: admin/options-init.php:735 admin/options-init.php:1910 admin/options-init.php:1998
+msgid "Choose a page where you paste <code>[clean-login]</code> shortcode."
+msgstr ""
+
+#: admin/options-init.php:743
+msgid "Portfolio"
+msgstr ""
+
+#: admin/options-init.php:749
+msgid "Portfolio Slug"
+msgstr ""
+
+#: admin/options-init.php:750
+msgid "Change this option if you want to change default portfolio slug."
+msgstr ""
+
+#: admin/options-init.php:751
+msgid "After changing this slug go to <em>Settings > Permalinks</em> and resave it."
+msgstr ""
+
+#: admin/options-init.php:757
+msgid "Number of Portfolio Items"
+msgstr ""
+
+#: admin/options-init.php:758
+msgid "How many items do you want to show on portfolio pages?"
+msgstr ""
+
+#: admin/options-init.php:765
+msgid "Filter"
+msgstr ""
+
+#: admin/options-init.php:766
+msgid "Filter by categories. Located above the portfolio items."
+msgstr ""
+
+#: admin/options-init.php:774
+msgid "Filter Button Text"
+msgstr ""
+
+#: admin/options-init.php:775
+msgid "Text for button used for all portfolio items."
+msgstr ""
+
+#: admin/options-init.php:783
+msgid "Portfolio Lightbox & Link"
+msgstr ""
+
+#: admin/options-init.php:784
+msgid ""
+"Magnifying icon and link icon appear when you hover on portfolio item. You can show only one of "
+"them, both or hide"
+msgstr ""
+
+#: admin/options-init.php:796
+msgid "Portfolio Title & Meta"
+msgstr ""
+
+#: admin/options-init.php:797
+msgid "Title and short info for portfolio posts."
+msgstr ""
+
+#: admin/options-init.php:806
+msgid "Single Portfolio Layout"
+msgstr ""
+
+#: admin/options-init.php:819
+msgid "Single Portfolio Sidebar contains project info added via content editor."
+msgstr ""
+
+#: admin/options-init.php:824
+msgid "Previous/Next Pagination"
+msgstr ""
+
+#: admin/options-init.php:825
+msgid "Link to prev/next portfolio items."
+msgstr ""
+
+#: admin/options-init.php:826
+msgid "Located above the portfolio on the Single Portfolio page."
+msgstr ""
+
+#: admin/options-init.php:834
+msgid "Related Projects"
+msgstr ""
+
+#: admin/options-init.php:835
+msgid "Located at the bottom of Single Portfolio Page."
+msgstr ""
+
+#: admin/options-init.php:843
+msgid "Related Pets Title"
+msgstr ""
+
+#: admin/options-init.php:844
+msgid "Enter Your Related Pets Title used on Single Portfolio Page."
+msgstr ""
+
+#: admin/options-init.php:856
+msgid "Contacts"
+msgstr ""
+
+#: admin/options-init.php:862
+msgid "Google Map"
+msgstr ""
+
+#: admin/options-init.php:863
+msgid "Show/hide Google Map."
+msgstr ""
+
+#: admin/options-init.php:871
+msgid "Google Map Coordinates"
+msgstr ""
+
+#: admin/options-init.php:872
+msgid "Put your address here."
+msgstr ""
+
+#: admin/options-init.php:873 admin/options-init.php:881
+msgid ""
+"Go to <a href=\"https://www.google.com/maps/\">Google Map</a>, copy and paste your coordinates."
+msgstr ""
+
+#: admin/options-init.php:879
+msgid "Google Map Coordinates 2"
+msgstr ""
+
+#: admin/options-init.php:880
+msgid "Put your 2nd address here."
+msgstr ""
+
+#: admin/options-init.php:887
+msgid "Map Center Coordinates"
+msgstr ""
+
+#: admin/options-init.php:888
+msgid "Coordinates for centering map."
+msgstr ""
+
+#: admin/options-init.php:889
+msgid "Leave blank if you use single address."
+msgstr ""
+
+#: admin/options-init.php:895
+msgid "Map Zoom Level"
+msgstr ""
+
+#: admin/options-init.php:896
+msgid "Used in Google Map."
+msgstr ""
+
+#: admin/options-init.php:897
+msgid "Higher number will be more zoomed in."
+msgstr ""
+
+#: admin/options-init.php:913
+msgid "Contact Info"
+msgstr ""
+
+#: admin/options-init.php:914
+msgid "Show/hide contact info section."
+msgstr ""
+
+#: admin/options-init.php:922
+msgid "Contact Info Title"
+msgstr ""
+
+#: admin/options-init.php:923
+msgid "Title used in Contact Info section."
+msgstr ""
+
+#: admin/options-init.php:929
+msgid "Address"
+msgstr ""
+
+#: admin/options-init.php:930
+msgid "Address used in the Contact Info section."
+msgstr ""
+
+#: admin/options-init.php:936
+msgid "Address 2"
+msgstr ""
+
+#: admin/options-init.php:937
+msgid "Address used in the Contact Info section for the 2nd office."
+msgstr ""
+
+#: admin/options-init.php:943
+msgid "Phone(s)"
+msgstr ""
+
+#: admin/options-init.php:944
+msgid "Phone numbers used in the Contact Info section."
+msgstr ""
+
+#: admin/options-init.php:945 admin/options-init.php:956
+msgid "You can add as more numbers as you want."
+msgstr ""
+
+#: admin/options-init.php:954
+msgid "Fax(s)"
+msgstr ""
+
+#: admin/options-init.php:955
+msgid "Fax numbers used in the Contact Info section."
+msgstr ""
+
+#: admin/options-init.php:961
+msgid "Skype Username"
+msgstr ""
+
+#: admin/options-init.php:962
+msgid "Enter your Skype username."
+msgstr ""
+
+#: admin/options-init.php:963
+msgid "Link will initiate Skype to call Skype username."
+msgstr ""
+
+#: admin/options-init.php:968
+msgid "Email(s)"
+msgstr ""
+
+#: admin/options-init.php:969
+msgid "Emails used in the Contact Info section."
+msgstr ""
+
+#: admin/options-init.php:970
+msgid "You can add as more emails as you want."
+msgstr ""
+
+#: admin/options-init.php:979
+msgid "Working Hours"
+msgstr ""
+
+#: admin/options-init.php:980
+msgid "Info your schedule."
+msgstr ""
+
+#: admin/options-init.php:990
+msgid "Footer"
+msgstr ""
+
+#: admin/options-init.php:996
+msgid "Footer Widgets"
+msgstr ""
+
+#: admin/options-init.php:997
+msgid "Footer Widgets are displayed by default."
+msgstr ""
+
+#: admin/options-init.php:1007
+msgid "Footer Widgets Layout"
+msgstr ""
+
+#: admin/options-init.php:1008
+msgid "Select footer widgets layout (not equal or equal)."
+msgstr ""
+
+#: admin/options-init.php:1037
+msgid "Copyright"
+msgstr ""
+
+#: admin/options-init.php:1038
+msgid "Footer Copyright is displayed by default."
+msgstr ""
+
+#: admin/options-init.php:1047
+msgid "Copyright Text"
+msgstr ""
+
+#: admin/options-init.php:1048
+msgid "Add copyright text here."
+msgstr ""
+
+#: admin/options-init.php:1061
+msgid "Footer Social Links"
+msgstr ""
+
+#: admin/options-init.php:1062
+msgid "Footer Social Link are displayed by default."
+msgstr ""
+
+#: admin/options-init.php:1070
+msgid "Footer Social Text"
+msgstr ""
+
+#: admin/options-init.php:1071
+msgid "This text displayed before social links."
+msgstr ""
+
+#: admin/options-init.php:1173
+msgid "Typography"
+msgstr ""
+
+#: admin/options-init.php:1179
+msgid "Body Font"
+msgstr ""
+
+#: admin/options-init.php:1180
+msgid "Specify the body font properties."
+msgstr ""
+
+#: admin/options-init.php:1197
+msgid "Logo Text"
+msgstr ""
+
+#: admin/options-init.php:1198
+msgid "Specify the Logo (Text-based) font properties."
+msgstr ""
+
+#: admin/options-init.php:1212
+msgid "You can see the changes only for Text-based Logo"
+msgstr ""
+
+#: admin/options-init.php:1219
+msgid "Specify the Header Top Bar font properties."
+msgstr ""
+
+#: admin/options-init.php:1236
+msgid "Header Middle"
+msgstr ""
+
+#: admin/options-init.php:1237
+msgid "Specify the Header Middle font properties."
+msgstr ""
+
+#: admin/options-init.php:1253
+msgid "Menu Font"
+msgstr ""
+
+#: admin/options-init.php:1254
+msgid "Specify the main navigation font properties."
+msgstr ""
+
+#: admin/options-init.php:1270
+msgid "H1 Heading"
+msgstr ""
+
+#: admin/options-init.php:1271
+msgid "Specify the H1 heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1288
+msgid "H2 Heading"
+msgstr ""
+
+#: admin/options-init.php:1289
+msgid "Specify the H2 heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1306
+msgid "H3 Heading"
+msgstr ""
+
+#: admin/options-init.php:1307
+msgid "Specify the H3 heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1324
+msgid "H4 Heading"
+msgstr ""
+
+#: admin/options-init.php:1325
+msgid "Specify the H4 heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1342
+msgid "H5 Heading"
+msgstr ""
+
+#: admin/options-init.php:1343
+msgid "Specify the H5 heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1360
+msgid "H6 Heading"
+msgstr ""
+
+#: admin/options-init.php:1361
+msgid "Specify the H6 heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1378
+msgid "Title Bordered"
+msgstr ""
+
+#: admin/options-init.php:1379
+msgid "Specify the title bordered font properties."
+msgstr ""
+
+#: admin/options-init.php:1396
+msgid "Breadcrumbs Font"
+msgstr ""
+
+#: admin/options-init.php:1397
+msgid "Specify the breadcrumbs font properties."
+msgstr ""
+
+#: admin/options-init.php:1413
+msgid "Page Heading Font"
+msgstr ""
+
+#: admin/options-init.php:1414
+msgid "Specify the page heading font properties."
+msgstr ""
+
+#: admin/options-init.php:1431
+msgid "Blog Post Title"
+msgstr ""
+
+#: admin/options-init.php:1432
+msgid "Specify the post title font properties."
+msgstr ""
+
+#: admin/options-init.php:1449
+msgid "Sidebar Widget Heading"
+msgstr ""
+
+#: admin/options-init.php:1450
+msgid "Specify the Sidebar widget title font properties."
+msgstr ""
+
+#: admin/options-init.php:1466
+msgid "Footer Widget Heading"
+msgstr ""
+
+#: admin/options-init.php:1467
+msgid "Specify the footer widget title font properties."
+msgstr ""
+
+#: admin/options-init.php:1487
+msgid "Styling"
+msgstr ""
+
+#: admin/options-init.php:1495
+msgid "Color Presets"
+msgstr ""
+
+#: admin/options-init.php:1496
+msgid "Choose color preset you want to use."
+msgstr ""
+
+#: admin/options-init.php:1559
+msgid "Primary Color"
+msgstr ""
+
+#: admin/options-init.php:1560 admin/options-init.php:1569
+msgid "Pick a primary color."
+msgstr ""
+
+#: admin/options-init.php:1568
+msgid "Secondary Color"
+msgstr ""
+
+#: admin/options-init.php:1585
+msgid "Layout Mode"
+msgstr ""
+
+#: admin/options-init.php:1586
+msgid "Choose your site's layout either Boxed or Full Width"
+msgstr ""
+
+#: admin/options-init.php:1603
+msgid "Wrapper Top/Bottom Margin"
+msgstr ""
+
+#: admin/options-init.php:1604
+msgid "You can set top and bottom margin for the site wrapper."
+msgstr ""
+
+#: admin/options-init.php:1614
+msgid "Wrapper Border Radius"
+msgstr ""
+
+#: admin/options-init.php:1615
+msgid "You can set border radius for the site wrapper."
+msgstr ""
+
+#: admin/options-init.php:1632
+msgid "Body Background"
+msgstr ""
+
+#: admin/options-init.php:1633 admin/options-init.php:1799
+msgid "Pick a background color. Also you can upload and set up background image."
+msgstr ""
+
+#: admin/options-init.php:1641 admin/options-init.php:1658
+msgid "Enable Boxed layout to see changes."
+msgstr ""
+
+#: admin/options-init.php:1649
+msgid "Content Background"
+msgstr ""
+
+#: admin/options-init.php:1650
+msgid "Pick a background color for the content. Also you can upload and set up background image."
+msgstr ""
+
+#: admin/options-init.php:1666
+msgid "Header Top Background Color"
+msgstr ""
+
+#: admin/options-init.php:1667
+msgid "Background color for Header Top Bar"
+msgstr ""
+
+#: admin/options-init.php:1684
+msgid "Header Middle Background Color"
+msgstr ""
+
+#: admin/options-init.php:1685
+msgid "Background color for Header Middle Part"
+msgstr ""
+
+#: admin/options-init.php:1702
+msgid "Header Middle Text Color"
+msgstr ""
+
+#: admin/options-init.php:1703
+msgid "Pick a text color for Header Middle."
+msgstr ""
+
+#: admin/options-init.php:1704
+msgid "This option applied on Phone number by default"
+msgstr ""
+
+#: admin/options-init.php:1714
+msgid "Header Middle Label Color"
+msgstr ""
+
+#: admin/options-init.php:1715
+msgid "Pick a label color for Header Middle."
+msgstr ""
+
+#: admin/options-init.php:1716
+msgid "This option applied on label by default (Phone Title, Email Title)"
+msgstr ""
+
+#: admin/options-init.php:1726
+msgid "Navbar Background Color"
+msgstr ""
+
+#: admin/options-init.php:1727
+msgid "Background color for Navigation Bar"
+msgstr ""
+
+#: admin/options-init.php:1750
+msgid "Page Header Background"
+msgstr ""
+
+#: admin/options-init.php:1751
+msgid "Page Header background options."
+msgstr ""
+
+#: admin/options-init.php:1766
+msgid "Page Header Background Parallax"
+msgstr ""
+
+#: admin/options-init.php:1767 admin/options-init.php:1816
+msgid "Enables parallax effect for background."
+msgstr ""
+
+#: admin/options-init.php:1772
+msgid "Only works with Image based background for <strong>Page Header Background</strong> option"
+msgstr ""
+
+#: admin/options-init.php:1778 admin/options-init.php:1827
+msgid "Parallax Ratio"
+msgstr ""
+
+#: admin/options-init.php:1779
+msgid "Parallax Ratio for Page Header Background."
+msgstr ""
+
+#: admin/options-init.php:1780 admin/options-init.php:1829
+msgid ""
+"The ratio is relative to the natural scroll speed, so a ratio of 0.5 would cause the element to "
+"scroll at half-speed, a ratio of 1 would have no effect, and a ratio of 2 would cause the "
+"element to scroll at twice the speed."
+msgstr ""
+
+#: admin/options-init.php:1789 admin/options-init.php:1838
+msgid "Make sure that your image has enought height."
+msgstr ""
+
+#: admin/options-init.php:1797
+msgid "Slider Background"
+msgstr ""
+
+#: admin/options-init.php:1798
+msgid "Background for slider."
+msgstr ""
+
+#: admin/options-init.php:1815
+msgid "Slider Background Parallax"
+msgstr ""
+
+#: admin/options-init.php:1821
+msgid "Only works with Image based background for <strong>Slider Background</strong> option"
+msgstr ""
+
+#: admin/options-init.php:1828
+msgid "Parallax Ratio for Slider Background."
+msgstr ""
+
+#: admin/options-init.php:1852
+msgid "Footer Background"
+msgstr ""
+
+#: admin/options-init.php:1853
+msgid "Footer background options."
+msgstr ""
+
+#: admin/options-init.php:1864
+msgid "Copyright Background"
+msgstr ""
+
+#: admin/options-init.php:1865
+msgid "Background color for Copyright Bar in the Footer"
+msgstr ""
+
+#: admin/options-init.php:1881
+msgid "Copyright Text Color"
+msgstr ""
+
+#: admin/options-init.php:1882
+msgid "Pick a Footer text color."
+msgstr ""
+
+#: admin/options-init.php:1893
+msgid "Jobs/Resumes"
+msgstr ""
+
+#: admin/options-init.php:1900
+msgid "WP Job Manager"
+msgstr ""
+
+#: admin/options-init.php:1908
+msgid "Job Login Page"
+msgstr ""
+
+#: admin/options-init.php:1916
+msgid "Single Job Sidebar Position"
+msgstr ""
+
+#: admin/options-init.php:1918 admin/options-init.php:2006
+msgid "Right Sidebar, Left Sidebar or Full Width Page."
+msgstr ""
+
+#: admin/options-init.php:1936
+msgid "Employer's Placeholder Image"
+msgstr ""
+
+#: admin/options-init.php:1939
+msgid "This image used if employer didn't upload his cover image."
+msgstr ""
+
+#: admin/options-init.php:1952 admin/options-init.php:2046
+msgid "Keywords - Placeholder Text"
+msgstr ""
+
+#: admin/options-init.php:1960 admin/options-init.php:2054
+msgid "Location - Placeholder Text"
+msgstr ""
+
+#: admin/options-init.php:1963 admin/options-init.php:2057
+msgid "Any location"
+msgstr ""
+
+#: admin/options-init.php:1968 admin/options-init.php:2062
+msgid "Categories - Placeholder Text"
+msgstr ""
+
+#: admin/options-init.php:1971 admin/options-init.php:2065 job_manager/job-filters.php:24
+#: wp-job-manager-resumes/resume-filters.php:24
+msgid "Any category"
+msgstr ""
+
+#: admin/options-init.php:1979 admin/options-init.php:1989
+msgid "Resume Manager"
+msgstr ""
+
+#: admin/options-init.php:1990
+msgid ""
+"The following options are only available if you are using <a href=\"https://wpjobmanager.com/"
+"add-ons/resume-manager/\">Resume Manager</a> add-on."
+msgstr ""
+
+#: admin/options-init.php:1996
+msgid "Resume Login Page"
+msgstr ""
+
+#: admin/options-init.php:2004
+msgid "Single Resume Sidebar Position"
+msgstr ""
+
+#: admin/options-init.php:2020 admin/options-init.php:2036
+msgid "Requires 'Resume Manager' add-on"
+msgstr ""
+
+#: admin/options-init.php:2027
+msgid "Candidate's Placeholder Image"
+msgstr ""
+
+#: admin/options-init.php:2030
+msgid "This image used if candidate didn't upload his cover image."
+msgstr ""
+
+#: admin/options-init.php:2075
+msgid "Coming Soon"
+msgstr ""
+
+#: admin/options-init.php:2085
+msgid "Upload your image logo."
+msgstr ""
+
+#: admin/options-init.php:2094 inc/meta-pages.php:35 inc/meta-pages.php:70
+msgid "Page Title"
+msgstr ""
+
+#: admin/options-init.php:2095
+msgid "Enter short text for Coming Soon Page."
+msgstr ""
+
+#: admin/options-init.php:2103
+msgid "Short Description"
+msgstr ""
+
+#: admin/options-init.php:2104
+msgid "Add short description here."
+msgstr ""
+
+#: admin/options-init.php:2117
+msgid "Site Launch Date"
+msgstr ""
+
+#: admin/options-init.php:2118
+msgid "Choose the date when your will be available."
+msgstr ""
+
+#: admin/options-init.php:2119
+msgid "Click to enter a date"
+msgstr ""
+
+#: admin/options-init.php:2125
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: admin/options-init.php:2126
+msgid "Put your form created with <em>Contact Form 7</em> plugin."
+msgstr ""
+
+#: admin/options-init.php:2136
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options-init.php:2142
+msgid "CSS Code"
+msgstr ""
+
+#: admin/options-init.php:2143
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: admin/options-init.php:2153
+#: admin/redux-framework/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: admin/options-init.php:2154
+msgid "Import and Export your theme settings from file, text or URL."
+msgstr ""
+
+#: admin/options-init.php:2168
+msgid "Theme Information"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:247
+msgid "Demo Already Imported"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:274
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:276
+msgid "Demo Importer"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:281
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:42
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:72
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:84
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:89
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:279
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/parsers.php:468
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:499
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:134
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:143
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:194
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:198
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that this was caused by a "
+"permissions problem."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the importer. Please "
+"consider updating."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:240
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may want to reassign the "
+"author of the imported item to an existing user of this site. For example, you may want to "
+"import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and the new "
+"user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be "
+"necessary."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:374
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:511
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1032
+msgid "Import WordPress"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1039
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to ensure "
+"compatibility with newer export files."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1054
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, "
+"comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:1055
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:451
+#: admin/redux-framework/inc/extensions/customizer/extension_customizer.php:687
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:459
+#: admin/redux-framework/inc/extensions/customizer/extension_customizer.php:688
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:467
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:475
+#: admin/redux-framework/inc/extensions/customizer/extension_customizer.php:689
+msgid ""
+"Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:482
+msgid "Please Wait"
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:493
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: admin/redux-framework/core/enqueue.php:494
+msgid "There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: admin/redux-framework/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template files</strong> "
+"&#8211; if you encounter functionality issues this could be the reason. Ensure you update or "
+"remove them."
+msgstr ""
+
+#: admin/redux-framework/framework.php:226
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: admin/redux-framework/framework.php:226 admin/redux-framework/inc/welcome/welcome.php:199
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/redux-framework/framework.php:230 admin/redux-framework/framework.php:234
+msgid "Options"
+msgstr ""
+
+#: admin/redux-framework/framework.php:1717
+msgid "Enable"
+msgstr ""
+
+#: admin/redux-framework/framework.php:1722
+msgid "Disable"
+msgstr ""
+
+#: admin/redux-framework/framework.php:1728
+msgid "moving the mouse over"
+msgstr ""
+
+#: admin/redux-framework/framework.php:1730
+msgid "clicking"
+msgstr ""
+
+#: admin/redux-framework/framework.php:1734
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition information about the "
+"field in which they appear.  They can be %d d by using the link below."
+msgstr ""
+
+#: admin/redux-framework/framework.php:1739
+msgid "Hints"
+msgstr ""
+
+#: admin/redux-framework/framework.php:1866
+msgid "Default"
+msgstr ""
+
+#: admin/redux-framework/framework.php:2745
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: admin/redux-framework/framework.php:2754
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: admin/redux-framework/framework.php:2843
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some remotely hosted "
+"scripts."
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s\" target=\"_blank"
+"\">Redux Vendor Support</a> plugin/extension to bypass the our CDN and avoid this warning"
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not installed or not "
+"activated and thus, some controls may not render properly.  Please ensure that it is installed "
+"and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_filesystem.php:31
+#: admin/redux-framework/inc/class.redux_filesystem.php:60
+#: admin/redux-framework/inc/class.redux_filesystem.php:260
+msgid "File Permission Issues"
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or modify your wp-"
+"config.php file to contain your FTP login credentials as <a href=\"%s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_filesystem.php:60
+#: admin/redux-framework/inc/class.redux_filesystem.php:260
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> has the proper "
+"read-write permissions, or modify your wp-config.php file to contain your FTP login credentials "
+"as <a href=\"%2s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: admin/redux-framework/inc/class.redux_helpers.php:596
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of date. The core "
+"version is %s"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/extension_customizer.php:722
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/extension_customizer.php:723
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/extension_customizer.php:724
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would you like to "
+"proceed?"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_panel.php:114
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_panel.php:138
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:93
+msgid "Import from File"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:93
+msgid "Import from URL"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:96
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:102
+msgid ""
+"Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid "Import"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid "Export Options"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:114
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as you can use it as a "
+"backup should anything go wrong, or you can use it to restore your settings on this site (or "
+"any other site)."
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:121
+msgid "Copy Data"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:122
+msgid "Download Data File"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:123
+msgid "Copy Export URL"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/options_object/extension_options_object.php:82
+#: admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:124
+#: admin/redux-framework/inc/fields/color/field_color.php:73
+#: admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:79
+#: admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:277
+#: admin/redux-framework/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:314
+#: admin/redux-framework/inc/fields/media/field_media.php:198
+#: admin/redux-framework/inc/fields/slides/field_slides.php:126
+#: admin/redux-framework/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/background/field_background.php:321
+#: admin/redux-framework/inc/fields/media/field_media.php:205
+#: admin/redux-framework/inc/fields/multi_text/field_multi_text.php:69
+#: admin/redux-framework/inc/fields/multi_text/field_multi_text.php:73
+#: admin/redux-framework/inc/fields/multi_text/field_multi_text.php:76
+#: admin/redux-framework/inc/fields/slides/field_slides.php:133
+#: admin/redux-framework/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/border/field_border.php:125
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/border/field_border.php:138
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/border/field_border.php:145
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/border/field_border.php:152
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/border/field_border.php:159
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: admin/redux-framework/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/dimensions/field_dimensions.php:178
+#: admin/redux-framework/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/dimensions/field_dimensions.php:189
+#: admin/redux-framework/inc/fields/dimensions/field_dimensions.php:190
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:245
+#: admin/redux-framework/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/link_color/field_link_color.php:99
+#: admin/tgm/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/password/field_password.php:63
+#: job_manager/account-signin.php:45 wp-job-manager-resumes/account-signin.php:45
+msgid "Username"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/select/field_select.php:83
+#: admin/redux-framework/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/select/field_select.php:134
+#: admin/redux-framework/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:73
+#: admin/redux-framework/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:145
+#: admin/redux-framework/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:149
+#: admin/redux-framework/inc/fields/slides/field_slides.php:204 functions.php:550
+#: job_manager/content-single-job_listing.php:24
+#: wp-job-manager-resumes/content-single-resume.php:46
+msgid "Description"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:153
+#: admin/redux-framework/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:167
+#: admin/redux-framework/inc/fields/slides/field_slides.php:220 job_manager/job-dashboard.php:57
+#: wp-job-manager-applications/job-application-edit.php:24
+#: wp-job-manager-resumes/candidate-dashboard.php:54
+msgid "Delete"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:258
+#: admin/redux-framework/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:273
+#: admin/redux-framework/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:342
+#: admin/redux-framework/inc/fields/typography/field_typography.php:343
+#: admin/redux-framework/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:365
+#: admin/redux-framework/inc/fields/typography/field_typography.php:366
+#: admin/redux-framework/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:388
+#: admin/redux-framework/inc/fields/typography/field_typography.php:389
+#: admin/redux-framework/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:408
+#: admin/redux-framework/inc/fields/typography/field_typography.php:409
+#: admin/redux-framework/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:432
+#: admin/redux-framework/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:441
+#: admin/redux-framework/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:450
+#: admin/redux-framework/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:459
+#: admin/redux-framework/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/redux-framework/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are submitting to WordPress."
+"org Theme Repository, it is <strong>strongly</strong> suggested that you read <a href=\"%s\" "
+"target=\"_blank\">this document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete <strong> %s </strong>, or "
+"your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following arguments MUST be used "
+"for WP.org submissions, or you will be rejected because of your Redux configuration."
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: admin/redux-framework/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. You need only embed "
+"the <strong>ReduxCore</strong> folder. Embedding anything else will get your rejected from "
+"theme submission. Suspected Redux package file(s):"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage stats so we know "
+"which configurations, plugins and themes to test to ensure compatibility."
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we suggest you get up "
+"to speed by reviewing %1$s."
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized boilerplate theme or a "
+"standalone admin folder complete with all things Redux (with the help of Underscores and TGM). "
+"Save yourself a headache and try it today."
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:154 admin/redux-framework/inc/welcome/welcome.php:223
+msgid "Redux Extensions"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of Redux?  Visit our %1$s "
+"to learn more!"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:155
+#, php-format
+msgid "If so, please %1$s and consider making a %2$s to keep development of Redux moving forward."
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:156
+msgid "If you'd like to keep up to with all things Redux, please subscribe to our newsletter"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:157
+msgid "Email address"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:157
+msgid "Subscribe"
+msgstr ""
+
+#: admin/redux-framework/inc/tracking.php:166
+msgid "Close"
+msgstr ""
+
+#: admin/redux-framework/inc/validation/color/validation_color.php:15
+#: admin/redux-framework/inc/validation/color_rgba/validation_color_rgba.php:14
+#: admin/redux-framework/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/email/validation_email.php:16
+#: admin/redux-framework/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/no_html/validation_no_html.php:15
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special characters have been "
+"removed."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/numeric/validation_numeric.php:16
+#: admin/redux-framework/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid "That URL slug is in use, please choose another. <code>%s</code> is open for use."
+msgstr ""
+
+#: admin/redux-framework/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge step forward in "
+"Redux Development. Look at all that's new."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:8
+#: admin/redux-framework/inc/welcome/views/changelog.php:8
+#: admin/redux-framework/inc/welcome/views/credits.php:8
+#: admin/redux-framework/inc/welcome/views/extensions.php:82
+#: admin/redux-framework/inc/welcome/views/status_report.php:31
+#: admin/redux-framework/inc/welcome/views/support.php:8
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option framework which "
+"developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/changelog.php:2
+msgid "Redux Framework - Changelog"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/changelog.php:5
+#: admin/redux-framework/inc/welcome/views/status_report.php:28
+msgid ""
+"Our core mantra at Redux is backwards compatibility. With hundreds of thousands of instances "
+"worldwide, you can be assured that we will take care of you and your clients."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/credits.php:2
+msgid "Redux Framework - A Community Effort"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/credits.php:5
+msgid ""
+"We recognize we are nothing without our community. We would like to thank all of those who help "
+"Redux to be what it is. Thank you for your involvement."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/credits.php:15
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your name listed too? <a "
+"href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/extensions.php:76
+msgid "Redux Framework - Extensions"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/extensions.php:79
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features that will take your "
+"products to the next level."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/extensions.php:88
+msgid ""
+"While some are built specificially for developers, extensions such as Custom Fonts are sure to "
+"make any user happy."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:25
+msgid "Redux Framework - System Status"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:38
+msgid "Please copy and paste this information in your ticket when contacting support:"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:41
+msgid "Get System Report"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:44
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:51
+msgid "Copied!"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:51
+msgid "Copy for Support"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:60
+msgid "WordPress Environment"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:65
+msgid "Home URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:66
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:70
+msgid "Site URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:71
+msgid "The root URL of your site."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:75
+msgid "Redux Version"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:76
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:80
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:83
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. This directory must "
+"be writable."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:88
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:93
+msgid "WP Content URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:96
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:102
+msgid "WP Version"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:103
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:107
+msgid "WP Multisite"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:108
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:116
+msgid "Permalink Structure"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:117
+msgid "The current permalink structure as defined in Wordpress Settings->Permalinks."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:122
+msgid "Front Page Display"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:123
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:131
+msgid "Front Page"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:132
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:136
+msgid "Posts Page"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:137
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:144
+msgid "WP Memory Limit"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:145
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:150
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" target=\"_blank"
+"\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:157
+msgid "Database Table Prefix"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:159
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:163
+msgid "WP Debug Mode"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:164
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:172
+msgid "Language"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:173
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:181
+msgid "Browser"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:186
+msgid "Browser Info"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:187
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:202
+msgid "Server Environment"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:207
+msgid "Server Info"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:208
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:212
+msgid "Localhost Environment"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:213
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:223
+msgid "PHP Version"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:224
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:228
+msgid "ABSPATH"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:229
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:235
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:236
+#: admin/redux-framework/inc/welcome/views/status_report.php:241
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:240
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:245
+msgid "PHP Time Limit"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:246
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single operation before timing "
+"out (to avoid server lockups)"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:250
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:251
+msgid ""
+"The maximum number of variables your server can use for a single function to avoid overloads."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:255
+msgid "PHP Display Errors"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:256
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:267
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:268
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was designed to protect your "
+"servers on the one hand against a number of well known problems in PHP applications and on the "
+"other hand against potential unknown vulnerabilities within these applications or the PHP core "
+"itself.  If enabled on your server, Suhosin may need to be configured to increase its data "
+"submission limits."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:277
+msgid "MySQL Version"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:278
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:282
+msgid "Max Upload Size"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:283
+msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:287
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:290
+msgid "The default timezone for your server."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:293
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:304
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:310
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to communicate with other "
+"servers. Please contact your hosting provider."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:349
+msgid "Remote Post"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:350
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:355
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact your hosting provider."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:358
+#: admin/redux-framework/inc/welcome/views/status_report.php:373
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:365
+msgid "Remote Get"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:366
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:371
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote servers. Contact your "
+"hosting provider."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:405
+msgid "Active Plugins"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:421
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:427
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:445
+msgid "Redux Instance: "
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:452
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:460
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:468
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:473
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:478
+msgid ""
+"The page slug denotes the string used for the options panel page for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:483
+msgid ""
+"The page permissions variable sets the permission level required to access the options panel "
+"for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:488
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item for this instance "
+"of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:493
+msgid ""
+"The page parent variable sets where the options menu will be placed on the WordPress admin "
+"sidebar for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:499
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:504
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled for this instance "
+"of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:509
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated for the customizer "
+"and Google fonts for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:518
+msgid "The specified template path containing custom template files for this instance of Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:523
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:546
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:577
+msgid "Theme"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:582 comments.php:94
+msgid "Name"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:583
+msgid "The name of the current active theme."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:587
+#: admin/tgm/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:588
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:593
+msgid "is available"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:598
+msgid "Author URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:599
+msgid "The theme developers URL."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:603
+msgid "Child Theme"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:604
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:606
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build personally, we recommend "
+"using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:614
+msgid "Parent Theme Name"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:616
+msgid "The name of the parent theme."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:620
+msgid "Parent Theme Version"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:623
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:627
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/status_report.php:630
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:2
+msgid "Redux Framework - Support"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:5
+msgid "We are an open source project used by developers to make powerful control panels."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:20
+msgid "Generate a Support URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:21
+msgid "Select Support Type"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:22
+#: admin/redux-framework/inc/welcome/views/support.php:65
+msgid "How to Get Support"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:27
+msgid "Submit a Support Request"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:30
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:33
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to remedy your issue. "
+"This action WILL send information securely to a remote server. To see the type of information "
+"sent, please look at the  <a href=\"%s\">Status tab</a>."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:37
+msgid ""
+"Generate\n"
+"                        a Support URL"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:44
+msgid "Select Your Support Type"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:47
+msgid "What type of user are you?"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:52
+msgid "User"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:53
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:56
+msgid "Developer"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:57
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:68
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your support URL below. "
+"Please also provide any information that will help us to reproduce your issue."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:74
+msgid ""
+"Listed below are the Wordpress plugins and/or theme installed on your site that utilize Redux "
+"Framework. We do not directly support products created with our framework.  It is the "
+"responsibility of the plugin or theme developer to support their work. You will need to contact "
+"the author(s) of the products listed below with your support questions."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:77
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the Support URL in the box "
+"below."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/views/support.php:215
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target=\"_blank\">following "
+"article</a> before asking for support from us directly."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:177
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:199
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:207
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:215
+msgid "Get Support"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:232
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:240
+msgid "Redux Framework Status"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:340
+msgid "What's New"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:343
+msgid "Extensions"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:346
+msgid "Changelog"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:349
+msgid "Credits"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:352
+msgid "Support"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:355
+#: admin/tgm/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: admin/redux-framework/inc/welcome/welcome.php:512
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/footer.tpl.php:50
+#: admin/redux-framework/templates/panel/header_stickybar.tpl.php:20
+msgid "Save Changes"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/footer.tpl.php:54
+#: admin/redux-framework/templates/panel/header_stickybar.tpl.php:24
+msgid "Reset Section"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/footer.tpl.php:55
+#: admin/redux-framework/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset All"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/footer.tpl.php:60
+#: admin/redux-framework/templates/panel/header_stickybar.tpl.php:28
+msgid "Working..."
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:11
+#: admin/redux-framework/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer mode enabled. "
+"Contact them directly to fix it."
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: admin/redux-framework/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum compatibility "
+"with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:363
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:378
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:399 admin/tgm/class-tgm-plugin-activation.php:3034
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:400 admin/tgm/class-tgm-plugin-activation.php:2837
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:833 admin/tgm/class-tgm-plugin-activation.php:3443
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and renaming did not "
+"work."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:940 admin/tgm/class-tgm-plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according to the "
+"WordPress guidelines."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not packaged in a "
+"folder."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1121 admin/tgm/class-tgm-plugin-activation.php:2833
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1886
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2240
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2285
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2288
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2291
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2294
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2376
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2496
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2505
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2575
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2793
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3375 admin/tgm/class-tgm-plugin-activation.php:3381
+msgid "Show Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3375 admin/tgm/class-tgm-plugin-activation.php:3381
+msgid "Hide Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, so please be "
+"patient."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: author.php:38
+msgid "About:"
+msgstr ""
+
+#: author.php:51
+msgid "Recent Posts by"
+msgstr ""
+
+#: author.php:80
+msgid "Recent Comments by"
+msgstr ""
+
+#: author.php:89
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: author.php:92
+msgid "No comments by"
+msgstr ""
+
+#: author.php:92
+msgid "yet."
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37 comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:78
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:79
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:81
+msgid "Comment"
+msgstr ""
+
+#: comments.php:86
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:104
+msgid "Email"
+msgstr ""
+
+#: comments.php:114 functions.php:523 job_manager/content-single-job_listing-company.php:78
+#: single-company.php:49
+msgid "Website"
+msgstr ""
+
+#: content-gallery.php:102 content-image.php:73 content-page.php:15 content-search.php:41
+#: content-single.php:131 content-video.php:68 content.php:71 page-fullwidth.php:20
+msgid "Pages:"
+msgstr ""
+
+#: content-none.php:16
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:25
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-search.php:49
+msgid "Read More"
+msgstr ""
+
+#: content-single.php:140
+msgid "Social Share:"
+msgstr ""
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:80
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Account Menu"
+msgstr ""
+
+#: functions.php:172
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:182
+msgid "Jobs Sidebar"
+msgstr ""
+
+#: functions.php:192
+msgid "Resumes Sidebar"
+msgstr ""
+
+#: functions.php:202
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:211
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:220
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:229
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:342
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: functions.php:343
+msgid "Password:"
+msgstr ""
+
+#: functions.php:385
+#, php-format
+msgid "<h5>%s</h5>"
+msgstr ""
+
+#: functions.php:386
+msgid "says:"
+msgstr ""
+
+#: functions.php:389
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:389
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:395
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:407
+msgid "Reply"
+msgstr ""
+
+#: functions.php:502
+msgid "Job Title"
+msgstr ""
+
+#: functions.php:503 functions.php:519 functions.php:548 functions.php:561
+msgid "Cover Image"
+msgstr ""
+
+#: functions.php:504 functions.php:549
+msgid ""
+"Image size should be at least <strong>346x346</strong>. If your image is bigger, we'll crop it."
+msgstr ""
+
+#: functions.php:505 functions.php:522
+msgid "Your Name"
+msgstr ""
+
+#: functions.php:506
+msgid "Enter your name"
+msgstr ""
+
+#: functions.php:507
+msgid "Briefly describe yourself"
+msgstr ""
+
+#: functions.php:508 functions.php:526
+msgid "@yourname"
+msgstr ""
+
+#: functions.php:509
+msgid "A link to a video with you"
+msgstr ""
+
+#: functions.php:520 functions.php:562
+msgid "Image size should be at least <strong>346x346</strong>."
+msgstr ""
+
+#: functions.php:521
+msgid "URL to your image"
+msgstr ""
+
+#: functions.php:524
+msgid "Tagline"
+msgstr ""
+
+#: functions.php:527
+msgid "Brief description about you"
+msgstr ""
+
+#: functions.php:528
+msgid "Video"
+msgstr ""
+
+#: functions.php:529
+msgid "URL to your video"
+msgstr ""
+
+#: functions.php:546 functions.php:560
+msgid "Job title"
+msgstr ""
+
+#: functions.php:547
+msgid "e.g. \"Pet Sitter\""
+msgstr ""
+
+#: header.php:99
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/extras.php:134
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/meta-pages.php:29 inc/meta-pages.php:64
+msgid "Page Appearance"
+msgstr ""
+
+#: inc/meta-pages.php:36 inc/meta-pages.php:71
+msgid "You can enable or disable page title."
+msgstr ""
+
+#: inc/meta-pages.php:42 inc/meta-pages.php:77
+msgid "Slider"
+msgstr ""
+
+#: inc/meta-pages.php:43 inc/meta-pages.php:78
+msgid "You can enable or disable slider."
+msgstr ""
+
+#: inc/meta-pages.php:50
+msgid "Select Slider"
+msgstr ""
+
+#: inc/meta-pages.php:51
+msgid "Choose which slider to display."
+msgstr ""
+
+#: inc/sliders/flexslider.php:59
+msgid ""
+"<strong>DF Custom Post Types for Petsitter</strong> plugin is missed. Please install it to see "
+"Slider posts."
+msgstr ""
+
+#: inc/sliders/flexslider.php:132
+msgid "<strong>WP Job Manager</strong> plugin is missed. Please install and activate it."
+msgstr ""
+
+#: inc/sliders/flexslider.php:176
+msgid "<strong>Resume Manager</strong> add-on is missed. Please install and activate it."
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:115 inc/template-tags.php:133
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:117 inc/template-tags.php:135
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/theme-portfoliometa.php:10
+msgid "Item Info"
+msgstr ""
+
+#: inc/theme-portfoliometa.php:16
+msgid "Short Info"
+msgstr ""
+
+#: inc/theme-portfoliometa.php:17
+msgid "You can write a few words here."
+msgstr ""
+
+#: inc/theme-portfoliometa.php:23 inc/theme-postmeta.php:18
+msgid "Gallery - Gallery IDs"
+msgstr ""
+
+#: inc/theme-portfoliometa.php:24 inc/theme-postmeta.php:19
+msgid "Enter the gallery IDs you created. Example: 9,21"
+msgstr ""
+
+#: inc/theme-postmeta.php:12
+msgid "Post Formats Meta"
+msgstr ""
+
+#: inc/theme-postmeta.php:26
+msgid "Quote - Author"
+msgstr ""
+
+#: inc/theme-postmeta.php:27
+msgid "Enter quote auhthor name for Quote post format"
+msgstr ""
+
+#: inc/theme-postmeta.php:34
+msgid "Quote - Author Info"
+msgstr ""
+
+#: inc/theme-postmeta.php:35
+msgid "Enter quote auhthor info (position) for Quote post format"
+msgstr ""
+
+#: inc/theme-postmeta.php:42
+msgid "Link - URL"
+msgstr ""
+
+#: inc/theme-postmeta.php:43
+msgid "URL for the link"
+msgstr ""
+
+#: inc/widgets/widget__flickr.php:15
+msgid "The most recent images from your flickr account."
+msgstr ""
+
+#: inc/widgets/widget__flickr.php:79 inc/widgets/widget__recent-posts.php:85
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget__flickr.php:84
+msgid "ID:"
+msgstr ""
+
+#: inc/widgets/widget__flickr.php:89
+msgid "Number of images:"
+msgstr ""
+
+#: inc/widgets/widget__recent-posts.php:15
+msgid "The most recent posts on your site."
+msgstr ""
+
+#: inc/widgets/widget__recent-posts.php:90
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets/widget__recent-posts.php:95
+msgid "Thumbnail:"
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:15
+msgid "Popular posts, Recent Post and Comments."
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:43
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:44
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:125
+msgid "says"
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:170
+msgid "Number of popular posts:"
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:174
+msgid "Number of recent posts:"
+msgstr ""
+
+#: inc/widgets/widget__tabs.php:178
+msgid "Number of comments:"
+msgstr ""
+
+#: job_manager/account-signin.php:4 wp-job-manager-resumes/account-signin.php:4
+msgid "Your account"
+msgstr ""
+
+#: job_manager/account-signin.php:8 wp-job-manager-resumes/account-signin.php:8
+#, php-format
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr ""
+
+#: job_manager/account-signin.php:11 wp-job-manager-resumes/account-signin.php:11
+msgid "Sign out"
+msgstr ""
+
+#: job_manager/account-signin.php:22 wp-job-manager-resumes/account-signin.php:22
+msgid "Have an account?"
+msgstr ""
+
+#: job_manager/account-signin.php:25 job_manager/job-dashboard-login.php:9
+#: wp-job-manager-resumes/account-signin.php:25
+#: wp-job-manager-resumes/candidate-dashboard-login.php:9
+msgid "Sign in"
+msgstr ""
+
+#: job_manager/account-signin.php:32
+#, php-format
+msgid ""
+"If you don&rsquo;t have an account you can %screate one below by entering your email address. A "
+"password will be automatically emailed to you."
+msgstr ""
+
+#: job_manager/account-signin.php:32
+msgid "optionally"
+msgstr ""
+
+#: job_manager/account-signin.php:37
+msgid "You must sign in to create a new listing."
+msgstr ""
+
+#: job_manager/account-signin.php:45 job_manager/account-signin.php:52
+#: job_manager/job-submit.php:26 job_manager/job-submit.php:45
+#: wp-job-manager-applications/application-form.php:13
+#: wp-job-manager-resumes/account-signin.php:45 wp-job-manager-resumes/resume-submit.php:34
+msgid "(optional)"
+msgstr ""
+
+#: job_manager/account-signin.php:52
+msgid "Your email"
+msgstr ""
+
+#: job_manager/account-signin.php:54
+msgid "you@yourdomain.com"
+msgstr ""
+
+#: job_manager/content-job_listing.php:25 job_manager/content-single-job_listing-company.php:52
+#: job_manager/content-summary-job_listing.php:25 single-company.php:61
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: job_manager/content-single-job_listing-company.php:55 single-company.php:64
+msgid "This position has been filled"
+msgstr ""
+
+#: job_manager/content-single-job_listing-company.php:57
+msgid "Applications have closed"
+msgstr ""
+
+#: job_manager/content-single-job_listing-company.php:92
+msgid "LinkedIn"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:7
+msgid "This listing has expired"
+msgstr ""
+
+#: job_manager/custom-fields/job-facebook.php:16 job_manager/custom-fields/job-facebook.php:41
+msgid "Facebook username"
+msgstr ""
+
+#: job_manager/custom-fields/job-facebook.php:19 job_manager/custom-fields/job-facebook.php:43
+msgid "yourname"
+msgstr ""
+
+#: job_manager/custom-fields/job-facebook.php:44
+msgid "Your Facebook username here."
+msgstr ""
+
+#: job_manager/custom-fields/job-gallery.php:16 job_manager/custom-fields/job-gallery.php:43
+#: wp-job-manager-resumes/custom-fields/resume-custom-fields.php:16
+#: wp-job-manager-resumes/custom-fields/resume-custom-fields.php:43
+msgid "Gallery Images"
+msgstr ""
+
+#: job_manager/custom-fields/job-gallery.php:45
+#: wp-job-manager-resumes/custom-fields/resume-custom-fields.php:45
+msgid "URL to your Image"
+msgstr ""
+
+#: job_manager/custom-fields/job-gallery.php:47
+msgid "To add multiple images click on 'Add file' button"
+msgstr ""
+
+#: job_manager/custom-fields/job-google.php:16 job_manager/custom-fields/job-google.php:41
+msgid "Google+ Account ID"
+msgstr ""
+
+#: job_manager/custom-fields/job-google.php:19 job_manager/custom-fields/job-google.php:43
+msgid "Account ID"
+msgstr ""
+
+#: job_manager/custom-fields/job-google.php:44
+msgid "Your Google+ Account ID here."
+msgstr ""
+
+#: job_manager/custom-fields/job-linkedin.php:16 job_manager/custom-fields/job-linkedin.php:41
+msgid "LinkedIn Public Profile URL"
+msgstr ""
+
+#: job_manager/custom-fields/job-linkedin.php:19 job_manager/custom-fields/job-linkedin.php:43
+msgid "http://www.linkedin.com/..."
+msgstr ""
+
+#: job_manager/custom-fields/job-linkedin.php:44
+msgid "Your Linkedin username here."
+msgstr ""
+
+#: job_manager/job-application.php:11
+msgid "Apply for job"
+msgstr ""
+
+#: job_manager/job-dashboard-login.php:6
+msgid "You need to be signed in to manage your listings."
+msgstr ""
+
+#: job_manager/job-dashboard.php:3
+msgid ""
+"Your listings are shown in the table below. Expired listings will be automatically removed "
+"after 30 days."
+msgstr ""
+
+#: job_manager/job-dashboard.php:17
+msgid "You do not have any active listings."
+msgstr ""
+
+#: job_manager/job-dashboard.php:36 job_manager/job-dashboard.php:52
+#: wp-job-manager-resumes/candidate-dashboard.php:40
+#: wp-job-manager-resumes/candidate-dashboard.php:44
+msgid "Edit"
+msgstr ""
+
+#: job_manager/job-dashboard.php:39
+msgid "Mark not filled"
+msgstr ""
+
+#: job_manager/job-dashboard.php:41
+msgid "Mark filled"
+msgstr ""
+
+#: job_manager/job-dashboard.php:46 wp-job-manager-resumes/candidate-dashboard.php:49
+msgid "Relist"
+msgstr ""
+
+#: job_manager/job-filters.php:17 wp-job-manager-resumes/resume-filters.php:17
+msgid "Any Location"
+msgstr ""
+
+#: job_manager/job-filters.php:77
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in "
+"order to view listings."
+msgstr ""
+
+#: job_manager/job-submit.php:39
+msgid "Your Details"
+msgstr ""
+
+#: job_manager/job-submitted.php:6
+#, php-format
+msgid "%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: job_manager/job-submitted.php:9
+#, php-format
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+
+#: loop-portfolio.php:83
+msgid "Not Found"
+msgstr ""
+
+#: loop-portfolio.php:85
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps searching will help "
+"find a related post."
+msgstr ""
+
+#: loop-portfolio.php:205
+msgid ""
+"<strong>DF Custom Post Types for Petsitter</strong> plugin is missed. Please install it to see "
+"Portfolio posts."
+msgstr ""
+
+#: page-header.php:23
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: page-header.php:36
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: page-header.php:46
+#, php-format
+msgid "%s Search Results for "
+msgstr ""
+
+#: page-header.php:56
+msgid "Page not found"
+msgstr ""
+
+#: page-header.php:59
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: page-header.php:90
+msgid "All Jobs"
+msgstr ""
+
+#: page-header.php:93
+msgid "All Resumes"
+msgstr ""
+
+#: page-header.php:96
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: page-header.php:99
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: page-header.php:99
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: page-header.php:102
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: page-header.php:102
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: page-header.php:105
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: product-searchform.php:3 searchform.php:4 searchform.php:6
+msgid "Search..."
+msgstr ""
+
+#: product-searchform.php:4
+msgid "Search for products"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""
+
+#: single-company.php:37
+msgid "Details"
+msgstr ""
+
+#: single-resume_profile.php:48 wp-job-manager-resumes/content-single-resume.php:34
+#, php-format
+msgid "Updated %s ago"
+msgstr ""
+
+#: template-coming-soon.php:54
+msgid "days"
+msgstr ""
+
+#: template-coming-soon.php:59
+msgid "hours"
+msgstr ""
+
+#: template-coming-soon.php:64
+msgid "minutes"
+msgstr ""
+
+#: template-coming-soon.php:69
+msgid "seconds"
+msgstr ""
+
+#: template-jobs-pricing-style1.php:90 template-jobs-pricing-style1.php:97
+#: template-jobs-pricing-style2.php:96 template-jobs-pricing-style2.php:103
+#: template-jobs-pricing-style3.php:95 template-jobs-pricing-style3.php:102
+#: template-jobs-pricing-style4.php:89 template-jobs-pricing-style4.php:96
+#: template-resumes-pricing-style1.php:88 template-resumes-pricing-style1.php:95
+#: template-resumes-pricing-style2.php:95 template-resumes-pricing-style2.php:102
+#: template-resumes-pricing-style3.php:95 template-resumes-pricing-style3.php:102
+#: template-resumes-pricing-style4.php:88 template-resumes-pricing-style4.php:95
+#: wc-paid-listings/my-packages.php:35
+msgid "Unlimited"
+msgstr ""
+
+#: template-jobs-pricing-style1.php:115 template-jobs-pricing-style2.php:121
+#: template-jobs-pricing-style3.php:120 template-jobs-pricing-style4.php:117
+#: template-resumes-pricing-style1.php:113 template-resumes-pricing-style2.php:120
+#: template-resumes-pricing-style3.php:120 template-resumes-pricing-style4.php:116
+msgid "Add to cart"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:11
+msgid "My job packages"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:13
+msgid "My resume packages"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:21
+msgid "Package Name"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:22
+msgid "Remaining"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:24
+msgid "Listing Duration"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:26
+msgid "Featured?"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:37
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/my-packages.php:39
+msgid "Yes"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:39
+msgid "No"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:6 wc-paid-listings/resume-package-selection.php:6
+msgid "Your Packages:"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:19
+#, php-format
+msgid "%s job posted out of %d"
+msgid_plural "%s jobs posted out of %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:21
+#, php-format
+msgid "%s job posted"
+msgid_plural "%s jobs posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:25 wc-paid-listings/package-selection.php:52
+#: wc-paid-listings/resume-package-selection.php:25
+#: wc-paid-listings/resume-package-selection.php:52
+#, php-format
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:34 wc-paid-listings/resume-package-selection.php:34
+msgid "Purchase Package:"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:51
+#, php-format
+msgid "%s for %s job"
+msgid_plural "%s for %s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:51 wc-paid-listings/resume-package-selection.php:49
+msgid "unlimited"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:61 wc-paid-listings/resume-package-selection.php:63
+msgid "No packages found"
+msgstr ""
+
+#: wc-paid-listings/resume-package-selection.php:19
+#, php-format
+msgid "%s resume posted out of %d"
+msgid_plural "%s resumes posted out of %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/resume-package-selection.php:21
+#, php-format
+msgid "%s resume posted"
+msgid_plural "%s resumes posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/resume-package-selection.php:49
+#, php-format
+msgid "%s to post %d resume"
+msgid_plural "%s to post %s resumes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/checkout/payment.php:34
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. Please contact us "
+"if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:41
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please ensure you click the "
+"<em>Update Totals</em> button before placing your order. You may be charged more than the "
+"amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:42
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:49
+msgid "Save Address"
+msgstr ""
+
+#: wp-job-manager-applications/application-form-login.php:2
+msgid "Sign In"
+msgstr ""
+
+#: wp-job-manager-applications/application-form-login.php:2
+msgid "to apply for this position."
+msgstr ""
+
+#: wp-job-manager-applications/application-form.php:24
+#: wp-job-manager-resumes/apply-with-resume.php:40
+msgid "Send application"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:4
+msgid "Application status"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:17
+msgid "Rating (out of 5)"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:25
+msgid "Save changes"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:4
+msgid "Download CSV"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:6
+#, php-format
+msgid "The job applications for \"%s\" are listed below."
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:15
+msgid "Filter by status"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:28
+msgid "Newest first"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:29
+msgid "Sort by name"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:30
+msgid "Sort by rating"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:6
+msgid "Remove Bookmark"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:6
+#, php-format
+msgid "This %s is bookmarked!"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:8
+#, php-format
+msgid "Bookmark This %s"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:13
+msgid "Notes:"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:18
+msgid "Update Bookmark"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:18
+msgid "Add Bookmark"
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:32
+msgid ""
+"If you don&rsquo;t have an account you can create one below by entering your email address. A "
+"password will be automatically emailed to you."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:37
+msgid "You must sign in to submit a resume."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:9
+msgid ""
+"Apply using your online resume; just enter a short message and choose one of your resumes to "
+"email your application."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:11
+msgid "Online resume"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:14
+msgid "Choose a resume..."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:24
+msgid "Message"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:30
+msgctxt "default cover letter"
+msgid "To whom it may concern,"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:32
+#, php-format
+msgctxt "default cover letter"
+msgid ""
+"I am very interested in the %s position at %s. I believe my skills and work experience make me "
+"an ideal candidate for this role. I look forward to speaking with you soon about this position."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:34
+msgctxt "default cover letter"
+msgid "Thank you for your consideration."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:46
+msgid ""
+"You can apply to this job and others using your online resume. Click the link below to submit "
+"your online resume and email your application to this employer."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:49
+msgid "Submit resume and apply"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard-login.php:6
+msgid "You need to be signed in to manage your resumes."
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:7
+msgid "Your resume can be viewed, edited or removed below."
+msgid_plural "Your resume(s) can be viewed, edited or removed below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:21
+msgid "You do not have any active resume listings."
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:41
+msgid "Hide"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:45
+msgid "Publish"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:77
+#, php-format
+msgid "Expires %s"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:95
+msgid "Add Resume"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details.php:14
+msgid "Contact"
+msgstr ""
+
+#: wp-job-manager-resumes/content-resume.php:21
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:87
+msgid "Skills"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:97
+msgid "Experience"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:105
+#: wp-job-manager-resumes/content-single-resume.php:125
+#, php-format
+msgid "%s at %s"
+msgstr ""
+
+#: wp-job-manager-resumes/content-single-resume.php:117
+msgid "Education"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:5
+#, php-format
+msgid "Resume submitted successfully. To view your resume <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:7
+msgid "Resume submitted successfully."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:11
+msgid "Resume created successfully. Your resume will be visible once approved."
+msgstr ""

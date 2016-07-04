@@ -1,0 +1,38 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-05-11 15:34:18 --- EMERGENCY: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Arr::is_assoc() must be of the type array, integer given, called in /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php on line 439 and defined ~ SYSPATH/classes/Kohana/Arr.php [ 30 ] in /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php:30
+2016-05-11 15:34:18 --- DEBUG: #0 /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php(30): Kohana_Core::error_handler(4096, 'Argument 1 pass...', '/home/emwoo/web...', 30, Array)
+#1 /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php(439): Kohana_Arr::is_assoc(1)
+#2 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/reader/kohana.php(89): Kohana_Arr::merge(Array, 1)
+#3 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/reader/kohana.php(42): I18n_Reader_Kohana->load('pl')
+#4 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(129): I18n_Reader_Kohana->get('bauth/frontend/...', 'pl')
+#5 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(80): I18n_Core->get('bauth/frontend/...', 'pl')
+#6 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(114): I18n_Core->form('bauth/frontend/...', 'other', 'pl')
+#7 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(56): I18n_Core->plural('bauth/frontend/...', 0, 'pl')
+#8 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/init.php(38): I18n_Core->translate('bauth/frontend/...', 0, NULL, 'pl')
+#9 /home/emwoo/websites/proffer/private/modules/akosoft/core/classes/Route.php(136): ___('bauth/frontend/...')
+#10 /home/emwoo/websites/proffer/private/modules/akosoft/users/init.php(15): Route::set('bauth/frontend/...', true)
+#11 /home/emwoo/websites/proffer/private/modules/akosoft/core/classes/Kohana.php(244): require_once('/home/emwoo/web...')
+#12 /home/emwoo/websites/proffer/private/modules/akosoft/modules/classes/modules.php(158): Kohana::init_modules(Array)
+#13 /home/emwoo/websites/proffer/private/modules/akosoft/core/bootstrap.php(37): Modules::load()
+#14 /home/emwoo/websites/proffer/private/application/bootstrap.php(136): require_once('/home/emwoo/web...')
+#15 /home/emwoo/websites/proffer/index.php(107): require('/home/emwoo/web...')
+#16 {main} in /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php:30
+2016-05-11 20:59:55 --- EMERGENCY: ErrorException [ 4096 ]: Argument 1 passed to Kohana_Arr::is_assoc() must be of the type array, integer given, called in /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php on line 439 and defined ~ SYSPATH/classes/Kohana/Arr.php [ 30 ] in /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php:30
+2016-05-11 20:59:55 --- DEBUG: #0 /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php(30): Kohana_Core::error_handler(4096, 'Argument 1 pass...', '/home/emwoo/web...', 30, Array)
+#1 /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php(439): Kohana_Arr::is_assoc(1)
+#2 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/reader/kohana.php(89): Kohana_Arr::merge(Array, 1)
+#3 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/reader/kohana.php(42): I18n_Reader_Kohana->load('pl')
+#4 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(129): I18n_Reader_Kohana->get('bauth/frontend/...', 'pl')
+#5 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(80): I18n_Core->get('bauth/frontend/...', 'pl')
+#6 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(114): I18n_Core->form('bauth/frontend/...', 'other', 'pl')
+#7 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/classes/i18n/core.php(56): I18n_Core->plural('bauth/frontend/...', 0, 'pl')
+#8 /home/emwoo/websites/proffer/private/modules/kohana/I18n_Plural/init.php(38): I18n_Core->translate('bauth/frontend/...', 0, NULL, 'pl')
+#9 /home/emwoo/websites/proffer/private/modules/akosoft/core/classes/Route.php(136): ___('bauth/frontend/...')
+#10 /home/emwoo/websites/proffer/private/modules/akosoft/users/init.php(15): Route::set('bauth/frontend/...', true)
+#11 /home/emwoo/websites/proffer/private/modules/akosoft/core/classes/Kohana.php(244): require_once('/home/emwoo/web...')
+#12 /home/emwoo/websites/proffer/private/modules/akosoft/modules/classes/modules.php(158): Kohana::init_modules(Array)
+#13 /home/emwoo/websites/proffer/private/modules/akosoft/core/bootstrap.php(37): Modules::load()
+#14 /home/emwoo/websites/proffer/private/application/bootstrap.php(136): require_once('/home/emwoo/web...')
+#15 /home/emwoo/websites/proffer/index.php(107): require('/home/emwoo/web...')
+#16 {main} in /home/emwoo/websites/proffer/private/modules/kohana/system/classes/Kohana/Arr.php:30

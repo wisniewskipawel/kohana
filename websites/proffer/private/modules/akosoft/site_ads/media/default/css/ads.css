@@ -1,0 +1,102 @@
+#ad_half_box {
+    float: right;
+}
+
+/* Banners */
+
+.banners {
+    clear: both;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.ads_frame {
+    margin: auto;
+    display: block;
+    border: none;
+    overflow: hidden;
+}
+
+.banner_place_a .ads_frame,
+.banner_place_ab .ads_frame,
+.banner_place_ac .ads_frame,
+.banner_place_f .ads_frame,
+.banner_place_g .ads_frame
+{
+    width: 750px;
+    height: 100px;
+}
+
+.banner_place_b, 
+.banner_place_bb
+{
+    margin: 0;
+}
+
+.banner_place_b .ads_frame, 
+.banner_place_bb .ads_frame
+{
+    width: 180px;
+    height: 150px;
+}
+
+.banner_place_d .ads_frame,
+.banner_place_d2 .ads_frame
+{
+    width: 120px;
+    height: 600px;
+}
+.banner_place_d {
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    margin-left: -130px;
+}
+.banner_place_d2 {
+    position: absolute;
+    right: 0px;
+    top: 43px;
+    margin-right: -130px;
+}
+
+.banner_place_e .ads_frame {
+    width: 390px;
+    height: 250px;
+}
+
+.banner_place_galleries_a .ads_frame {
+    width: 600px;
+    height: 100px;
+}
+
+.banner_place_galleries_b .ads_frame {
+    width: 250px;
+    height: 250px;
+}
+
+#sponsored-links ul li { float: left; margin: 0 10px; }
+
+/* TEXT BOX
+*******************************************************************************/
+
+.text-links .ad_entry { padding-bottom: 8px; border-bottom: 1px dashed #ebebeb; margin-bottom: 8px; }
+.text-links .ad_entry:last-child { padding-bottom: 0; border-bottom: 0 none; }
+.text-links .ad_entry .ad_title { font-weight: bold; margin-bottom: 6px; display: block; }
+
+/* Ads page template */
+
+body#ads_layout {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#ads_layout a img{
+    border: none;
+    outline: none;
+}
+
+.banner {
+    margin: auto;
+    text-align: center;
+}

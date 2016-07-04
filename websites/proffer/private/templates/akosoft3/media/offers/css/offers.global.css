@@ -1,0 +1,204 @@
+/**
+    Offers list
+**/
+
+.offers_list {
+    margin-top: 10px;
+    padding: 0;
+}
+.offers_list > li {
+    clear: both; margin: 20px 6px; padding-bottom: 20px;
+    border-bottom: 1px dotted #cfcfcf; font-size: 11px; list-style-type: none;
+    line-height: 11px;
+}
+.offers_list > li:last-child { border: none; padding-bottom: 0px; }
+
+.offers_list .entry { 
+    overflow: hidden; 
+    clear: both; 
+    background: white; 
+    margin: 5px;
+    position:relative;
+}
+
+.offers_list .entry .image-wrapper { width: 170px; float: left; margin-right: 10px; margin-bottom: 10px; }
+.offers_list .entry .image-wrapper img { max-width: 170px; max-height: 170px; position: relative; }
+
+.offers_list .entry .info { margin-right: 170px; padding: 5px 10px; }
+
+.offers_list .entry .header {
+    position: relative;
+    color: #585858;
+    padding: 0 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+.offers_list .entry h3 {
+    padding: 0;
+    margin: 10px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 17px;
+    color: #0072bc;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.offers_list .entry .header .expiration_date {
+    font-size: 12px;
+    font-weight: 700;
+    color: #242424;
+    background: url(../img/expiration_date-icon.png) no-repeat left top;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.offers_list .entry .header .expiration_date span {
+    font-size: 14px;
+}
+
+.offers_list .entry .description {
+    border-bottom: 1px solid #ebebeb; 
+    color: #545454; 
+    font-size: 13px;
+    white-space: nowrap; 
+    overflow: hidden;
+    line-height: 1.4em; 
+    padding: 10px;
+}
+
+.offers_list .details {
+    text-align: center;
+    width: 170px;
+    background-color: #ececec;
+    color: white;
+    float: right;
+    position: absolute; right: 0; top: 0; bottom: 0;
+}
+
+.offers_list .entry .share {
+    padding: 6px 10px;
+}
+
+.offers_list .entry .share label {
+    font-weight: 700;
+    font-size: 12px;
+    color: #242424;
+}
+
+.offers_list .entry .share nav {
+    display: inline-block;
+}
+
+.offers_list .details .discount {
+    line-height: 30px;
+    font-size: 14px;
+    background: #b0b0b0;
+    position: relative;
+    padding: 4px 0;
+}
+.offers_list .details .discount .discount_value {
+    font-weight: 700;
+    font-size: 26px;
+}
+.offers_list .details .discount:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #b0b0b0;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.offers_list .details .info_group { padding: 10px 2px; font-size: 12px; }
+.offers_list .details .info_group > * {
+    padding: 10px 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+.offers_list .details .info_group > *:last-child {
+    border-bottom: none;
+}
+.offers_list .details .info_group label {
+    font-weight: normal;
+    margin-bottom: 6px;
+    display: block;
+    color: #7d7d7d;
+    text-transform: uppercase;
+}
+.offers_list .details .info_group span {
+    display: inline-block;
+    color: #0072bc;
+    font-size: 16px;
+    font-weight: 700;
+    clear: both;
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+.offers_list .promoted .details .discount {
+    background-color: #0072bc;
+    color: #ffffff;
+}
+.offers_list .promoted .details .discount:after {
+    border-top-color: #0072bc;
+}
+
+.offers_list.actions_list > li { margin-top: 0px; margin-bottom: 15px; }
+
+#company-promotions .offers_list li .info { width: 420px; }
+
+@media (max-width: 768px) {
+   .offers_list .details { display: none; }
+   .offers_list .entry .info { margin-right: 0; }
+}
+@media (max-width: 550px) {
+    .offers_list .entry_list_item-body {
+        clear: both;
+    }
+
+    .offers_list .entry .image-wrapper { float: none; margin: auto; }
+}
+
+/* Profile offer coupons */
+
+#offer_coupons {
+    width: 100%;
+}
+
+#offer_coupons th {
+    background: #cfcfcf; 
+    padding: 5px;
+}
+
+#offer_coupons td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #8f8f8f;
+}
+
+/* list box */
+
+.offers_list.list_box { padding: 0; margin: 0; overflow: hidden; }
+
+.offers_list.list_box li {
+    float: left; width: 260px; text-align: center; overflow: hidden; clear: none; 
+    padding: 0; margin: 0 10px; border: none; color: #898989;
+}
+.offers_list.list_box li > * { margin-bottom: 6px; }
+
+.offers_list.list_box li .title {
+    font-size: 15px; font-weight: bold; line-height: 1.4em; height: 2.8em;
+    overflow: hidden; text-overflow: ellipsis; display: inline-block; color: #252525;
+}
+
+.offers_list.list_box li .price_side .price { font-size: 14px; color: #252525; font-weight: bold; }
+.offers_list.list_box li .category a { font-weight: bold; }
+
+/* Notifier form */
+#Form_Frontend_Offer_Notifier #bform-categories-row .controls label { display: inline-block; width: 200px; }
+#Form_Frontend_Offer_Notifier #bform-categories-row .controls .check-all-btn { display: inline-block; margin: 5px 0 10px; float: right; }
+#Form_Frontend_Offer_Notifier #bform-categories-row .controls .categories { clear: both; }

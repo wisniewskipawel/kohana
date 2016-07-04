@@ -1,0 +1,1681 @@
+// Variables
+@import "color-vars.less";
+
+
+
+/*
+// #Links
+// --------------------------------------------------
+*/
+a {
+	color: @link-color;
+
+	&:hover {
+		color: @link-color-hover;
+	}
+}
+
+.title-accent {
+
+	.section-dark & {
+
+		> h3 {
+
+			> span {
+				color: @theme-color1;
+			}
+		}
+	}
+}
+
+
+
+/*
+// #Buttons
+// --------------------------------------------------
+*/
+.btn-primary { .btn-styles(@theme-color1);}
+.btn-secondary { .btn-styles(@theme-color3);}
+.btn-link {
+	color: @theme-color3;
+
+	&:hover,
+	&:active,
+	&.active {
+		color: darken(@theme-color3,5%);
+	}
+}
+
+
+
+
+/*
+// #Lists
+// --------------------------------------------------
+*/
+div.list {
+
+	ul {
+
+		li {
+
+			&:before {
+				color: @theme-color1;
+			}
+		}
+	}
+
+	&.list__lg {
+
+		ul {
+
+			li {
+
+				&:before {
+					border: 1px solid @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+
+/*
+// #Thumbnails
+// --------------------------------------------------
+*/
+/* Image Box (used on Home Page) */
+.img-box {
+	&:before {
+		background: @theme-color1;
+	}
+}
+
+
+/*
+// #Social Links
+// --------------------------------------------------
+*/
+.social-links {
+
+	> li {
+
+		> a {
+
+			&:hover {
+				background: @theme-color1;
+			}
+		}
+	}
+}
+
+.social-links__primary {
+	
+	> li {
+
+		> a {
+			background: @theme-color1;
+			border: 1px solid @theme-color1;
+
+			&:hover {
+				color: @theme-color1;
+			}
+		}
+	}
+}
+
+
+/*
+// #Forms
+// --------------------------------------------------
+*/
+.form-control,
+.input-text,
+.cleanlogin-form input[type="text"],
+.cleanlogin-form input[type="password"],
+.cleanlogin-form input[type="email"],
+.rwp-ratings-form input[type="text"],
+.rwp-ratings-form input[type="email"],
+.rwp-ratings-form textarea {
+	.form-control-focus(@theme-color1);
+}
+
+/* Radio Button */
+.radio__custom {
+
+	input[type="radio"] {  
+
+		&:checked + span:before {
+			background: @theme-color1;
+		}
+	}
+
+	// Style2
+	&.radio__style2 {
+
+		label {
+
+			&:before {
+				background: @theme-color1;
+				border-color: darken(@theme-color1, 5%);
+			}
+		}
+	}
+
+	// Style4
+	&.radio__style4 {
+
+		label {
+
+			&:before {
+				border-color: @theme-color1;
+			}
+		}
+
+		input[type="radio"] {
+
+			&:checked + span:before {
+				background: @theme-color1;
+			}
+		}
+	}
+}
+
+
+/* Checkbox */
+.checkbox__custom {
+
+	input[type="checkbox"] {  
+
+		&:checked + span:before {
+			color: @theme-color1;
+		}
+	}
+
+	// Style2
+	&.checkbox__style2 {
+
+		label {
+
+			&:before {
+				background: @theme-color1;
+				border-color: darken(@theme-color1, 5%);
+			}
+		}
+	}
+
+	// Style4
+	&.checkbox__style4 {
+
+		label {
+
+			&:before {
+				border-color: @theme-color1;
+			}
+		}
+
+		input[type="checkbox"] {
+
+			&:checked + span:before {
+				color: @theme-color1;
+			}
+		}
+	}
+}
+
+
+
+
+
+/*
+// #Tabs
+// --------------------------------------------------
+*/
+.tabs {
+	
+	.nav-tabs {
+
+		> li {
+
+			&.active > a {
+				color: @link-color;
+
+				&:after {
+					background: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+
+/*
+// #Tables
+// --------------------------------------------------
+*/
+
+table,
+.table {
+
+	> thead {
+
+		> tr {
+
+			> th,
+			> td {
+				background: @theme-color1;
+			}
+		}
+	}
+}
+
+
+
+
+/*
+// #Accordion
+// --------------------------------------------------
+*/
+.panel-group {
+
+	.panel-title {
+
+		> a {
+			background: @theme-color1;
+		}
+	}
+}
+
+.panel-group__alt {
+
+	.panel-title {
+
+		> a {
+
+			&:before {
+				background: @theme-color1;
+			}
+		}
+	}
+}
+
+
+
+/*
+// #Icon Box
+// --------------------------------------------------
+*/
+.icon-box {
+
+	.icon {
+		color: @theme-color1;
+	}
+	
+	// Circled
+	&.circled {
+
+		.icon {
+			color: @theme-color1;
+
+			&:after {
+				background: @theme-color1;
+			}
+		}
+	}
+
+	// Squared
+	&.squared {
+
+		.icon {
+
+			&:before {
+				background-color: @theme-color1;
+			}
+		}
+	}
+
+	
+	// Animated
+	&.icon-box-animated {
+
+		.no-touch & .icon {
+
+			&:hover {
+
+				&:before {
+					background-color: @theme-color1;
+				}
+			}
+		}
+	}
+	
+	// Animated Inverse
+	&.icon-box-animated-inverse {
+
+		.icon {
+			color: #fff;
+
+			&:before {
+				background: @theme-color1;
+			}
+		}
+
+		.no-touch & .icon {
+
+			&:after {
+				-webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+				-moz-transition: -moz-transform 0.2s, opacity 0.3s;
+				transition: transform 0.2s, opacity 0.3s;
+			}
+
+			&:hover {
+				color: @theme-color1;
+
+				&:before {
+					background-color: #fff;
+					.box-shadow(0 0 0 3px @theme-color1);
+				}
+
+				&:after {
+					.scale(1.3,1.3);
+					.opacity(0);
+				}
+			}
+		}
+	}
+
+	// Large
+	&.lg {
+
+		.icon {
+			border: 2px solid @theme-color1;
+		}
+	}
+	
+
+	// Filled
+	&.filled {
+
+		.icon {
+			color: #fff;
+			background: @theme-color1;
+			overflow: hidden;
+			-webkit-mask-image: -webkit-radial-gradient(white, black);
+
+			&:before {
+				background: @theme-color1;
+			}
+			&:after {
+				width: 50px;
+				left: 50%;
+				top: 0;
+				bottom: 0;
+				border-radius: 0;
+				background: rgba(0,0,0,.08);
+				z-index: 2;
+				border-radius: 0 50% 50% 0;
+			}
+
+			i {
+				z-index: 3;
+			}
+		}
+
+		&.icon-box-animated-inverse {
+
+			.icon {
+
+				&:hover {
+
+					&:after {
+						.translate(100%, 0);
+						.opacity(1);
+					}
+				}
+			}
+		}
+	}
+
+	// Primary Color
+	&.icon-box__color-secondary {
+
+		.icon,
+		.icon > a {
+			color: @theme-color1;
+		}
+
+		// Circled
+		&.circled {
+
+			.icon {
+				color: @theme-color1;
+
+				&:after {
+					background: @theme-color1;
+				}
+			}
+		}
+
+		// Squared
+		&.squared {
+
+			.icon,
+			.icon > a {
+				color: #fff;
+
+				&:before {
+					background-color: @theme-color1;
+				}
+			}
+		}		
+
+		// Animated
+		&.icon-box-animated {
+
+			.no-touch & .icon {
+
+				&:hover {
+
+					&:before {
+						background-color: @theme-color1;
+					}
+				}
+			}
+		}
+
+		// Animated Inverse
+		&.icon-box-animated-inverse {
+
+			.icon,
+			.icon > a {
+				color: #fff;
+
+				&:before {
+					background: @theme-color1;
+				}
+			}
+
+			.no-touch &  {
+
+				.icon,
+				.icon > a {
+
+					&:hover {
+						color: #fff;
+
+						> a {
+							color: #fff;
+						}
+
+						&:before {
+							.box-shadow(0 0 0 3px @theme-color1);
+						}
+					}
+				}
+			}
+		}
+
+		// Large
+		&.lg {
+
+			.icon {
+				border: 2px solid @theme-color1;
+			}
+		}
+
+		// Filled
+		&.filled {
+
+			.icon {
+				color: #fff;
+				background: @theme-color1;
+
+				&:after {
+					background: rgba(0,0,0,.08);
+				}
+			}
+
+			&.icon-box-animated {
+
+				.no-touch & .icon {
+
+					&:hover {
+
+						&,
+						& > a {
+							color: @theme-color1;
+						}
+
+						&:before {
+							background-color: #fff;
+						}
+					}
+				}
+			}
+
+			&.icon-box-animated-inverse {
+
+				.icon {
+
+					&:hover {
+
+						&:after {
+							.translate(100%, 0);
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
+	// Secondary Color
+	&.icon-box__color-secondary {
+
+		.icon,
+		.icon > a {
+			color: @theme-color3;
+		}
+
+		// Circled
+		&.circled {
+
+			.icon {
+				color: @theme-color3;
+
+				&:after {
+					background: @theme-color3;
+				}
+			}
+		}
+
+		// Squared
+		&.squared {
+
+			.icon,
+			.icon > a {
+				color: #fff;
+
+				&:before {
+					background-color: @theme-color3;
+				}
+			}
+		}		
+
+		// Animated
+		&.icon-box-animated {
+
+			.no-touch & .icon {
+
+				&:hover {
+
+					&:before {
+						background-color: @theme-color3;
+					}
+				}
+			}
+		}
+
+		// Animated Inverse
+		&.icon-box-animated-inverse {
+
+			.icon,
+			.icon > a {
+				color: #fff;
+
+				&:before {
+					background: @theme-color3;
+				}
+			}
+
+			.no-touch &  {
+
+				.icon,
+				.icon > a {
+
+					&:hover {
+						color: #fff;
+
+						> a {
+							color: #fff;
+						}
+
+						&:before {
+							.box-shadow(0 0 0 3px @theme-color3);
+						}
+					}
+				}
+			}
+		}
+
+		// Large
+		&.lg {
+
+			.icon {
+				border: 2px solid @theme-color3;
+			}
+		}
+
+		// Filled
+		&.filled {
+
+			.icon {
+				color: #fff;
+				background: @theme-color3;
+
+				&:after {
+					background: rgba(0,0,0,.08);
+				}
+			}
+
+			&.icon-box-animated {
+
+				.no-touch & .icon {
+
+					&:hover {
+
+						&,
+						& > a {
+							color: @theme-color3;
+						}
+
+						&:before {
+							background-color: #fff;
+						}
+					}
+				}
+			}
+
+			&.icon-box-animated-inverse {
+
+				.icon {
+
+					&:hover {
+
+						&:after {
+							.translate(100%, 0);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*
+// #Blockquotes & Testimonial
+// --------------------------------------------------
+*/
+blockquote {
+	border-left: 4px solid @theme-color1;
+
+	&:before {
+		color: @theme-color1;
+	}
+}
+
+/* Testimonial */
+.testimonial {
+	border: 2px solid @theme-color1;
+
+	.bq-author {
+		background: @theme-color1;
+	}
+
+	// Image Left
+
+	// Success
+	&.testimonial-color__success {
+		border-color: @success-color;
+
+		&:before {
+			border-right-color: @success-color;
+		}
+
+		.bq-author {
+			background: @success-color;
+
+			h6 {
+				color: @theme-color2;
+			}
+		}
+	}
+
+	// Primary
+	&.testimonial-color__primary {
+		border-color: @theme-color1;
+
+		&:before {
+			border-right-color: @theme-color1;
+		}
+
+		.bq-author {
+			background: @theme-color1;
+		}
+	}
+
+	// Secondary
+	&.testimonial-color__secondary {
+		border-color: @theme-color3;
+
+		&:before {
+			border-right-color: @theme-color3;
+		}
+
+		.bq-author {
+			background: @theme-color3;
+		}
+	}
+}
+
+
+
+/*
+// #Dropcaps
+// --------------------------------------------------
+*/
+.dropcap {
+	color: @theme-color1;
+
+	&.dropcap__rounded {
+		border: 3px solid @theme-color1;
+		color: @theme-color1;
+	}
+	&.dropcap__squared {
+		border: 3px solid @theme-color1;
+		color: @theme-color1;
+	}
+}
+
+
+
+/*
+// #Pricing Tables
+// --------------------------------------------------
+*/
+/* Default */
+.pricing-table {
+
+	// Popular
+	&.popular {
+
+		.pricing-head {
+
+			h3 {
+				background: @theme-color1;
+				border-color: @theme-color1;
+			}
+		}
+	}
+}
+
+/* Style 2 */
+.pricing-table__style2 {
+
+	// Popular
+	&.popular {
+		.box-shadow(none);
+
+		.pricing-head {
+
+			.circled {
+				background: @theme-color1;
+
+				&:after {
+					background: @theme-color1;
+				}
+			}
+
+			h3 {
+				color: @theme-color1;
+			}
+		}
+	}
+}
+
+
+/* Style 3 */
+.pricing-table__style3 {
+
+	.pricing-head {
+
+		.circled {
+			background: @theme-color1;
+		}
+	}
+
+	// Popular
+	&.popular {
+		background: @theme-color1;
+	}
+}
+
+
+/* Style 4 */
+.pricing-table__style4 {
+
+	.pricing-head {
+
+		.pricing-head-inner {
+			background: @theme-color1;
+		}
+	}
+
+	// Popular
+	&.popular {
+		background: @theme-color1;
+
+		.pricing-head {
+
+			h3 {
+				background: @theme-color1;
+			}
+		}
+	}
+}
+
+
+
+/*
+// #Call to Action
+// --------------------------------------------------
+*/
+.call-to-action {
+
+	// Overlay
+	&.cta__overlay {
+
+		&.cta-overlay-color__primary:before {
+			background: @theme-color1;
+		}
+		&.cta-overlay-color__secondary:before {
+			background: @theme-color3;
+		}
+		
+	}
+
+}
+
+
+
+/*
+// #Section
+// --------------------------------------------------
+*/
+.section-overlay__yes {
+
+	&.section-overlay-color__primary:before {
+		background: @theme-color1;
+	}
+	&.section-overlay-color__secondary:before {
+		background: @theme-color3;
+	}
+}
+
+
+/*
+// #Progress Bars
+// --------------------------------------------------
+*/
+.progress-bar-success    { .progress-bar-styles(@theme-color1); }
+
+
+
+
+
+/*
+// #Counter
+// --------------------------------------------------
+*/
+
+// Counter
+.counter-holder {
+
+	&.counter-primary {
+
+		.counter,
+		.fa {
+			color: @theme-color1;
+		}
+	}
+
+	&.counter-secondary {
+
+		.counter,
+		.fa {
+			color: @theme-color3;
+		}
+	}
+}
+
+
+
+// theme.less
+
+/* Header Main */
+.header-main {
+
+	&:before {
+		background: @theme-color1;
+	}
+}
+
+/* Logo */
+.header .logo {
+
+	h1,
+	h2 {
+
+		> a {
+			color: @theme-color1;
+		}
+	}
+}
+
+
+/* Navigation styles - For Desktop */
+@media all and (min-width: 992px) {
+
+	.flexnav {
+
+		> li {
+
+			&:hover,
+			&.active,
+			&.current-menu-parent {
+
+				& > a {
+					color: @theme-color1;
+
+					&:before {
+						background: @theme-color1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* Flexslider */
+.flexslider {
+
+	/* Direction Nav */
+	.flex-direction-nav {
+
+		a {
+			background: @theme-color1;
+		}
+	}
+
+	/* Control Nav */
+	.flex-control-nav {
+
+		li {
+
+			a {
+
+
+				&:hover {
+
+					&:after {
+						border: 8px solid @theme-color1;
+					}
+				}
+				&.flex-active {
+				
+					&:after {
+						border: 8px solid @theme-color1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*
+// #Widgets
+// --------------------------------------------------
+*/
+/* Base Widgets */
+.widget_archive ul,
+.widget_nav_menu ul,
+.widget_meta ul,
+.widget_pages ul,
+.widget_recent_comments ul,
+.widget_recent_entries ul,
+.widget_categories ul {
+
+	li {
+
+		&:before {
+			color: @theme-color1;
+		}
+	}
+}
+
+
+/* Widget :: Latest Post Widget */
+.widget {
+
+	.title {
+
+		> a {
+
+			&:hover {
+				color: @theme-color1;
+				border-bottom: 1px solid @theme-color1;
+			}
+		}
+	}
+
+	&.widget__footer {
+
+		.title {
+
+			> a {
+
+				&:hover {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+/* Widget :: Contacts Info */
+.contacts-widget {
+
+	&.widget__footer {
+
+		.contacts-info-list {
+
+			> li {
+
+				a {
+
+					&:hover {
+						color: @theme-color1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* Widget :: Flickr */
+.widget_flickr {
+
+	.flickr-feed {
+
+		> li {
+
+			> a {
+
+				&:hover {
+					border: 4px solid @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+/* Widget :: Tag Cloud */
+.widget_tag_cloud {
+
+	.tagcloud {
+
+		a {
+
+			&:hover {
+				background: @theme-color1;
+			}
+		}
+	}
+
+	&.widget__sidebar {
+
+		.tagcloud {
+
+			a {
+
+				&:hover {
+					background: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+/* Widget :: Recent Jobs */
+.widget_recent_jobs,
+.widget_featured_jobs {
+	
+	ul.job_listings {
+
+		> li.job_listing {
+
+			.job-type {
+				color: @theme-color1;
+			}
+
+			.location {
+				color: @theme-color1;
+			}
+		}
+	}
+}
+
+
+
+/* Widget :: Recent Resumes */
+.widget_recent_resumes,
+.widget_featured_resumes {
+	
+	ul.resumes {
+
+		> li.resume {
+
+			.candidate-location {
+				color: @theme-color1;
+			}
+
+			&.resume_featured {
+				
+				.candidate-location {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+
+/* Widget :: Calendar */
+#wp-calendar tbody td:hover {
+  color: @theme-color1;
+}
+#wp-calendar tbody td:hover a {
+	color: @theme-color1;
+}
+
+
+
+
+/* Team */
+.team-item {
+
+	.team-item-inner {
+
+		&:hover {
+
+			&:before {
+				background: @theme-color1;
+			}
+		}
+	}
+
+	.team-thumb {
+
+		.overlay {
+			background: @theme-color1;
+		}
+	}
+
+
+	.team-social {
+
+		> li {
+
+			> a {
+
+				&:hover .fa {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+/* 404 Error Page */
+.error-title {
+	color: @theme-color1;
+}
+
+
+
+/*
+// #Page :: Coming Soon
+// --------------------------------------------------
+*/
+
+/* Header  */
+.header-coming-soon {
+	border-top: 4px solid @theme-color1;
+
+	.header-main {
+		background: @theme-color1;
+	}
+}
+
+
+
+/*
+// #Blog
+// --------------------------------------------------
+*/
+.post,
+.type-page {
+
+	&.post__with-icon {
+
+		.entry-icon {
+			background-color: @theme-color1;
+		}
+	}
+
+	.entry-header {
+
+		h2 {
+
+			> a {
+
+				&:hover {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+		.entry-meta {
+
+			a {
+
+				&:hover {
+					color: @theme-color1;
+				}
+			}
+		}
+
+	.entry-thumb {
+
+		> a {
+
+			&:before {
+				background: @theme-color1;
+			}
+		}
+		
+	}
+}
+
+/* Comments */
+.commentlist {
+
+	.bypostauthor > .comment-wrapper {
+		border-left-color: @theme-color1;
+	}
+}
+
+
+
+/*
+// #Portfolio
+// --------------------------------------------------
+*/
+/*  Project Item Overlay */
+.project-item {
+
+	.dlink,
+	.zoom {
+		color: @theme-color1;
+
+		&:hover {
+			background: @theme-color1;
+		}
+	}
+}
+
+/*  Portfolio Description  */
+.project-desc {
+
+	.title {
+		
+		> a {
+
+			&:hover {
+				color: @theme-color1;
+			}
+		}
+	}
+}
+
+
+/*
+// #Footer
+// --------------------------------------------------
+*/
+/* Footers Widgets specific styling */
+.widget__footer {
+	margin-bottom: 50px;
+	
+	/* Thumbnail */
+	.thumbnail {
+
+		a {
+
+			// Icon
+			&:after {
+				background: @theme-color1;
+			}
+		}
+	}
+
+	/* Base Widgets */
+	&.widget_archive ul,
+	&.widget_nav_menu ul,
+	&.widget_meta ul,
+	&.widget_pages ul,
+	&.widget_recent_comments ul,
+	&.widget_recent_entries ul,
+	&.widget_categories ul {
+
+		li {
+
+			> a {
+
+				&:hover {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+// Inputs in Footer Widgets Area
+.footer-widgets {
+
+	.form-control {
+		.form-control-focus(@theme-color1);
+	}
+}
+
+
+
+// Owl Carousel
+.owl-theme .owl-controls .owl-buttons div:after {
+	background: @theme-color1;
+}
+.owl-theme .prev-btn,
+.owl-theme .next-btn {
+	background: @theme-color1;
+}
+.owl-theme .owl-pagination .owl-page.active span {
+	background-color: @theme-color1;
+}
+.prev-next-holder {
+
+	.prev-btn,
+	.next-btn {
+		background: @theme-color1;
+	}
+}
+
+
+
+
+
+
+/*
+// #Job Manager
+// --------------------------------------------------
+*/
+
+/* Job Latest Listings */
+.job_summary_shortcode {
+
+	.job_summary_content {
+
+		.name {
+
+			> a {
+				color: @theme-color1;
+			}
+		}
+	}
+	.job_summary_footer {
+
+		.meta {
+
+			> li {
+
+				> a {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+
+	// Featured
+	.owl-featured-listings .listing-box & {
+
+		.job_summary_content-holder {
+
+			.job_summary_content {
+
+				.name {
+
+					> a {
+
+						&:hover {
+							color: @theme-color1;
+						}
+					}
+				}
+
+				.job_summary_title {
+
+					> a {
+
+						&:hover {
+							color: @theme-color1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Job Gallery Images
+.gallery-imgs {
+
+	.gallery-img-holder {
+
+		.gallery-item-thumb {
+				
+			> a {
+
+				&:before {
+					background: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+/*
+// #Resume Manager
+// --------------------------------------------------
+*/
+
+/* Resume Summary shortcode */
+.resume_summary_shortcode {
+
+	.resume_summary_content {
+
+		.name {
+
+			> a {
+				color: @theme-color1;
+			}
+		}
+		.resume_summary_title {
+			
+			> a {
+
+				&:hover {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+
+	.resume_summary_footer {
+
+		.meta {
+
+			> li {
+
+				> a {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+
+	// Featured
+	.owl-featured-listings .listing-box & {
+
+		.resume_summary_content-holder {
+
+			.resume_summary_content {
+
+				.name {
+
+					> a {
+
+						&:hover {
+							color: @theme-color1;
+						}
+					}
+				}
+
+				.resume_summary_title {
+
+					> a {
+
+						&:hover {
+							color: @theme-color1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// Multiple chosen
+.chosen-container-active .chosen-choices {
+	border-color: @theme-color1;
+	.box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px @{theme-color1}");
+}
+
+
+
+/* Job Listings */
+div.job_listings {
+
+	ul.job_listings {
+
+		li.job_listing,
+		li.no_job_listings_found {
+
+			a {
+
+				div.location {
+
+					&:before {
+						color: @theme-color1;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Job Dashboard */
+.job-manager-jobs {
+
+	.filled {
+
+		.fa-check {
+			color: @theme-color1;
+		}
+	}
+}
+
+
+
+
+/* Resumes Listings */
+div.resumes {
+
+	ul.resumes {
+
+		li.resume,
+		li.no_resumes_found {
+
+			a {
+
+				div.candidate-location-column {
+
+					.candidate-location {
+
+						&:before {
+							color: @theme-color1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+/* Job Alerts */
+.job_filters {
+
+	.search_jobs {
+
+
+		div.filter_by_tag {
+
+			> a {
+				color: @theme-color2;
+
+				&:hover {
+					background: @theme-color1;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+@import "mixins.less";
