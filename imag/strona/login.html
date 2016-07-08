@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <title>Profer</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      button:hover {
+            font-size: x-large;
+        }  
+    </style>
+    </head>
+<body>
+    <nav class="navbar navbar-default" role="navigation" style="background-color: #000;">
+        <div class="container-fluid">
+            <div class="pull-right">
+            <a href="rejestr.html">rejestracja</a>
+            <a href="test_proffero.html">Start</a>
+            </div>
+        </div>        
+    </nav>
+    <hr style="background-color: #feff00; border-style: ridge;">
+    <div class="container">
+        <div class="col-sm-8">
+            <a href="test_proffero.html"><img src="logo.png"/></a>      
+        </div>
+        <div class="col-sm-2">            
+            <a href="#"><img src="ikony/facebook_32.png"/></a>
+            <a href="#"><img src="ikony/googleplus_32.png"/></a>
+            <a href="#"><img src="ikony/instagram_32.png"/></a>
+            <a href="#"><img src="ikony/twitter_32.png"/></a>
+        </div>
+            <div class="row">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group btn btn-sm col-sm-3 pull-left">
+                        <input type="text" class="form-control" placeholder="Szukaj">
+                        </div>
+                        <div class="col-sm-2 btn btn-sm">
+                            <select class="form-control input-lm">
+                            <option>10 km</option>
+                            <option>20 km</option>
+                            <option>30 km</option>
+                            <option>40 km</option>
+                            <option>50 km</option>
+                            <option>60 km</option>
+                            </select>
+                        </div>
+                        <div class="form-group btn btn-sm col-sm-3 pull-left">
+                        <input type="text" class="form-control" placeholder="Szukaj">
+                        </div>
+                        <div class="col-sm-2 btn btn-sm">
+                            <select class="form-control input-lm">
+                            <option>10 km</option>
+                            <option>20 km</option>
+                            <option>30 km</option>
+                            <option>40 km</option>
+                            <option>50 km</option>
+                            <option>60 km</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm">Wyszukaj</button>
+                        </div>
+                    </form>
+            </div>
+<!------------------------------------------------------------------------------------------------------->
+<div class="continer" id="logins">
+    <div class="col-sm-10">
+        <div class="row">
+            <form name="sentMessage" class="well" novalidate>
+                <div class="control-group">
+                <div class="controls">
+                <input type="text" class="form-control"
+                      placeholder="Login" id="name" required
+                          data-validation-required-message="Proszę wpisz swój login" />
+                </div>
+                </div>   
+                <div class="control-group">
+                <div class="controls">
+                <input type="password" class="form-control" placeholder="Hasło"
+                               id="email" required
+                        data-validation-required-message="Proszę wpisz hasło" />
+                </div>
+                <button type="submit" class="btn btn-primary pull-left">Log in</button><br />
+                </div>
+            </form>
+        </div>
+     </div>    
+</div>
+
+<!--   </div> -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
