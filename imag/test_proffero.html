@@ -12,75 +12,83 @@ and open the template in the editor.
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
 <body>
-          <nav class="navbar navbar-default" role="navigation">
-              <div class="container-fluid">
-                  <div class="navbar-header">
-                       <img src="logo.png" alt=""/>
-                  </div>
-                  <div class="col-sm-3" style="margin-left: 25%;">
-           <form class="navbar-form" role="search">
-            <div class="form-group">
-            <input type="text" class="form-control" placeholder="Szukaj">
-          <button type="submit" class="btn btn-default">Wyszukaj</button>
+    <nav class="navbar navbar-default" role="navigation" style="background-color: #000;">
+        <div class="container-fluid">
+            <div class="pull-right">
+            <a href="#">rejestracja</a>
+            <a href="#">Logowanie</a>
             </div>
-           </form>
-                  </div>
-              <div class="row pull-right">
-                  <div class="col-sm-2">
-                <a class="btn btn-primary pull-right" href="login.html">Zaloguj sie</a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a class="btn btn-primary pull-right" href="#servis.html">Servis</a>
-                  </div>
-                   <div class="col-sm-2">                   
-                    <a class="btn btn-primary pull-right" href="#oferta.html">Oferta</a>
-                   </div>
-                  <div class="col-sm-3">      
-                    <a class="btn btn-primary pull-right" href="#kontakt.html">Kontakt</a>
-                </div>
-              </div>
-                  
-                  </div>
-              </nav>
+        </div>        
+    </nav>
     <div class="container">
-            <div class="row">
-                <div class="col-sm-3 pull-left">
-                 <label>Wybierz kategorie</label><p></p>
-                   <select class="selectpicker">
-                  <option>Zlecenia</option>
-                  <option>Wykonawcy</option>
-                  </select>
-            </div>
-                <div class="col-sm-3 pull-left">
-                 <label>Lista zlecen</label><p></p>
-                   <select class="selectpicker">
-                  <option>Zlecenia</option>
-                  <option>Wykonawcy</option>
-                  </select>
-            </div>
-                <div class="col-sm-3 pull-left">
-                 <label>Lista wykonawcow</label><p></p>
-                   <select class="selectpicker">
-                  <option>Zlecenia</option>
-                  <option>Wykonawcy</option>
-                  </select>
-            </div>
-         </div><!-- koniec select -->
-        </div>    
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 pull-right">
-                 <img src="proffer/stock-man-laptop2.png" alt=""/>              
-            </div>
-            <div class="col-sm-3 pull-left">
-                  <img src="proffer/slide-architect.png" alt=""/>              
-            </div>
-            
+        <div class="col-sm-8">
+              <img src="logo.png" alt=""/>      
         </div>
-    </div>                          
-      <header style="text-aling:center">
-            Wszelkie prawa zastrzeżone. Created by Paweł Wiśniewski
-      </header>
+        <div class="col-sm-4">
+            <a href="#"><img src="ikony/facebook_32.png"/></a>
+            <a href="#"><img src="ikony/googleplus_32.png"/></a>
+            <a href="#"><img src="ikony/instagram_32.png"/></a>
+            <a href="#"><img src="ikony/twitter_32.png"/></a>
+        </div>
+    </div>
+        <div class="continer">
+            <div class="row" style="margin-left: 20%;">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group col-sm-3">
+                        <input type="text" class="form-control" placeholder="Szukaj">
+                        </div>
+                        <div class="col-sm-2">
+                            <select class="form-control input-lm">
+                            <option>10 km</option>
+                            <option>20 km</option>
+                            <option>30 km</option>
+                            <option>40 km</option>
+                            <option>50 km</option>
+                            <option>60 km</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                        <input type="text" class="form-control" placeholder="Szukajcos">
+                        </div>
+                        <div class="col-sm-2">
+                            <select class="form-control input-lm">
+                            <option>10 km</option>
+                            <option>20 km</option>
+                            <option>30 km</option>
+                            <option>40 km</option>
+                            <option>50 km</option>
+                            <option>60 km</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2"> 
+                        <button type="submit" class="btn btn-default pull-right">Wyślij</button>
+                         </div>
+                    </form>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 pull-left">
+              <img src="proffer/slide-architect.png"/>
+              <div class="col-sm-4 pull-right">
+                  <div class="sm-2" style="margin-top: 60%;">
+                    <a href="#">test</a><p></p>
+                    <a href="#">test</a><p></p>
+                    <a href="#">test</a><p></p>
+                    <a href="#">test</a><p></p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-7 pull-right" style="padding: 0; margin: 0;">
+              <img src="proffer/stock-man-laptop2.png"/>              
+              <div class="col-sm-4" style="margin-right: -30%;">
+            <a href="#">test</a><p></p>
+            <a href="#">test</a><p></p>
+            <a href="#">test</a><p></p>
+            <a href="#">test</a><p></p>
+                </div>
+            </div>
+        </div>
+<!--   </div> -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
