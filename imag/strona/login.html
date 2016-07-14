@@ -12,32 +12,18 @@ and open the template in the editor.
     <!-- Bootstrap -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
-     <style>
-        .box {
-            background-color: #000;
-            color: #fefefe; 
-            font-size: large;
-            text-align: center;
-            padding: 10px;
-        }
-        .content-box {
-           margin-top: 150px;
-        }
-        .border {
-            padding: 2px;
-        }       
-    </style>
+    <link href="style.css" rel="stylesheet">  
     </head>
 <body>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 col-xs-8">
-                    <a style="color: #000;" class="pull-right fa fa-facebook fa-2x" aria-hidden="true" href="#"></a>
-                    <a style="color: #000;" class="pull-right fa fa-google-plus fa-2x" aria-hidden="true" href="#"></a>
-                    <a style="color: #000;" class="pull-right fa fa-twitter fa-2x" aria-hidden="true" href="#"></a>
-                    <a style="color: #000;" class="pull-right fa fa-linkedin fa-2x" aria-hidden="true"></a>
-                    <a style="color: #000;" class="pull-right fa fa-instagram fa-2x" aria-hidden="true"></a>
+                    <a class="font-color pull-right fa fa-facebook fa-2x" aria-hidden="true" href="#"></a>
+                    <a class="font-color pull-right fa fa-google-plus fa-2x" aria-hidden="true" href="#"></a>
+                    <a class="font-color pull-right fa fa-twitter fa-2x" aria-hidden="true" href="#"></a>
+                    <a class="font-color pull-right fa fa-linkedin fa-2x" aria-hidden="true"></a>
+                    <a class="font-color pull-right fa fa-instagram fa-2x" aria-hidden="true"></a>
             </div>
                         <a class="col-xs-12 clo-sm-12" href="test_proffero.html"><img src="logo.png"/></a>
                         <div class="col-xs-9 col-sm-6 col-md-6">
@@ -53,11 +39,10 @@ and open the template in the editor.
                      <a href="#">PRODUCT & SERVICES</a>
                 </div>
             </div>
-    </nav>
-    
-    <div class="container-fluid well">
-        <div class="row col-lg-9 pull-right">
-                <div class="col-lg-8">
+    </nav>    
+    <div class="container-fluid well" id="img">
+        <div class="row">
+            <div class="col-lg-4 pull-left">
                     <form name="login" novalidate>
                         <div class="controls control-group">
                         <input type="text" class="form-control" placeholder="Login" id="name" required data-validation-required-message="Proszę wpisz swój login" />
@@ -67,23 +52,22 @@ and open the template in the editor.
                         </div>
                         <button type="submit" class="btn btn-primary pull-left">Zapisz</button><br />
                     </form>
-                </div>
             </div>
     </div>
-
-        <div class="container-fluid">
-        <div class="row">
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-car fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-truck fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-wrench fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-graduation-cap fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>              
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-camera fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-file-code-o fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
-                <a style="color: #000;" href="#" class="col-xs-3 col-sm-6 fa fa-file-image-o fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
-            </div>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-car fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-truck fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-wrench fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-graduation-cap fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>              
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-camera fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-file-code-o fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
+            <a href="#" class="font-color col-xs-3 col-sm-6 fa fa-file-image-o fa-2x" aria-hidden="true"> tekst pobrany z bazy</a>
         </div>
+    </div>
     <footer>
-        <div class="container-fluid" style="background-color: #000;">
+        <div class="container-fluid color">
            © 
         </div>
     </footer>
