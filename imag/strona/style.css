@@ -8,6 +8,22 @@ and open the template in the editor.
     Author     : caton
 */
 
+body {
+    font-family: 'Abril Fatface', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+        #menu >  a 
+        {
+            color: #fefefe;
+        }
+        
+        #menu > a:hover 
+        {
+            color: #1d8fbb;
+        }
+    
         .box 
         {
             background-color: #000;
