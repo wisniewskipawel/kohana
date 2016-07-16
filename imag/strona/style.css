@@ -49,3 +49,8 @@ body {
             background-image: url("search_bg.png.jpeg");
 
         }
+        
+        .text {
+             text-align: center; 
+             margin-top: 1%;
+        }
