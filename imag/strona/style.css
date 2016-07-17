@@ -54,3 +54,11 @@ body {
              text-align: center; 
              margin-top: 1%;
         }
+        
+        .padding-top {
+                  padding-top: 15%;
+        }
+        
+        .padding-bottom {
+            padding-bottom: 15%;
+        }
